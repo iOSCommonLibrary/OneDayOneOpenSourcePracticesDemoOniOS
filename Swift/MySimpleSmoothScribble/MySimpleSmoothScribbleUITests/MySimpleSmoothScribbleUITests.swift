@@ -2,7 +2,7 @@
 //  MySimpleSmoothScribbleUITests.swift
 //  MySimpleSmoothScribbleUITests
 //
-//  Created by zj－db0367 on 15/11/16.
+//  Created by su xinde on 15/11/16.
 //  Copyright © 2015年 com.su. All rights reserved.
 //
 
