@@ -50,8 +50,79 @@ class MyScribbleView : UIView {
  
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        titleLabel.frame = CGRect(x: 0,
+            y: frame.height-titleLabel.intrinsicContentSize().height-2,
+            width: frame.width,
+            height: titleLabel.intrinsicContentSize().height);
+    }
 }
 
+class MySimpleScribbleView : MyScribbleView, MyScribblable {
+    
+    let simplePath = UIBezierPath();
+    
+    func beginScribble(point: CGPoint) {
+        simplePath.removeAllPoints();
+        simplePath.moveToPoint(point)
+    }
+    
+    func appendScribble(point: CGPoint) {
+        simplePath.addLineToPoint(point)
+        drawingLayer.path = simplePath.CGPath
+    }
+    
+    func endScribble() {
+        if let backgroundPath = backgroundLayer.path {
+            simplePath.appendPath(UIBezierPath(CGPath: backgroundPath))
+        }
+        backgroundLayer.path = simplePath.CGPath
+        simplePath .removeAllPoints()
+        drawingLayer.path = simplePath.CGPath
+    }
+    
+    func clearScribble() {
+        backgroundLayer.path = nil
+    }
+}
+
+class MyHermiteScribbleView : MyScribbleView, MyScribblable {
+    
+    let hermitePath = UIBezierPath()
+    var interpolationPoints = [CGPoint]()
+    
+    func beginScribble(point: CGPoint) {
+        interpolationPoints = [point]
+    }
+    
+    func appendScribble(point: CGPoint) {
+        interpolationPoints.append(point)
+        
+        hermitePath.removeAllPoints()
+        hermitePath.interpolatePointsWithHermite(interpolationPoints)
+        
+        drawingLayer.path = hermitePath.CGPath
+    }
+    
+    func endScribble() {
+        if let backgroundPath = backgroundLayer.path {
+            hermitePath.appendPath(UIBezierPath(CGPath: backgroundPath))
+        }
+        backgroundLayer.path = hermitePath.CGPath
+        hermitePath.removeAllPoints()
+        drawingLayer.path = hermitePath.CGPath
+        
+    }
+    
+    func clearScribble() {
+        backgroundLayer.path = nil
+    }
+    
+}
 
 
 
