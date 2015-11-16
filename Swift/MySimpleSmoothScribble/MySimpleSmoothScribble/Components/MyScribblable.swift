@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// 接口
 protocol MyScribblable
 {
     func beginScribble(point : CGPoint)
@@ -17,6 +18,7 @@ protocol MyScribblable
     func clearScribble()
 }
 
+// 涂鸦父类
 class MyScribbleView : UIView {
     
     let backgroundLayer = CAShapeLayer();
@@ -62,6 +64,7 @@ class MyScribbleView : UIView {
     }
 }
 
+// 涂鸦视图类
 class MySimpleScribbleView : MyScribbleView, MyScribblable {
     
     let simplePath = UIBezierPath();
@@ -90,6 +93,7 @@ class MySimpleScribbleView : MyScribbleView, MyScribblable {
     }
 }
 
+// 插入涂鸦视图类
 class MyHermiteScribbleView : MyScribbleView, MyScribblable {
     
     let hermitePath = UIBezierPath()
@@ -100,6 +104,7 @@ class MyHermiteScribbleView : MyScribbleView, MyScribblable {
     }
     
     func appendScribble(point: CGPoint) {
+        
         interpolationPoints.append(point)
         
         hermitePath.removeAllPoints()
