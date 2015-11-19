@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EA5F92584402979B1DE1AD98B0E7CFC813305F35",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA5F92584402979B1DE1AD98B0E7CFC813305F35" : 0,
+    "30C409BC6AB57E6490B223D571DB10560D0FA634" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "293EB8AA-E982-4F1F-8E7C-787C06386478",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA5F92584402979B1DE1AD98B0E7CFC813305F35" : "Foundation\/",
+    "30C409BC6AB57E6490B223D571DB10560D0FA634" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoundationTests",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tests\/FoundationTests.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suxinde2009\/OneDayOneOpenSourcePracticesDemoOniOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30C409BC6AB57E6490B223D571DB10560D0FA634"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/apportable\/Foundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA5F92584402979B1DE1AD98B0E7CFC813305F35"
+    }
+  ]
+}
