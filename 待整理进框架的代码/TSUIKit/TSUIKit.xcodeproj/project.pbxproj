@@ -1,0 +1,2181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F63D2F1517CE48F900515A24 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F63D2F1817CE48F900515A24 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				F63D2F1917CE490000515A24 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F6141E2D17C58462003455EB /* TSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C47917BD1F6000AA8195 /* TSTableViewController.m */; };
+		F6141E2E17C58480003455EB /* TSTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47B17BD1F6000AA8195 /* TSTableViewController.xib */; };
+		F6141E2F17C58480003455EB /* TSTableViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47E17BD1F6000AA8195 /* TSTableViewController~ipad.xib */; };
+		F6141EFA17C6A64C003455EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6141EC417C6A64C003455EB /* LICENSE */; };
+		F6141EFB17C6A64C003455EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6141EC417C6A64C003455EB /* LICENSE */; };
+		F6141EFC17C6A64C003455EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6141EC417C6A64C003455EB /* LICENSE */; };
+		F6141EFD17C6A64C003455EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6141EC417C6A64C003455EB /* LICENSE */; };
+		F6141EFE17C6A64C003455EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6141EC417C6A64C003455EB /* LICENSE */; };
+		F6141EFF17C6A64C003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EC917C6A64C003455EB /* TSUtils.m */; };
+		F6141F0017C6A64C003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EC917C6A64C003455EB /* TSUtils.m */; };
+		F6141F0117C6A64C003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EC917C6A64C003455EB /* TSUtils.m */; };
+		F6141F0217C6A64C003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EC917C6A64C003455EB /* TSUtils.m */; };
+		F6141F0317C6A64C003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EC917C6A64C003455EB /* TSUtils.m */; };
+		F6141F0417C6A64C003455EB /* TSNavigationStripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */; };
+		F6141F0517C6A64C003455EB /* TSNavigationStripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */; };
+		F6141F0617C6A64C003455EB /* TSNavigationStripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */; };
+		F6141F0717C6A64C003455EB /* TSNavigationStripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */; };
+		F6141F0817C6A64C003455EB /* TSNavigationStripModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */; };
+		F6141F0917C6A64C003455EB /* TSNavigationStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */; };
+		F6141F0A17C6A64C003455EB /* TSNavigationStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */; };
+		F6141F0B17C6A64C003455EB /* TSNavigationStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */; };
+		F6141F0C17C6A64C003455EB /* TSNavigationStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */; };
+		F6141F0D17C6A64C003455EB /* TSNavigationStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */; };
+		F6141F0E17C6A64C003455EB /* TSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED317C6A64C003455EB /* TSScrollView.m */; };
+		F6141F0F17C6A64C003455EB /* TSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED317C6A64C003455EB /* TSScrollView.m */; };
+		F6141F1017C6A64C003455EB /* TSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED317C6A64C003455EB /* TSScrollView.m */; };
+		F6141F1117C6A64C003455EB /* TSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED317C6A64C003455EB /* TSScrollView.m */; };
+		F6141F1217C6A64C003455EB /* TSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED317C6A64C003455EB /* TSScrollView.m */; };
+		F6141F1317C6A64C003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */; };
+		F6141F1417C6A64C003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */; };
+		F6141F1517C6A64C003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */; };
+		F6141F1617C6A64C003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */; };
+		F6141F1717C6A64C003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */; };
+		F6141F1817C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */; };
+		F6141F1917C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */; };
+		F6141F1A17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */; };
+		F6141F1B17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */; };
+		F6141F1C17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */; };
+		F6141F1D17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */; };
+		F6141F1E17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */; };
+		F6141F1F17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */; };
+		F6141F2017C6A64C003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */; };
+		F6141F2117C6A64C003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */; };
+		F6141F2217C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */; };
+		F6141F2317C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */; };
+		F6141F2417C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */; };
+		F6141F2517C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */; };
+		F6141F2617C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */; };
+		F6141F2717C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */; };
+		F6141F2817C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */; };
+		F6141F2917C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */; };
+		F6141F2A17C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */; };
+		F6141F2B17C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */; };
+		F6141F2C17C6A64C003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE217C6A64C003455EB /* TSTableViewRow.m */; };
+		F6141F2D17C6A64C003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE217C6A64C003455EB /* TSTableViewRow.m */; };
+		F6141F2E17C6A64C003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE217C6A64C003455EB /* TSTableViewRow.m */; };
+		F6141F2F17C6A64C003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE217C6A64C003455EB /* TSTableViewRow.m */; };
+		F6141F3017C6A64C003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE217C6A64C003455EB /* TSTableViewRow.m */; };
+		F6141F3117C6A64C003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE417C6A64C003455EB /* TSTableView.m */; };
+		F6141F3217C6A64C003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE417C6A64C003455EB /* TSTableView.m */; };
+		F6141F3317C6A64C003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE417C6A64C003455EB /* TSTableView.m */; };
+		F6141F3417C6A64C003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE417C6A64C003455EB /* TSTableView.m */; };
+		F6141F3517C6A64C003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE417C6A64C003455EB /* TSTableView.m */; };
+		F6141F3617C6A64C003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE617C6A64C003455EB /* TSTableViewCell.m */; };
+		F6141F3717C6A64C003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE617C6A64C003455EB /* TSTableViewCell.m */; };
+		F6141F3817C6A64C003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE617C6A64C003455EB /* TSTableViewCell.m */; };
+		F6141F3917C6A64C003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE617C6A64C003455EB /* TSTableViewCell.m */; };
+		F6141F3A17C6A64C003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EE617C6A64C003455EB /* TSTableViewCell.m */; };
+		F6141F3B17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */; };
+		F6141F3C17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */; };
+		F6141F3D17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */; };
+		F6141F3E17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */; };
+		F6141F3F17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */; };
+		F6141F4017C6A64C003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEC17C6A64C003455EB /* TSTableViewModel.m */; };
+		F6141F4117C6A64C003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEC17C6A64C003455EB /* TSTableViewModel.m */; };
+		F6141F4217C6A64C003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEC17C6A64C003455EB /* TSTableViewModel.m */; };
+		F6141F4317C6A64C003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEC17C6A64C003455EB /* TSTableViewModel.m */; };
+		F6141F4417C6A64C003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEC17C6A64C003455EB /* TSTableViewModel.m */; };
+		F6141F4517C6A64C003455EB /* TSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEF17C6A64C003455EB /* TSTabView.m */; };
+		F6141F4617C6A64C003455EB /* TSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEF17C6A64C003455EB /* TSTabView.m */; };
+		F6141F4717C6A64C003455EB /* TSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEF17C6A64C003455EB /* TSTabView.m */; };
+		F6141F4817C6A64C003455EB /* TSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEF17C6A64C003455EB /* TSTabView.m */; };
+		F6141F4917C6A64C003455EB /* TSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EEF17C6A64C003455EB /* TSTabView.m */; };
+		F6141F4A17C6A64C003455EB /* TSTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF317C6A64C003455EB /* TSTabViewModel.m */; };
+		F6141F4B17C6A64C003455EB /* TSTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF317C6A64C003455EB /* TSTabViewModel.m */; };
+		F6141F4C17C6A64C003455EB /* TSTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF317C6A64C003455EB /* TSTabViewModel.m */; };
+		F6141F4D17C6A64C003455EB /* TSTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF317C6A64C003455EB /* TSTabViewModel.m */; };
+		F6141F4E17C6A64C003455EB /* TSTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF317C6A64C003455EB /* TSTabViewModel.m */; };
+		F6141F4F17C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */; };
+		F6141F5017C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */; };
+		F6141F5117C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */; };
+		F6141F5217C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */; };
+		F6141F5317C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */; };
+		F6141F5417C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */; };
+		F6141F5517C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */; };
+		F6141F5617C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */; };
+		F6141F5717C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */; };
+		F6141F5817C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */; };
+		F614200E17C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */; };
+		F614200F17C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */; };
+		F614201017C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */; };
+		F614201117C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */; };
+		F614201217C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */; };
+		F614201317C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */; };
+		F614201417C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */; };
+		F614201517C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */; };
+		F614201617C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */; };
+		F614201717C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */; };
+		F614201817C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */; };
+		F614201917C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */; };
+		F614201A17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */; };
+		F614201B17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */; };
+		F614201C17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */; };
+		F614201D17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */; };
+		F614201E17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */; };
+		F614201F17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */; };
+		F614202017C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */; };
+		F614202117C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */; };
+		F614202217C6BEF8003455EB /* NavigationStripIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */; };
+		F614202317C6BEF8003455EB /* NavigationStripIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */; };
+		F614202417C6BEF8003455EB /* NavigationStripIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */; };
+		F614202517C6BEF8003455EB /* NavigationStripIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */; };
+		F614202617C6BEF8003455EB /* NavigationStripIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */; };
+		F614202717C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */; };
+		F614202817C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */; };
+		F614202917C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */; };
+		F614202A17C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */; };
+		F614202B17C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */; };
+		F614202C17C6BEF8003455EB /* NavigationStripItem.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */; };
+		F614202D17C6BEF8003455EB /* NavigationStripItem.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */; };
+		F614202E17C6BEF8003455EB /* NavigationStripItem.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */; };
+		F614202F17C6BEF8003455EB /* NavigationStripItem.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */; };
+		F614203017C6BEF8003455EB /* NavigationStripItem.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */; };
+		F614203117C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */; };
+		F614203217C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */; };
+		F614203317C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */; };
+		F614203417C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */; };
+		F614203517C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */; };
+		F614203617C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */; };
+		F614203717C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */; };
+		F614203817C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */; };
+		F614203917C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */; };
+		F614203A17C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */; };
+		F614203B17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */; };
+		F614203C17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */; };
+		F614203D17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */; };
+		F614203E17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */; };
+		F614203F17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */; };
+		F614204017C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */; };
+		F614204117C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */; };
+		F614204217C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */; };
+		F614204317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */; };
+		F614204417C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */; };
+		F614204517C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */; };
+		F614204617C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */; };
+		F614204717C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */; };
+		F614204817C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */; };
+		F614204917C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */; };
+		F614204A17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */; };
+		F614204B17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */; };
+		F614204C17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */; };
+		F614204D17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */; };
+		F614204E17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */; };
+		F614204F17C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */; };
+		F614205017C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */; };
+		F614205117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */; };
+		F614205217C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */; };
+		F614205317C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */; };
+		F614205417C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */; };
+		F614205517C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */; };
+		F614205617C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */; };
+		F614205717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */; };
+		F614205817C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */; };
+		F614205917C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */; };
+		F614205A17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */; };
+		F614205B17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */; };
+		F614205C17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */; };
+		F614205D17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */; };
+		F614205E17C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */; };
+		F614205F17C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */; };
+		F614206017C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */; };
+		F614206117C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */; };
+		F614206217C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */; };
+		F614206317C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */; };
+		F614206417C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */; };
+		F614206517C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */; };
+		F614206617C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */; };
+		F614206717C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */; };
+		F614206817C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */; };
+		F614206917C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */; };
+		F614206A17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */; };
+		F614206B17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */; };
+		F614206C17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */; };
+		F614206D17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */; };
+		F614206E17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */; };
+		F614206F17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */; };
+		F614207017C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */; };
+		F614207117C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */; };
+		F614207217C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */; };
+		F614207317C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */; };
+		F614207417C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */; };
+		F614207517C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */; };
+		F614207617C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */; };
+		F614207717C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */; };
+		F614207817C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */; };
+		F614207917C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */; };
+		F614207A17C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */; };
+		F614207B17C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */; };
+		F614207C17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */; };
+		F614207D17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */; };
+		F614207E17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */; };
+		F614207F17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */; };
+		F614208017C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */; };
+		F614208117C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */; };
+		F614208217C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */; };
+		F614208317C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */; };
+		F614208417C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */; };
+		F614208517C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */; };
+		F614208617C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */; };
+		F614208717C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */; };
+		F614208817C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */; };
+		F614208917C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */; };
+		F614208A17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */; };
+		F614208B17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */; };
+		F614208C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */; };
+		F614208D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */; };
+		F614208E17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */; };
+		F614208F17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */; };
+		F614209017C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */; };
+		F614209117C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */; };
+		F614209217C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */; };
+		F614209317C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */; };
+		F614209417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */; };
+		F614209517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */; };
+		F614209617C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */; };
+		F614209717C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */; };
+		F614209817C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */; };
+		F614209917C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */; };
+		F614209A17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */; };
+		F614209B17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */; };
+		F614209C17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */; };
+		F614209D17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */; };
+		F614209E17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */; };
+		F614209F17C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */; };
+		F61420A017C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */; };
+		F61420A117C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */; };
+		F61420A217C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */; };
+		F61420A317C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */; };
+		F61420A417C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */; };
+		F61420A517C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */; };
+		F61420A617C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */; };
+		F61420A717C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */; };
+		F61420A817C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */; };
+		F61420A917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */; };
+		F61420AA17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */; };
+		F61420AB17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */; };
+		F61420AC17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */; };
+		F61420AD17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */; };
+		F61420AE17C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */; };
+		F61420AF17C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */; };
+		F61420B017C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */; };
+		F61420B117C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */; };
+		F61420B217C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */; };
+		F61420B317C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */; };
+		F61420B417C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */; };
+		F61420B517C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */; };
+		F61420B617C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */; };
+		F61420B717C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */; };
+		F61420B817C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */; };
+		F61420B917C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */; };
+		F61420BA17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */; };
+		F61420BB17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */; };
+		F61420BC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */; };
+		F61420BD17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */; };
+		F61420BE17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */; };
+		F61420BF17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */; };
+		F61420C017C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */; };
+		F61420C117C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */; };
+		F61420C217C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */; };
+		F61420C317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */; };
+		F61420C417C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */; };
+		F61420C517C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */; };
+		F61420C617C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */; };
+		F61420C717C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */; };
+		F61420C817C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */; };
+		F61420C917C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */; };
+		F61420CA17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */; };
+		F61420CB17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */; };
+		F61420CC17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */; };
+		F61420CD17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */; };
+		F61420CE17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */; };
+		F61420CF17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */; };
+		F61420D017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */; };
+		F61420D117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */; };
+		F61420D217C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */; };
+		F61420D317C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */; };
+		F61420D417C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */; };
+		F61420D517C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */; };
+		F61420D617C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */; };
+		F61420D717C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */; };
+		F61420D817C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */; };
+		F61420D917C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */; };
+		F61420DA17C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */; };
+		F61420DB17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */; };
+		F61420DC17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */; };
+		F61420DD17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */; };
+		F61420DE17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */; };
+		F61420DF17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */; };
+		F61420E017C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */; };
+		F61420E117C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */; };
+		F61420E217C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */; };
+		F61420E317C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */; };
+		F61420E417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */; };
+		F61420E517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */; };
+		F61420E617C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */; };
+		F61420E717C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */; };
+		F61420E817C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */; };
+		F61420E917C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */; };
+		F61420EA17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */; };
+		F61420EB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */; };
+		F61420EC17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */; };
+		F61420ED17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */; };
+		F61420EE17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */; };
+		F61420EF17C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */; };
+		F61420F017C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */; };
+		F61420F117C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */; };
+		F61420F217C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */; };
+		F61420F317C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */; };
+		F61420F417C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */; };
+		F61420F517C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */; };
+		F61420F617C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */; };
+		F61420F717C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */; };
+		F61420F817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */; };
+		F61420F917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */; };
+		F61420FA17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */; };
+		F61420FB17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */; };
+		F61420FC17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */; };
+		F61420FD17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */; };
+		F61420FE17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */; };
+		F61420FF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */; };
+		F614210017C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */; };
+		F614210117C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */; };
+		F614210217C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */; };
+		F614210317C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */; };
+		F614210417C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */; };
+		F614210517C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */; };
+		F614210617C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */; };
+		F614210717C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */; };
+		F614210817C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */; };
+		F614210917C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */; };
+		F614210A17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */; };
+		F614210B17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */; };
+		F614210C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */; };
+		F614210D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */; };
+		F614210E17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */; };
+		F614210F17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */; };
+		F614211017C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */; };
+		F614211117C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */; };
+		F614220917CA02C3003455EB /* TSTableViewController+TestDataDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F614220817CA02C3003455EB /* TSTableViewController+TestDataDefinition.m */; };
+		F614220A17CA02C3003455EB /* TSTableViewController+TestDataDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F614220817CA02C3003455EB /* TSTableViewController+TestDataDefinition.m */; };
+		F657417E17CD731E00826563 /* TableViewFolderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657417D17CD731E00826563 /* TableViewFolderIcon@2x.png */; };
+		F657417F17CD731E00826563 /* TableViewFolderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657417D17CD731E00826563 /* TableViewFolderIcon@2x.png */; };
+		F657418117CD74A400826563 /* TableViewFileIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418017CD74A400826563 /* TableViewFileIcon@2x.png */; };
+		F657418217CD74A400826563 /* TableViewFileIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418017CD74A400826563 /* TableViewFileIcon@2x.png */; };
+		F657418417CD78C100826563 /* TableViewPackageIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418317CD78C100826563 /* TableViewPackageIcon@2x.png */; };
+		F657418517CD78C100826563 /* TableViewPackageIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418317CD78C100826563 /* TableViewPackageIcon@2x.png */; };
+		F657418917CD818F00826563 /* TableViewFileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418617CD818F00826563 /* TableViewFileIcon.png */; };
+		F657418A17CD818F00826563 /* TableViewFileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418617CD818F00826563 /* TableViewFileIcon.png */; };
+		F657418B17CD818F00826563 /* TableViewFolderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418717CD818F00826563 /* TableViewFolderIcon.png */; };
+		F657418C17CD818F00826563 /* TableViewFolderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418717CD818F00826563 /* TableViewFolderIcon.png */; };
+		F657418D17CD818F00826563 /* TableViewPackageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418817CD818F00826563 /* TableViewPackageIcon.png */; };
+		F657418E17CD818F00826563 /* TableViewPackageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F657418817CD818F00826563 /* TableViewPackageIcon.png */; };
+		F67936021785A570009E2365 /* TSTabViewWithDropDownPanelTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2A4617835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m */; };
+		F67936031785A57B009E2365 /* TSTabViewWithDropDownPanelTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4817835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib */; };
+		F67936041785A57B009E2365 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4B17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib */; };
+		F680D2681774B2B0005ACD94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8DC1774B017005141A3 /* QuartzCore.framework */; };
+		F680D2691774B551005ACD94 /* TSNavigationStripTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F682C92B1774B095005141A3 /* TSNavigationStripTestViewController.m */; };
+		F680D26A1774B566005ACD94 /* TSNavigationStripTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682C9611774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib */; };
+		F680D26B1774B566005ACD94 /* TSNavigationStripTestViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682C9631774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib */; };
+		F680D2871774B9C2005ACD94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8941774A718005141A3 /* UIKit.framework */; };
+		F680D2881774B9C2005ACD94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8961774A718005141A3 /* Foundation.framework */; };
+		F680D2891774B9C2005ACD94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8981774A718005141A3 /* CoreGraphics.framework */; };
+		F680D29F1774BA2B005ACD94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8DC1774B017005141A3 /* QuartzCore.framework */; };
+		F680D2E91774BA82005ACD94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F680D2A61774BA82005ACD94 /* Default-568h@2x.png */; };
+		F680D2EA1774BA82005ACD94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F680D2A71774BA82005ACD94 /* Default.png */; };
+		F680D2EB1774BA82005ACD94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F680D2A81774BA82005ACD94 /* Default@2x.png */; };
+		F680D2EC1774BA82005ACD94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F680D2AA1774BA82005ACD94 /* InfoPlist.strings */; };
+		F680D2ED1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F680D2AC1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib */; };
+		F680D2EE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F680D2AE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib */; };
+		F680D2EF1774BA82005ACD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D2B01774BA82005ACD94 /* main.m */; };
+		F680D31E1774BA82005ACD94 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D2E41774BA82005ACD94 /* TSAppDelegate.m */; };
+		F680D31F1774BA82005ACD94 /* TSTabViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D2E61774BA82005ACD94 /* TSTabViewTestViewController.m */; };
+		F680D3221774BC5C005ACD94 /* TSTabViewTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F680D2AC1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib */; };
+		F680D3231774BC5C005ACD94 /* TSTabViewTestViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F680D2AE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib */; };
+		F680D3251774BC74005ACD94 /* TSTabViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D2E61774BA82005ACD94 /* TSTabViewTestViewController.m */; };
+		F680D452177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D451177D0E09005ACD94 /* TSTestSectionButton.m */; };
+		F680D453177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D451177D0E09005ACD94 /* TSTestSectionButton.m */; };
+		F680D454177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F680D451177D0E09005ACD94 /* TSTestSectionButton.m */; };
+		F682C8951774A718005141A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8941774A718005141A3 /* UIKit.framework */; };
+		F682C8971774A718005141A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8961774A718005141A3 /* Foundation.framework */; };
+		F682C8991774A718005141A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8981774A718005141A3 /* CoreGraphics.framework */; };
+		F682C8DD1774B017005141A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8DC1774B017005141A3 /* QuartzCore.framework */; };
+		F682C8E31774B054005141A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8941774A718005141A3 /* UIKit.framework */; };
+		F682C8E41774B054005141A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8961774A718005141A3 /* Foundation.framework */; };
+		F682C8E51774B054005141A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8981774A718005141A3 /* CoreGraphics.framework */; };
+		F682C8ED1774B054005141A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F682C8EC1774B054005141A3 /* main.m */; };
+		F682C8F11774B054005141A3 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F682C8F01774B054005141A3 /* TSAppDelegate.m */; };
+		F682C92C1774B095005141A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F682C8F51774B095005141A3 /* Default-568h@2x.png */; };
+		F682C92D1774B095005141A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F682C8F61774B095005141A3 /* Default.png */; };
+		F682C92E1774B095005141A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F682C8F71774B095005141A3 /* Default@2x.png */; };
+		F682C95D1774B095005141A3 /* TSNavigationStripTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F682C92B1774B095005141A3 /* TSNavigationStripTestViewController.m */; };
+		F682C9651774B0CD005141A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F682C95F1774B0CD005141A3 /* InfoPlist.strings */; };
+		F682C9661774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682C9611774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib */; };
+		F682C9671774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F682C9631774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib */; };
+		F6A4C46317BD1F6000AA8195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8941774A718005141A3 /* UIKit.framework */; };
+		F6A4C46417BD1F6000AA8195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8961774A718005141A3 /* Foundation.framework */; };
+		F6A4C46517BD1F6000AA8195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8981774A718005141A3 /* CoreGraphics.framework */; };
+		F6A4C46B17BD1F6000AA8195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C46917BD1F6000AA8195 /* InfoPlist.strings */; };
+		F6A4C46D17BD1F6000AA8195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C46C17BD1F6000AA8195 /* main.m */; };
+		F6A4C47117BD1F6000AA8195 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C47017BD1F6000AA8195 /* TSAppDelegate.m */; };
+		F6A4C47317BD1F6000AA8195 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47217BD1F6000AA8195 /* Default.png */; };
+		F6A4C47517BD1F6000AA8195 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47417BD1F6000AA8195 /* Default@2x.png */; };
+		F6A4C47717BD1F6000AA8195 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47617BD1F6000AA8195 /* Default-568h@2x.png */; };
+		F6A4C47A17BD1F6000AA8195 /* TSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C47917BD1F6000AA8195 /* TSTableViewController.m */; };
+		F6A4C47D17BD1F6000AA8195 /* TSTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47B17BD1F6000AA8195 /* TSTableViewController.xib */; };
+		F6A4C48017BD1F6000AA8195 /* TSTableViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A4C47E17BD1F6000AA8195 /* TSTableViewController~ipad.xib */; };
+		F6A4C49017BD812400AA8195 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8DC1774B017005141A3 /* QuartzCore.framework */; };
+		F6EE2A3017835D9A00C0C4A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8941774A718005141A3 /* UIKit.framework */; };
+		F6EE2A3117835D9A00C0C4A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8961774A718005141A3 /* Foundation.framework */; };
+		F6EE2A3217835D9A00C0C4A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8981774A718005141A3 /* CoreGraphics.framework */; };
+		F6EE2A3817835D9A00C0C4A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A3617835D9A00C0C4A3 /* InfoPlist.strings */; };
+		F6EE2A3A17835D9A00C0C4A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2A3917835D9A00C0C4A3 /* main.m */; };
+		F6EE2A3E17835D9A00C0C4A3 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2A3D17835D9A00C0C4A3 /* TSAppDelegate.m */; };
+		F6EE2A4017835D9A00C0C4A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A3F17835D9A00C0C4A3 /* Default.png */; };
+		F6EE2A4217835D9A00C0C4A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4117835D9A00C0C4A3 /* Default@2x.png */; };
+		F6EE2A4417835D9A00C0C4A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4317835D9A00C0C4A3 /* Default-568h@2x.png */; };
+		F6EE2A4717835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2A4617835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m */; };
+		F6EE2A4A17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4817835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib */; };
+		F6EE2A4D17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EE2A4B17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib */; };
+		F6EE2B611783605800C0C4A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F682C8DC1774B017005141A3 /* QuartzCore.framework */; };
+		F6F3CF121781ABB500C7274F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CEF91781ABB400C7274F /* Default-568h@2x.png */; };
+		F6F3CF131781ABB500C7274F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CEFA1781ABB400C7274F /* Default.png */; };
+		F6F3CF141781ABB500C7274F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CEFB1781ABB400C7274F /* Default@2x.png */; };
+		F6F3CF151781ABB500C7274F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CEFC1781ABB400C7274F /* InfoPlist.strings */; };
+		F6F3CF161781ABB500C7274F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CEFE1781ABB400C7274F /* MainStoryboard_iPad.storyboard */; };
+		F6F3CF171781ABB500C7274F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F3CF001781ABB400C7274F /* MainStoryboard_iPhone.storyboard */; };
+		F6F3CF181781ABB500C7274F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3CF021781ABB400C7274F /* main.m */; };
+		F6F3CF191781ABB500C7274F /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3CF041781ABB400C7274F /* TSAppDelegate.m */; };
+		F6F3CF1A1781ABB500C7274F /* TSModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3CF061781ABB400C7274F /* TSModelController.m */; };
+		F6F3CF1B1781ABB500C7274F /* TSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3CF081781ABB400C7274F /* TSRootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6141EC417C6A64C003455EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6141EC717C6A64C003455EB /* TSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDefines.h; sourceTree = "<group>"; };
+		F6141EC817C6A64C003455EB /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
+		F6141EC917C6A64C003455EB /* TSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUtils.m; sourceTree = "<group>"; };
+		F6141ECB17C6A64C003455EB /* TSNavigationStripDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationStripDataSource.h; sourceTree = "<group>"; };
+		F6141ECC17C6A64C003455EB /* TSNavigationStripModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationStripModel.h; sourceTree = "<group>"; };
+		F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationStripModel.m; sourceTree = "<group>"; };
+		F6141ECE17C6A64C003455EB /* TSNavigationStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationStripView.h; sourceTree = "<group>"; };
+		F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationStripView.m; sourceTree = "<group>"; };
+		F6141ED017C6A64C003455EB /* TSNavigationStripViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationStripViewDelegate.h; sourceTree = "<group>"; };
+		F6141ED217C6A64C003455EB /* TSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSScrollView.h; sourceTree = "<group>"; };
+		F6141ED317C6A64C003455EB /* TSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSScrollView.m; sourceTree = "<group>"; };
+		F6141ED617C6A64C003455EB /* TSTableViewAppearanceCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewAppearanceCoordinator.h; sourceTree = "<group>"; };
+		F6141ED717C6A64C003455EB /* TSTableViewContentHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewContentHolder.h; sourceTree = "<group>"; };
+		F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewContentHolder.m; sourceTree = "<group>"; };
+		F6141ED917C6A64C003455EB /* TSTableViewExpandControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandControlPanel.h; sourceTree = "<group>"; };
+		F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandControlPanel.m; sourceTree = "<group>"; };
+		F6141EDB17C6A64C003455EB /* TSTableViewExpandSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandSection.h; sourceTree = "<group>"; };
+		F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandSection.m; sourceTree = "<group>"; };
+		F6141EDD17C6A64C003455EB /* TSTableViewHeaderPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderPanel.h; sourceTree = "<group>"; };
+		F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderPanel.m; sourceTree = "<group>"; };
+		F6141EDF17C6A64C003455EB /* TSTableViewHeaderSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSection.h; sourceTree = "<group>"; };
+		F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSection.m; sourceTree = "<group>"; };
+		F6141EE117C6A64C003455EB /* TSTableViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewRow.h; sourceTree = "<group>"; };
+		F6141EE217C6A64C003455EB /* TSTableViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewRow.m; sourceTree = "<group>"; };
+		F6141EE317C6A64C003455EB /* TSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableView.h; sourceTree = "<group>"; };
+		F6141EE417C6A64C003455EB /* TSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableView.m; sourceTree = "<group>"; };
+		F6141EE517C6A64C003455EB /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
+		F6141EE617C6A64C003455EB /* TSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewCell.m; sourceTree = "<group>"; };
+		F6141EE717C6A64C003455EB /* TSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDataSource.h; sourceTree = "<group>"; };
+		F6141EE817C6A64C003455EB /* TSTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDelegate.h; sourceTree = "<group>"; };
+		F6141EE917C6A64C003455EB /* TSTableViewHeaderSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSectionView.h; sourceTree = "<group>"; };
+		F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSectionView.m; sourceTree = "<group>"; };
+		F6141EEB17C6A64C003455EB /* TSTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewModel.h; sourceTree = "<group>"; };
+		F6141EEC17C6A64C003455EB /* TSTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewModel.m; sourceTree = "<group>"; };
+		F6141EEE17C6A64C003455EB /* TSTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabView.h; sourceTree = "<group>"; };
+		F6141EEF17C6A64C003455EB /* TSTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabView.m; sourceTree = "<group>"; };
+		F6141EF017C6A64C003455EB /* TSTabViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewDataSource.h; sourceTree = "<group>"; };
+		F6141EF117C6A64C003455EB /* TSTabViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewDelegate.h; sourceTree = "<group>"; };
+		F6141EF217C6A64C003455EB /* TSTabViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewModel.h; sourceTree = "<group>"; };
+		F6141EF317C6A64C003455EB /* TSTabViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabViewModel.m; sourceTree = "<group>"; };
+		F6141EF517C6A64C003455EB /* TSTabViewWithDropDownPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewWithDropDownPanel.h; sourceTree = "<group>"; };
+		F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabViewWithDropDownPanel.m; sourceTree = "<group>"; };
+		F6141EF717C6A64C003455EB /* TSTabViewWithDropDownPanelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewWithDropDownPanelDelegate.h; sourceTree = "<group>"; };
+		F6141EF817C6A64C003455EB /* TSTabViewWithDropDownPanelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewWithDropDownPanelModel.h; sourceTree = "<group>"; };
+		F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabViewWithDropDownPanelModel.m; sourceTree = "<group>"; };
+		F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripHeaderBackground.png; sourceTree = "<group>"; };
+		F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripHeaderBackground_1.png; sourceTree = "<group>"; };
+		F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripHeaderBackground_2.png; sourceTree = "<group>"; };
+		F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripIcon-Selected.png"; sourceTree = "<group>"; };
+		F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripIcon.png; sourceTree = "<group>"; };
+		F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItem-Selected.png"; sourceTree = "<group>"; };
+		F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripItem.png; sourceTree = "<group>"; };
+		F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripItemBlue.png; sourceTree = "<group>"; };
+		F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripItemGrey.png; sourceTree = "<group>"; };
+		F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripItemRed.png; sourceTree = "<group>"; };
+		F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButton-Selected.png"; sourceTree = "<group>"; };
+		F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripLeftSideButton.png; sourceTree = "<group>"; };
+		F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripLeftSideButtonBlue.png; sourceTree = "<group>"; };
+		F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripLeftSideButtonGrey.png; sourceTree = "<group>"; };
+		F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripLeftSideButtonRed.png; sourceTree = "<group>"; };
+		F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButton-Selected.png"; sourceTree = "<group>"; };
+		F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripRightSideButton.png; sourceTree = "<group>"; };
+		F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripRightSideButtonBlue.png; sourceTree = "<group>"; };
+		F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripRightSideButtonGrey.png; sourceTree = "<group>"; };
+		F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripRightSideButtonRed.png; sourceTree = "<group>"; };
+		F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground-Selected.png"; sourceTree = "<group>"; };
+		F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripSectionBackground.png; sourceTree = "<group>"; };
+		F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground_2-Selected.png"; sourceTree = "<group>"; };
+		F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripSectionBackground_2.png; sourceTree = "<group>"; };
+		F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackgroundRed-Selected.png"; sourceTree = "<group>"; };
+		F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationStripSectionBackgroundRed.png; sourceTree = "<group>"; };
+		F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripHeaderBackground@2x.png"; sourceTree = "<group>"; };
+		F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripHeaderBackground_1@2x.png"; sourceTree = "<group>"; };
+		F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripHeaderBackground_2@2x.png"; sourceTree = "<group>"; };
+		F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripIcon-Selected@2x.png"; sourceTree = "<group>"; };
+		F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripIcon@2x.png"; sourceTree = "<group>"; };
+		F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItem-Selected@2x.png"; sourceTree = "<group>"; };
+		F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItem@2x.png"; sourceTree = "<group>"; };
+		F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItemBlue@2x.png"; sourceTree = "<group>"; };
+		F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItemGrey@2x.png"; sourceTree = "<group>"; };
+		F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripItemRed@2x.png"; sourceTree = "<group>"; };
+		F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButton-Selected@2x.png"; sourceTree = "<group>"; };
+		F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButton@2x.png"; sourceTree = "<group>"; };
+		F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButtonBlue@2x.png"; sourceTree = "<group>"; };
+		F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButtonGrey@2x.png"; sourceTree = "<group>"; };
+		F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripLeftSideButtonRed@2x.png"; sourceTree = "<group>"; };
+		F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButton-Selected@2x.png"; sourceTree = "<group>"; };
+		F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButton@2x.png"; sourceTree = "<group>"; };
+		F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButtonBlue@2x.png"; sourceTree = "<group>"; };
+		F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButtonGrey@2x.png"; sourceTree = "<group>"; };
+		F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripRightSideButtonRed@2x.png"; sourceTree = "<group>"; };
+		F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground-Selected@2x.png"; sourceTree = "<group>"; };
+		F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground@2x.png"; sourceTree = "<group>"; };
+		F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground_2-Selected@2x.png"; sourceTree = "<group>"; };
+		F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackground_2@2x.png"; sourceTree = "<group>"; };
+		F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackgroundRed-Selected@2x.png"; sourceTree = "<group>"; };
+		F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationStripSectionBackgroundRed@2x.png"; sourceTree = "<group>"; };
+		F614220717CA02C3003455EB /* TSTableViewController+TestDataDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSTableViewController+TestDataDefinition.h"; sourceTree = "<group>"; };
+		F614220817CA02C3003455EB /* TSTableViewController+TestDataDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSTableViewController+TestDataDefinition.m"; sourceTree = "<group>"; };
+		F657417D17CD731E00826563 /* TableViewFolderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewFolderIcon@2x.png"; sourceTree = "<group>"; };
+		F657418017CD74A400826563 /* TableViewFileIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewFileIcon@2x.png"; sourceTree = "<group>"; };
+		F657418317CD78C100826563 /* TableViewPackageIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewPackageIcon@2x.png"; sourceTree = "<group>"; };
+		F657418617CD818F00826563 /* TableViewFileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewFileIcon.png; sourceTree = "<group>"; };
+		F657418717CD818F00826563 /* TableViewFolderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewFolderIcon.png; sourceTree = "<group>"; };
+		F657418817CD818F00826563 /* TableViewPackageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewPackageIcon.png; sourceTree = "<group>"; };
+		F680D2861774B9C2005ACD94 /* TabViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F680D2A61774BA82005ACD94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F680D2A71774BA82005ACD94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F680D2A81774BA82005ACD94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F680D2AB1774BA82005ACD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F680D2AD1774BA82005ACD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "TSTabViewTestViewController~ipad.xib"; sourceTree = "<group>"; };
+		F680D2AF1774BA82005ACD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "TSTabViewTestViewController~iphone.xib"; sourceTree = "<group>"; };
+		F680D2B01774BA82005ACD94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F680D2E31774BA82005ACD94 /* TSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		F680D2E41774BA82005ACD94 /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		F680D2E51774BA82005ACD94 /* TSTabViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabViewTestViewController.h; sourceTree = "<group>"; };
+		F680D2E61774BA82005ACD94 /* TSTabViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabViewTestViewController.m; sourceTree = "<group>"; };
+		F680D2E71774BA82005ACD94 /* TabViewTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TabViewTest-Info.plist"; sourceTree = "<group>"; };
+		F680D2E81774BA82005ACD94 /* TabViewTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TabViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		F680D450177D0E09005ACD94 /* TSTestSectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTestSectionButton.h; sourceTree = "<group>"; };
+		F680D451177D0E09005ACD94 /* TSTestSectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTestSectionButton.m; sourceTree = "<group>"; };
+		F682C8911774A718005141A3 /* TSUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F682C8941774A718005141A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F682C8961774A718005141A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F682C8981774A718005141A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F682C8DC1774B017005141A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F682C8E21774B054005141A3 /* NavigationStripTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationStripTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F682C8E81774B054005141A3 /* NavigationStripTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationStripTest-Info.plist"; sourceTree = "<group>"; };
+		F682C8EC1774B054005141A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F682C8EE1774B054005141A3 /* NavigationStripTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationStripTest-Prefix.pch"; sourceTree = "<group>"; };
+		F682C8EF1774B054005141A3 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		F682C8F01774B054005141A3 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		F682C8F51774B095005141A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F682C8F61774B095005141A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F682C8F71774B095005141A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F682C92A1774B095005141A3 /* TSNavigationStripTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationStripTestViewController.h; sourceTree = "<group>"; };
+		F682C92B1774B095005141A3 /* TSNavigationStripTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationStripTestViewController.m; sourceTree = "<group>"; };
+		F682C9601774B0CD005141A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F682C9621774B0CD005141A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "TSNavigationStripTestViewController~ipad.xib"; sourceTree = "<group>"; };
+		F682C9641774B0CD005141A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "TSNavigationStripTestViewController~iphone.xib"; sourceTree = "<group>"; };
+		F6A4C46217BD1F5F00AA8195 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A4C46817BD1F6000AA8195 /* TableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView-Info.plist"; sourceTree = "<group>"; };
+		F6A4C46A17BD1F6000AA8195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6A4C46C17BD1F6000AA8195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A4C46E17BD1F6000AA8195 /* TableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableView-Prefix.pch"; sourceTree = "<group>"; };
+		F6A4C46F17BD1F6000AA8195 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		F6A4C47017BD1F6000AA8195 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		F6A4C47217BD1F6000AA8195 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6A4C47417BD1F6000AA8195 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6A4C47617BD1F6000AA8195 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6A4C47817BD1F6000AA8195 /* TSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTableViewController.h; sourceTree = "<group>"; };
+		F6A4C47917BD1F6000AA8195 /* TSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTableViewController.m; sourceTree = "<group>"; };
+		F6A4C47C17BD1F6000AA8195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TSTableViewController.xib; sourceTree = "<group>"; };
+		F6A4C47F17BD1F6000AA8195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/TSTableViewController~ipad.xib"; sourceTree = "<group>"; };
+		F6EE2A2F17835D9A00C0C4A3 /* TabViewWithDropDownPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewWithDropDownPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE2A3517835D9A00C0C4A3 /* TabViewWithDropDownPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabViewWithDropDownPanel-Info.plist"; sourceTree = "<group>"; };
+		F6EE2A3717835D9A00C0C4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6EE2A3917835D9A00C0C4A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6EE2A3B17835D9A00C0C4A3 /* TabViewWithDropDownPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabViewWithDropDownPanel-Prefix.pch"; sourceTree = "<group>"; };
+		F6EE2A3C17835D9A00C0C4A3 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		F6EE2A3D17835D9A00C0C4A3 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		F6EE2A3F17835D9A00C0C4A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6EE2A4117835D9A00C0C4A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6EE2A4317835D9A00C0C4A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6EE2A4517835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabViewWithDropDownPanelTestViewController.h; sourceTree = "<group>"; };
+		F6EE2A4617835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabViewWithDropDownPanelTestViewController.m; sourceTree = "<group>"; };
+		F6EE2A4917835D9A00C0C4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TSTabViewWithDropDownPanelTestViewController.xib; sourceTree = "<group>"; };
+		F6EE2A4C17835D9A00C0C4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/TSTabViewWithDropDownPanelTestViewController~ipad.xib"; sourceTree = "<group>"; };
+		F6F3CEF91781ABB400C7274F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6F3CEFA1781ABB400C7274F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6F3CEFB1781ABB400C7274F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6F3CEFD1781ABB400C7274F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6F3CEFF1781ABB400C7274F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F6F3CF011781ABB400C7274F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F6F3CF021781ABB400C7274F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F3CF031781ABB400C7274F /* TSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		F6F3CF041781ABB400C7274F /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		F6F3CF051781ABB400C7274F /* TSModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSModelController.h; sourceTree = "<group>"; };
+		F6F3CF061781ABB400C7274F /* TSModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSModelController.m; sourceTree = "<group>"; };
+		F6F3CF071781ABB400C7274F /* TSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRootViewController.h; sourceTree = "<group>"; };
+		F6F3CF081781ABB400C7274F /* TSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRootViewController.m; sourceTree = "<group>"; };
+		F6F3CF0A1781ABB400C7274F /* TSUIKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		F6F3CF2B1781B00800C7274F /* TSUIKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TSUIKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F680D2831774B9C2005ACD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680D29F1774BA2B005ACD94 /* QuartzCore.framework in Frameworks */,
+				F680D2871774B9C2005ACD94 /* UIKit.framework in Frameworks */,
+				F680D2881774B9C2005ACD94 /* Foundation.framework in Frameworks */,
+				F680D2891774B9C2005ACD94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C88E1774A718005141A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F682C8DD1774B017005141A3 /* QuartzCore.framework in Frameworks */,
+				F682C8951774A718005141A3 /* UIKit.framework in Frameworks */,
+				F682C8971774A718005141A3 /* Foundation.framework in Frameworks */,
+				F682C8991774A718005141A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C8DF1774B054005141A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680D2681774B2B0005ACD94 /* QuartzCore.framework in Frameworks */,
+				F682C8E31774B054005141A3 /* UIKit.framework in Frameworks */,
+				F682C8E41774B054005141A3 /* Foundation.framework in Frameworks */,
+				F682C8E51774B054005141A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A4C45F17BD1F5F00AA8195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A4C49017BD812400AA8195 /* QuartzCore.framework in Frameworks */,
+				F6A4C46317BD1F6000AA8195 /* UIKit.framework in Frameworks */,
+				F6A4C46417BD1F6000AA8195 /* Foundation.framework in Frameworks */,
+				F6A4C46517BD1F6000AA8195 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE2A2C17835D9A00C0C4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE2B611783605800C0C4A3 /* QuartzCore.framework in Frameworks */,
+				F6EE2A3017835D9A00C0C4A3 /* UIKit.framework in Frameworks */,
+				F6EE2A3117835D9A00C0C4A3 /* Foundation.framework in Frameworks */,
+				F6EE2A3217835D9A00C0C4A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6141EC317C6A64C003455EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6141EC417C6A64C003455EB /* LICENSE */,
+				F6141EC517C6A64C003455EB /* TSUIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F6141EC517C6A64C003455EB /* TSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F6141EC617C6A64C003455EB /* TSMisc */,
+				F6141ECA17C6A64C003455EB /* TSNavigationStripView */,
+				F6141ED117C6A64C003455EB /* TSScrollView */,
+				F6141ED417C6A64C003455EB /* TSTableView */,
+				F6141EED17C6A64C003455EB /* TSTabView */,
+				F6141EF417C6A64C003455EB /* TSTabViewWithDropDownPanel */,
+			);
+			path = TSUIKit;
+			sourceTree = "<group>";
+		};
+		F6141EC617C6A64C003455EB /* TSMisc */ = {
+			isa = PBXGroup;
+			children = (
+				F6141EC717C6A64C003455EB /* TSDefines.h */,
+				F6141EC817C6A64C003455EB /* TSUtils.h */,
+				F6141EC917C6A64C003455EB /* TSUtils.m */,
+			);
+			path = TSMisc;
+			sourceTree = "<group>";
+		};
+		F6141ECA17C6A64C003455EB /* TSNavigationStripView */ = {
+			isa = PBXGroup;
+			children = (
+				F6141ECB17C6A64C003455EB /* TSNavigationStripDataSource.h */,
+				F6141ECC17C6A64C003455EB /* TSNavigationStripModel.h */,
+				F6141ECD17C6A64C003455EB /* TSNavigationStripModel.m */,
+				F6141ECE17C6A64C003455EB /* TSNavigationStripView.h */,
+				F6141ECF17C6A64C003455EB /* TSNavigationStripView.m */,
+				F6141ED017C6A64C003455EB /* TSNavigationStripViewDelegate.h */,
+			);
+			path = TSNavigationStripView;
+			sourceTree = "<group>";
+		};
+		F6141ED117C6A64C003455EB /* TSScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F6141ED217C6A64C003455EB /* TSScrollView.h */,
+				F6141ED317C6A64C003455EB /* TSScrollView.m */,
+			);
+			path = TSScrollView;
+			sourceTree = "<group>";
+		};
+		F6141ED417C6A64C003455EB /* TSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6141ED517C6A64C003455EB /* Private */,
+				F6141EE317C6A64C003455EB /* TSTableView.h */,
+				F6141EE417C6A64C003455EB /* TSTableView.m */,
+				F6141EE517C6A64C003455EB /* TSTableViewCell.h */,
+				F6141EE617C6A64C003455EB /* TSTableViewCell.m */,
+				F6141EE717C6A64C003455EB /* TSTableViewDataSource.h */,
+				F6141EE817C6A64C003455EB /* TSTableViewDelegate.h */,
+				F6141EE917C6A64C003455EB /* TSTableViewHeaderSectionView.h */,
+				F6141EEA17C6A64C003455EB /* TSTableViewHeaderSectionView.m */,
+				F6141EEB17C6A64C003455EB /* TSTableViewModel.h */,
+				F6141EEC17C6A64C003455EB /* TSTableViewModel.m */,
+			);
+			path = TSTableView;
+			sourceTree = "<group>";
+		};
+		F6141ED517C6A64C003455EB /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F6141ED617C6A64C003455EB /* TSTableViewAppearanceCoordinator.h */,
+				F6141ED717C6A64C003455EB /* TSTableViewContentHolder.h */,
+				F6141ED817C6A64C003455EB /* TSTableViewContentHolder.m */,
+				F6141ED917C6A64C003455EB /* TSTableViewExpandControlPanel.h */,
+				F6141EDA17C6A64C003455EB /* TSTableViewExpandControlPanel.m */,
+				F6141EDB17C6A64C003455EB /* TSTableViewExpandSection.h */,
+				F6141EDC17C6A64C003455EB /* TSTableViewExpandSection.m */,
+				F6141EDD17C6A64C003455EB /* TSTableViewHeaderPanel.h */,
+				F6141EDE17C6A64C003455EB /* TSTableViewHeaderPanel.m */,
+				F6141EDF17C6A64C003455EB /* TSTableViewHeaderSection.h */,
+				F6141EE017C6A64C003455EB /* TSTableViewHeaderSection.m */,
+				F6141EE117C6A64C003455EB /* TSTableViewRow.h */,
+				F6141EE217C6A64C003455EB /* TSTableViewRow.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		F6141EED17C6A64C003455EB /* TSTabView */ = {
+			isa = PBXGroup;
+			children = (
+				F6141EEE17C6A64C003455EB /* TSTabView.h */,
+				F6141EEF17C6A64C003455EB /* TSTabView.m */,
+				F6141EF017C6A64C003455EB /* TSTabViewDataSource.h */,
+				F6141EF117C6A64C003455EB /* TSTabViewDelegate.h */,
+				F6141EF217C6A64C003455EB /* TSTabViewModel.h */,
+				F6141EF317C6A64C003455EB /* TSTabViewModel.m */,
+			);
+			path = TSTabView;
+			sourceTree = "<group>";
+		};
+		F6141EF417C6A64C003455EB /* TSTabViewWithDropDownPanel */ = {
+			isa = PBXGroup;
+			children = (
+				F6141EF517C6A64C003455EB /* TSTabViewWithDropDownPanel.h */,
+				F6141EF617C6A64C003455EB /* TSTabViewWithDropDownPanel.m */,
+				F6141EF717C6A64C003455EB /* TSTabViewWithDropDownPanelDelegate.h */,
+				F6141EF817C6A64C003455EB /* TSTabViewWithDropDownPanelModel.h */,
+				F6141EF917C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m */,
+			);
+			path = TSTabViewWithDropDownPanel;
+			sourceTree = "<group>";
+		};
+		F6141FD617C6BEF8003455EB /* SharedResources */ = {
+			isa = PBXGroup;
+			children = (
+				F6141FD717C6BEF8003455EB /* Textures */,
+			);
+			path = SharedResources;
+			sourceTree = "<group>";
+		};
+		F6141FD717C6BEF8003455EB /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				F657416E17CD6D3C00826563 /* TableView */,
+				F6141FD817C6BEF8003455EB /* 1x */,
+				F6141FF317C6BEF8003455EB /* 2x */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		F6141FD817C6BEF8003455EB /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				F6141FD917C6BEF8003455EB /* NavigationStripHeaderBackground.png */,
+				F6141FDA17C6BEF8003455EB /* NavigationStripHeaderBackground_1.png */,
+				F6141FDB17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png */,
+				F6141FDC17C6BEF8003455EB /* NavigationStripIcon-Selected.png */,
+				F6141FDD17C6BEF8003455EB /* NavigationStripIcon.png */,
+				F6141FDE17C6BEF8003455EB /* NavigationStripItem-Selected.png */,
+				F6141FDF17C6BEF8003455EB /* NavigationStripItem.png */,
+				F6141FE017C6BEF8003455EB /* NavigationStripItemBlue.png */,
+				F6141FE117C6BEF8003455EB /* NavigationStripItemGrey.png */,
+				F6141FE217C6BEF8003455EB /* NavigationStripItemRed.png */,
+				F6141FE317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png */,
+				F6141FE417C6BEF8003455EB /* NavigationStripLeftSideButton.png */,
+				F6141FE517C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png */,
+				F6141FE617C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png */,
+				F6141FE717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png */,
+				F6141FE817C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png */,
+				F6141FE917C6BEF8003455EB /* NavigationStripRightSideButton.png */,
+				F6141FEA17C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png */,
+				F6141FEB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png */,
+				F6141FEC17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png */,
+				F6141FED17C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png */,
+				F6141FEE17C6BEF8003455EB /* NavigationStripSectionBackground.png */,
+				F6141FEF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png */,
+				F6141FF017C6BEF8003455EB /* NavigationStripSectionBackground_2.png */,
+				F6141FF117C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png */,
+				F6141FF217C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
+		F6141FF317C6BEF8003455EB /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				F6141FF417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png */,
+				F6141FF517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png */,
+				F6141FF617C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png */,
+				F6141FF717C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png */,
+				F6141FF817C6BEF8003455EB /* NavigationStripIcon@2x.png */,
+				F6141FF917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png */,
+				F6141FFA17C6BEF8003455EB /* NavigationStripItem@2x.png */,
+				F6141FFB17C6BEF8003455EB /* NavigationStripItemBlue@2x.png */,
+				F6141FFC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png */,
+				F6141FFD17C6BEF8003455EB /* NavigationStripItemRed@2x.png */,
+				F6141FFE17C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png */,
+				F6141FFF17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png */,
+				F614200017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png */,
+				F614200117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png */,
+				F614200217C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png */,
+				F614200317C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png */,
+				F614200417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png */,
+				F614200517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png */,
+				F614200617C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png */,
+				F614200717C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png */,
+				F614200817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png */,
+				F614200917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png */,
+				F614200A17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png */,
+				F614200B17C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png */,
+				F614200C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png */,
+				F614200D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		F657416E17CD6D3C00826563 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F657416F17CD6D3C00826563 /* 1x */,
+				F657417117CD6D3C00826563 /* 2x */,
+			);
+			name = TableView;
+			path = SharedResources/Textures/TableView;
+			sourceTree = SOURCE_ROOT;
+		};
+		F657416F17CD6D3C00826563 /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				F657418617CD818F00826563 /* TableViewFileIcon.png */,
+				F657418717CD818F00826563 /* TableViewFolderIcon.png */,
+				F657418817CD818F00826563 /* TableViewPackageIcon.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
+		F657417117CD6D3C00826563 /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				F657418317CD78C100826563 /* TableViewPackageIcon@2x.png */,
+				F657418017CD74A400826563 /* TableViewFileIcon@2x.png */,
+				F657417D17CD731E00826563 /* TableViewFolderIcon@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		F680D28A1774B9C2005ACD94 /* TabViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				F680D3211774BA8E005ACD94 /* Supporting Files */,
+				F680D2A91774BA82005ACD94 /* en.lproj */,
+				F680D2E31774BA82005ACD94 /* TSAppDelegate.h */,
+				F680D2E41774BA82005ACD94 /* TSAppDelegate.m */,
+				F680D2E51774BA82005ACD94 /* TSTabViewTestViewController.h */,
+				F680D2E61774BA82005ACD94 /* TSTabViewTestViewController.m */,
+			);
+			path = TabViewTest;
+			sourceTree = "<group>";
+		};
+		F680D2A91774BA82005ACD94 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F680D2AA1774BA82005ACD94 /* InfoPlist.strings */,
+				F680D2AC1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib */,
+				F680D2AE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F680D3211774BA8E005ACD94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F680D2B01774BA82005ACD94 /* main.m */,
+				F680D2A61774BA82005ACD94 /* Default-568h@2x.png */,
+				F680D2A71774BA82005ACD94 /* Default.png */,
+				F680D2A81774BA82005ACD94 /* Default@2x.png */,
+				F680D2E71774BA82005ACD94 /* TabViewTest-Info.plist */,
+				F680D2E81774BA82005ACD94 /* TabViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F682C8881774A718005141A3 = {
+			isa = PBXGroup;
+			children = (
+				F6141FD617C6BEF8003455EB /* SharedResources */,
+				F6141EC317C6A64C003455EB /* Classes */,
+				F6F3CEE01781ABB400C7274F /* TSUIKit */,
+				F682C8E61774B054005141A3 /* NavigationStripTest */,
+				F680D28A1774B9C2005ACD94 /* TabViewTest */,
+				F6EE2A3317835D9A00C0C4A3 /* TabViewWithDropDownPanel */,
+				F6A4C46617BD1F6000AA8195 /* TableView */,
+				F682C8931774A718005141A3 /* Frameworks */,
+				F682C8921774A718005141A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F682C8921774A718005141A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F682C8911774A718005141A3 /* TSUIKit.app */,
+				F682C8E21774B054005141A3 /* NavigationStripTest.app */,
+				F680D2861774B9C2005ACD94 /* TabViewTest.app */,
+				F6EE2A2F17835D9A00C0C4A3 /* TabViewWithDropDownPanel.app */,
+				F6A4C46217BD1F5F00AA8195 /* TableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F682C8931774A718005141A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F682C8DC1774B017005141A3 /* QuartzCore.framework */,
+				F682C8941774A718005141A3 /* UIKit.framework */,
+				F682C8961774A718005141A3 /* Foundation.framework */,
+				F682C8981774A718005141A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F682C8E61774B054005141A3 /* NavigationStripTest */ = {
+			isa = PBXGroup;
+			children = (
+				F682C95E1774B0CD005141A3 /* en.lproj */,
+				F682C92A1774B095005141A3 /* TSNavigationStripTestViewController.h */,
+				F682C92B1774B095005141A3 /* TSNavigationStripTestViewController.m */,
+				F682C8EF1774B054005141A3 /* TSAppDelegate.h */,
+				F682C8F01774B054005141A3 /* TSAppDelegate.m */,
+				F682C8E71774B054005141A3 /* Supporting Files */,
+				F680D450177D0E09005ACD94 /* TSTestSectionButton.h */,
+				F680D451177D0E09005ACD94 /* TSTestSectionButton.m */,
+			);
+			path = NavigationStripTest;
+			sourceTree = "<group>";
+		};
+		F682C8E71774B054005141A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F682C8F51774B095005141A3 /* Default-568h@2x.png */,
+				F682C8F61774B095005141A3 /* Default.png */,
+				F682C8F71774B095005141A3 /* Default@2x.png */,
+				F682C8E81774B054005141A3 /* NavigationStripTest-Info.plist */,
+				F682C8EC1774B054005141A3 /* main.m */,
+				F682C8EE1774B054005141A3 /* NavigationStripTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F682C95E1774B0CD005141A3 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F682C95F1774B0CD005141A3 /* InfoPlist.strings */,
+				F682C9611774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib */,
+				F682C9631774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F6A4C46617BD1F6000AA8195 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4C46F17BD1F6000AA8195 /* TSAppDelegate.h */,
+				F6A4C47017BD1F6000AA8195 /* TSAppDelegate.m */,
+				F6A4C47817BD1F6000AA8195 /* TSTableViewController.h */,
+				F6A4C47917BD1F6000AA8195 /* TSTableViewController.m */,
+				F6A4C47B17BD1F6000AA8195 /* TSTableViewController.xib */,
+				F6A4C47E17BD1F6000AA8195 /* TSTableViewController~ipad.xib */,
+				F6A4C46717BD1F6000AA8195 /* Supporting Files */,
+				F614220717CA02C3003455EB /* TSTableViewController+TestDataDefinition.h */,
+				F614220817CA02C3003455EB /* TSTableViewController+TestDataDefinition.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		F6A4C46717BD1F6000AA8195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4C46817BD1F6000AA8195 /* TableView-Info.plist */,
+				F6A4C46917BD1F6000AA8195 /* InfoPlist.strings */,
+				F6A4C46C17BD1F6000AA8195 /* main.m */,
+				F6A4C46E17BD1F6000AA8195 /* TableView-Prefix.pch */,
+				F6A4C47217BD1F6000AA8195 /* Default.png */,
+				F6A4C47417BD1F6000AA8195 /* Default@2x.png */,
+				F6A4C47617BD1F6000AA8195 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6EE2A3317835D9A00C0C4A3 /* TabViewWithDropDownPanel */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE2A3C17835D9A00C0C4A3 /* TSAppDelegate.h */,
+				F6EE2A3D17835D9A00C0C4A3 /* TSAppDelegate.m */,
+				F6EE2A4517835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.h */,
+				F6EE2A4617835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m */,
+				F6EE2A4817835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib */,
+				F6EE2A4B17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib */,
+				F6EE2A3417835D9A00C0C4A3 /* Supporting Files */,
+			);
+			path = TabViewWithDropDownPanel;
+			sourceTree = "<group>";
+		};
+		F6EE2A3417835D9A00C0C4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE2A3517835D9A00C0C4A3 /* TabViewWithDropDownPanel-Info.plist */,
+				F6EE2A3617835D9A00C0C4A3 /* InfoPlist.strings */,
+				F6EE2A3917835D9A00C0C4A3 /* main.m */,
+				F6EE2A3B17835D9A00C0C4A3 /* TabViewWithDropDownPanel-Prefix.pch */,
+				F6EE2A3F17835D9A00C0C4A3 /* Default.png */,
+				F6EE2A4117835D9A00C0C4A3 /* Default@2x.png */,
+				F6EE2A4317835D9A00C0C4A3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6F3CEE01781ABB400C7274F /* TSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F6F3CF2B1781B00800C7274F /* TSUIKit-Info.plist */,
+				F6F3CEF91781ABB400C7274F /* Default-568h@2x.png */,
+				F6F3CEFA1781ABB400C7274F /* Default.png */,
+				F6F3CEFB1781ABB400C7274F /* Default@2x.png */,
+				F6F3CEFC1781ABB400C7274F /* InfoPlist.strings */,
+				F6F3CEFE1781ABB400C7274F /* MainStoryboard_iPad.storyboard */,
+				F6F3CF001781ABB400C7274F /* MainStoryboard_iPhone.storyboard */,
+				F6F3CF021781ABB400C7274F /* main.m */,
+				F6F3CF031781ABB400C7274F /* TSAppDelegate.h */,
+				F6F3CF041781ABB400C7274F /* TSAppDelegate.m */,
+				F6F3CF051781ABB400C7274F /* TSModelController.h */,
+				F6F3CF061781ABB400C7274F /* TSModelController.m */,
+				F6F3CF071781ABB400C7274F /* TSRootViewController.h */,
+				F6F3CF081781ABB400C7274F /* TSRootViewController.m */,
+				F6F3CF0A1781ABB400C7274F /* TSUIKit-Prefix.pch */,
+			);
+			path = TSUIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F680D2851774B9C2005ACD94 /* TabViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F680D29C1774B9C3005ACD94 /* Build configuration list for PBXNativeTarget "TabViewTest" */;
+			buildPhases = (
+				F680D2821774B9C2005ACD94 /* Sources */,
+				F680D2831774B9C2005ACD94 /* Frameworks */,
+				F680D2841774B9C2005ACD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabViewTest;
+			productName = TabViewTest;
+			productReference = F680D2861774B9C2005ACD94 /* TabViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F682C8901774A718005141A3 /* TSUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F682C8BD1774A718005141A3 /* Build configuration list for PBXNativeTarget "TSUIKit" */;
+			buildPhases = (
+				F682C88D1774A718005141A3 /* Sources */,
+				F682C88E1774A718005141A3 /* Frameworks */,
+				F682C88F1774A718005141A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSUIKit;
+			productName = SSUIKit;
+			productReference = F682C8911774A718005141A3 /* TSUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F682C8E11774B054005141A3 /* NavigationStripTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F682C8F21774B054005141A3 /* Build configuration list for PBXNativeTarget "NavigationStripTest" */;
+			buildPhases = (
+				F682C8DE1774B054005141A3 /* Sources */,
+				F682C8DF1774B054005141A3 /* Frameworks */,
+				F682C8E01774B054005141A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationStripTest;
+			productName = NavigationStripTest;
+			productReference = F682C8E21774B054005141A3 /* NavigationStripTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A4C46117BD1F5F00AA8195 /* TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A4C48117BD1F6000AA8195 /* Build configuration list for PBXNativeTarget "TableView" */;
+			buildPhases = (
+				F6A4C45E17BD1F5F00AA8195 /* Sources */,
+				F6A4C45F17BD1F5F00AA8195 /* Frameworks */,
+				F6A4C46017BD1F5F00AA8195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableView;
+			productName = TableView;
+			productReference = F6A4C46217BD1F5F00AA8195 /* TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EE2A2E17835D9A00C0C4A3 /* TabViewWithDropDownPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE2A4E17835D9A00C0C4A3 /* Build configuration list for PBXNativeTarget "TabViewWithDropDownPanel" */;
+			buildPhases = (
+				F6EE2A2B17835D9A00C0C4A3 /* Sources */,
+				F6EE2A2C17835D9A00C0C4A3 /* Frameworks */,
+				F6EE2A2D17835D9A00C0C4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabViewWithDropDownPanel;
+			productName = TabViewWithDropDownPanel;
+			productReference = F6EE2A2F17835D9A00C0C4A3 /* TabViewWithDropDownPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F682C8891774A718005141A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Viacheslav Radchenko";
+			};
+			buildConfigurationList = F682C88C1774A718005141A3 /* Build configuration list for PBXProject "TSUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F682C8881774A718005141A3;
+			productRefGroup = F682C8921774A718005141A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F682C8901774A718005141A3 /* TSUIKit */,
+				F682C8E11774B054005141A3 /* NavigationStripTest */,
+				F680D2851774B9C2005ACD94 /* TabViewTest */,
+				F6EE2A2E17835D9A00C0C4A3 /* TabViewWithDropDownPanel */,
+				F6A4C46117BD1F5F00AA8195 /* TableView */,
+				F63D2F1517CE48F900515A24 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F680D2841774B9C2005ACD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680D2E91774BA82005ACD94 /* Default-568h@2x.png in Resources */,
+				F680D2EA1774BA82005ACD94 /* Default.png in Resources */,
+				F680D2EB1774BA82005ACD94 /* Default@2x.png in Resources */,
+				F680D2EC1774BA82005ACD94 /* InfoPlist.strings in Resources */,
+				F680D2ED1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib in Resources */,
+				F680D2EE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib in Resources */,
+				F6141EFC17C6A64C003455EB /* LICENSE in Resources */,
+				F614201017C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */,
+				F614201517C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */,
+				F614201A17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */,
+				F614201F17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */,
+				F614202417C6BEF8003455EB /* NavigationStripIcon.png in Resources */,
+				F614202917C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */,
+				F614202E17C6BEF8003455EB /* NavigationStripItem.png in Resources */,
+				F614203317C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */,
+				F614203817C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */,
+				F614203D17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */,
+				F614204217C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */,
+				F614204717C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */,
+				F614204C17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */,
+				F614205117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */,
+				F614205617C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */,
+				F614205B17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */,
+				F614206017C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */,
+				F614206517C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */,
+				F614206A17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */,
+				F614206F17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */,
+				F614207417C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */,
+				F614207917C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */,
+				F614207E17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */,
+				F614208317C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */,
+				F614208817C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */,
+				F614208D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */,
+				F614209217C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */,
+				F614209717C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */,
+				F614209C17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */,
+				F61420A117C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */,
+				F61420A617C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */,
+				F61420AB17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */,
+				F61420B017C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */,
+				F61420B517C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */,
+				F61420BA17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */,
+				F61420BF17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */,
+				F61420C417C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */,
+				F61420C917C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */,
+				F61420CE17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */,
+				F61420D317C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */,
+				F61420D817C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */,
+				F61420DD17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */,
+				F61420E217C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */,
+				F61420E717C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */,
+				F61420EC17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */,
+				F61420F117C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */,
+				F61420F617C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */,
+				F61420FB17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */,
+				F614210017C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */,
+				F614210517C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */,
+				F614210A17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */,
+				F614210F17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C88F1774A718005141A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6141E2E17C58480003455EB /* TSTableViewController.xib in Resources */,
+				F6141E2F17C58480003455EB /* TSTableViewController~ipad.xib in Resources */,
+				F67936031785A57B009E2365 /* TSTabViewWithDropDownPanelTestViewController.xib in Resources */,
+				F67936041785A57B009E2365 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib in Resources */,
+				F680D3221774BC5C005ACD94 /* TSTabViewTestViewController~ipad.xib in Resources */,
+				F680D3231774BC5C005ACD94 /* TSTabViewTestViewController~iphone.xib in Resources */,
+				F680D26A1774B566005ACD94 /* TSNavigationStripTestViewController~ipad.xib in Resources */,
+				F680D26B1774B566005ACD94 /* TSNavigationStripTestViewController~iphone.xib in Resources */,
+				F6F3CF121781ABB500C7274F /* Default-568h@2x.png in Resources */,
+				F6F3CF131781ABB500C7274F /* Default.png in Resources */,
+				F6F3CF141781ABB500C7274F /* Default@2x.png in Resources */,
+				F6F3CF151781ABB500C7274F /* InfoPlist.strings in Resources */,
+				F6F3CF161781ABB500C7274F /* MainStoryboard_iPad.storyboard in Resources */,
+				F6F3CF171781ABB500C7274F /* MainStoryboard_iPhone.storyboard in Resources */,
+				F6141EFA17C6A64C003455EB /* LICENSE in Resources */,
+				F614200E17C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */,
+				F614201317C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */,
+				F614201817C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */,
+				F614201D17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */,
+				F614202217C6BEF8003455EB /* NavigationStripIcon.png in Resources */,
+				F614202717C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */,
+				F614202C17C6BEF8003455EB /* NavigationStripItem.png in Resources */,
+				F614203117C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */,
+				F614203617C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */,
+				F614203B17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */,
+				F614204017C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */,
+				F614204517C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */,
+				F614204A17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */,
+				F614204F17C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */,
+				F614205417C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */,
+				F614205917C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */,
+				F614205E17C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */,
+				F614206317C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */,
+				F614206817C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */,
+				F614206D17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */,
+				F614207217C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */,
+				F614207717C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */,
+				F614207C17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */,
+				F614208117C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */,
+				F614208617C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */,
+				F614208B17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */,
+				F614209017C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */,
+				F614209517C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */,
+				F614209A17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */,
+				F614209F17C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */,
+				F61420A417C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */,
+				F61420A917C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */,
+				F61420AE17C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */,
+				F61420B317C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */,
+				F61420B817C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */,
+				F61420BD17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */,
+				F61420C217C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */,
+				F61420C717C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */,
+				F61420CC17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */,
+				F61420D117C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */,
+				F61420D617C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */,
+				F61420DB17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */,
+				F61420E017C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */,
+				F61420E517C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */,
+				F61420EA17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */,
+				F61420EF17C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */,
+				F61420F417C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */,
+				F61420F917C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */,
+				F61420FE17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */,
+				F614210317C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */,
+				F614210817C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */,
+				F614210D17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */,
+				F657417E17CD731E00826563 /* TableViewFolderIcon@2x.png in Resources */,
+				F657418117CD74A400826563 /* TableViewFileIcon@2x.png in Resources */,
+				F657418417CD78C100826563 /* TableViewPackageIcon@2x.png in Resources */,
+				F657418917CD818F00826563 /* TableViewFileIcon.png in Resources */,
+				F657418B17CD818F00826563 /* TableViewFolderIcon.png in Resources */,
+				F657418D17CD818F00826563 /* TableViewPackageIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C8E01774B054005141A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F682C92C1774B095005141A3 /* Default-568h@2x.png in Resources */,
+				F682C92D1774B095005141A3 /* Default.png in Resources */,
+				F682C92E1774B095005141A3 /* Default@2x.png in Resources */,
+				F682C9651774B0CD005141A3 /* InfoPlist.strings in Resources */,
+				F682C9661774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib in Resources */,
+				F682C9671774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib in Resources */,
+				F6141EFB17C6A64C003455EB /* LICENSE in Resources */,
+				F614200F17C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */,
+				F614201417C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */,
+				F614201917C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */,
+				F614201E17C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */,
+				F614202317C6BEF8003455EB /* NavigationStripIcon.png in Resources */,
+				F614202817C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */,
+				F614202D17C6BEF8003455EB /* NavigationStripItem.png in Resources */,
+				F614203217C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */,
+				F614203717C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */,
+				F614203C17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */,
+				F614204117C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */,
+				F614204617C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */,
+				F614204B17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */,
+				F614205017C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */,
+				F614205517C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */,
+				F614205A17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */,
+				F614205F17C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */,
+				F614206417C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */,
+				F614206917C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */,
+				F614206E17C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */,
+				F614207317C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */,
+				F614207817C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */,
+				F614207D17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */,
+				F614208217C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */,
+				F614208717C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */,
+				F614208C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */,
+				F614209117C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */,
+				F614209617C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */,
+				F614209B17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */,
+				F61420A017C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */,
+				F61420A517C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */,
+				F61420AA17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */,
+				F61420AF17C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */,
+				F61420B417C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */,
+				F61420B917C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */,
+				F61420BE17C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */,
+				F61420C317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */,
+				F61420C817C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */,
+				F61420CD17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */,
+				F61420D217C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */,
+				F61420D717C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */,
+				F61420DC17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */,
+				F61420E117C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */,
+				F61420E617C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */,
+				F61420EB17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */,
+				F61420F017C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */,
+				F61420F517C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */,
+				F61420FA17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */,
+				F61420FF17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */,
+				F614210417C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */,
+				F614210917C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */,
+				F614210E17C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A4C46017BD1F5F00AA8195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A4C46B17BD1F6000AA8195 /* InfoPlist.strings in Resources */,
+				F6A4C47317BD1F6000AA8195 /* Default.png in Resources */,
+				F6A4C47517BD1F6000AA8195 /* Default@2x.png in Resources */,
+				F6A4C47717BD1F6000AA8195 /* Default-568h@2x.png in Resources */,
+				F6A4C47D17BD1F6000AA8195 /* TSTableViewController.xib in Resources */,
+				F6A4C48017BD1F6000AA8195 /* TSTableViewController~ipad.xib in Resources */,
+				F6141EFE17C6A64C003455EB /* LICENSE in Resources */,
+				F614201217C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */,
+				F614201717C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */,
+				F614201C17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */,
+				F614202117C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */,
+				F614202617C6BEF8003455EB /* NavigationStripIcon.png in Resources */,
+				F614202B17C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */,
+				F614203017C6BEF8003455EB /* NavigationStripItem.png in Resources */,
+				F614203517C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */,
+				F614203A17C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */,
+				F614203F17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */,
+				F614204417C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */,
+				F614204917C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */,
+				F614204E17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */,
+				F614205317C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */,
+				F614205817C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */,
+				F614205D17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */,
+				F614206217C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */,
+				F614206717C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */,
+				F614206C17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */,
+				F614207117C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */,
+				F614207617C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */,
+				F614207B17C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */,
+				F614208017C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */,
+				F614208517C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */,
+				F614208A17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */,
+				F614208F17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */,
+				F614209417C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */,
+				F614209917C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */,
+				F614209E17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */,
+				F61420A317C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */,
+				F61420A817C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */,
+				F61420AD17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */,
+				F61420B217C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */,
+				F61420B717C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */,
+				F61420BC17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */,
+				F61420C117C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */,
+				F61420C617C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */,
+				F61420CB17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */,
+				F61420D017C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */,
+				F61420D517C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */,
+				F61420DA17C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */,
+				F61420DF17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */,
+				F61420E417C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */,
+				F61420E917C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */,
+				F61420EE17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */,
+				F61420F317C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */,
+				F61420F817C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */,
+				F61420FD17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */,
+				F614210217C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */,
+				F614210717C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */,
+				F614210C17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */,
+				F614211117C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */,
+				F657417F17CD731E00826563 /* TableViewFolderIcon@2x.png in Resources */,
+				F657418217CD74A400826563 /* TableViewFileIcon@2x.png in Resources */,
+				F657418517CD78C100826563 /* TableViewPackageIcon@2x.png in Resources */,
+				F657418A17CD818F00826563 /* TableViewFileIcon.png in Resources */,
+				F657418C17CD818F00826563 /* TableViewFolderIcon.png in Resources */,
+				F657418E17CD818F00826563 /* TableViewPackageIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE2A2D17835D9A00C0C4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE2A3817835D9A00C0C4A3 /* InfoPlist.strings in Resources */,
+				F6EE2A4017835D9A00C0C4A3 /* Default.png in Resources */,
+				F6EE2A4217835D9A00C0C4A3 /* Default@2x.png in Resources */,
+				F6EE2A4417835D9A00C0C4A3 /* Default-568h@2x.png in Resources */,
+				F6EE2A4A17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib in Resources */,
+				F6EE2A4D17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib in Resources */,
+				F6141EFD17C6A64C003455EB /* LICENSE in Resources */,
+				F614201117C6BEF8003455EB /* NavigationStripHeaderBackground.png in Resources */,
+				F614201617C6BEF8003455EB /* NavigationStripHeaderBackground_1.png in Resources */,
+				F614201B17C6BEF8003455EB /* NavigationStripHeaderBackground_2.png in Resources */,
+				F614202017C6BEF8003455EB /* NavigationStripIcon-Selected.png in Resources */,
+				F614202517C6BEF8003455EB /* NavigationStripIcon.png in Resources */,
+				F614202A17C6BEF8003455EB /* NavigationStripItem-Selected.png in Resources */,
+				F614202F17C6BEF8003455EB /* NavigationStripItem.png in Resources */,
+				F614203417C6BEF8003455EB /* NavigationStripItemBlue.png in Resources */,
+				F614203917C6BEF8003455EB /* NavigationStripItemGrey.png in Resources */,
+				F614203E17C6BEF8003455EB /* NavigationStripItemRed.png in Resources */,
+				F614204317C6BEF8003455EB /* NavigationStripLeftSideButton-Selected.png in Resources */,
+				F614204817C6BEF8003455EB /* NavigationStripLeftSideButton.png in Resources */,
+				F614204D17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue.png in Resources */,
+				F614205217C6BEF8003455EB /* NavigationStripLeftSideButtonGrey.png in Resources */,
+				F614205717C6BEF8003455EB /* NavigationStripLeftSideButtonRed.png in Resources */,
+				F614205C17C6BEF8003455EB /* NavigationStripRightSideButton-Selected.png in Resources */,
+				F614206117C6BEF8003455EB /* NavigationStripRightSideButton.png in Resources */,
+				F614206617C6BEF8003455EB /* NavigationStripRightSideButtonBlue.png in Resources */,
+				F614206B17C6BEF8003455EB /* NavigationStripRightSideButtonGrey.png in Resources */,
+				F614207017C6BEF8003455EB /* NavigationStripRightSideButtonRed.png in Resources */,
+				F614207517C6BEF8003455EB /* NavigationStripSectionBackground-Selected.png in Resources */,
+				F614207A17C6BEF8003455EB /* NavigationStripSectionBackground.png in Resources */,
+				F614207F17C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected.png in Resources */,
+				F614208417C6BEF8003455EB /* NavigationStripSectionBackground_2.png in Resources */,
+				F614208917C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected.png in Resources */,
+				F614208E17C6BEF8003455EB /* NavigationStripSectionBackgroundRed.png in Resources */,
+				F614209317C6BEF8003455EB /* NavigationStripHeaderBackground@2x.png in Resources */,
+				F614209817C6BEF8003455EB /* NavigationStripHeaderBackground_1@2x.png in Resources */,
+				F614209D17C6BEF8003455EB /* NavigationStripHeaderBackground_2@2x.png in Resources */,
+				F61420A217C6BEF8003455EB /* NavigationStripIcon-Selected@2x.png in Resources */,
+				F61420A717C6BEF8003455EB /* NavigationStripIcon@2x.png in Resources */,
+				F61420AC17C6BEF8003455EB /* NavigationStripItem-Selected@2x.png in Resources */,
+				F61420B117C6BEF8003455EB /* NavigationStripItem@2x.png in Resources */,
+				F61420B617C6BEF8003455EB /* NavigationStripItemBlue@2x.png in Resources */,
+				F61420BB17C6BEF8003455EB /* NavigationStripItemGrey@2x.png in Resources */,
+				F61420C017C6BEF8003455EB /* NavigationStripItemRed@2x.png in Resources */,
+				F61420C517C6BEF8003455EB /* NavigationStripLeftSideButton-Selected@2x.png in Resources */,
+				F61420CA17C6BEF8003455EB /* NavigationStripLeftSideButton@2x.png in Resources */,
+				F61420CF17C6BEF8003455EB /* NavigationStripLeftSideButtonBlue@2x.png in Resources */,
+				F61420D417C6BEF8003455EB /* NavigationStripLeftSideButtonGrey@2x.png in Resources */,
+				F61420D917C6BEF8003455EB /* NavigationStripLeftSideButtonRed@2x.png in Resources */,
+				F61420DE17C6BEF8003455EB /* NavigationStripRightSideButton-Selected@2x.png in Resources */,
+				F61420E317C6BEF8003455EB /* NavigationStripRightSideButton@2x.png in Resources */,
+				F61420E817C6BEF8003455EB /* NavigationStripRightSideButtonBlue@2x.png in Resources */,
+				F61420ED17C6BEF8003455EB /* NavigationStripRightSideButtonGrey@2x.png in Resources */,
+				F61420F217C6BEF8003455EB /* NavigationStripRightSideButtonRed@2x.png in Resources */,
+				F61420F717C6BEF8003455EB /* NavigationStripSectionBackground-Selected@2x.png in Resources */,
+				F61420FC17C6BEF8003455EB /* NavigationStripSectionBackground@2x.png in Resources */,
+				F614210117C6BEF8003455EB /* NavigationStripSectionBackground_2-Selected@2x.png in Resources */,
+				F614210617C6BEF8003455EB /* NavigationStripSectionBackground_2@2x.png in Resources */,
+				F614210B17C6BEF8003455EB /* NavigationStripSectionBackgroundRed-Selected@2x.png in Resources */,
+				F614211017C6BEF8003455EB /* NavigationStripSectionBackgroundRed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F63D2F1917CE490000515A24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"Viacheslav Radchenko\" \\\n--company-id \"com.viacheslav.radchenko\" \\\n--output \"Documentation\" \\\n--install-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--merge-categories \\\n--exit-threshold 2 \\\n--docset-platform-family iphoneos \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/readme.md\" \\\n\"${PROJECT_DIR}/Classes\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F680D2821774B9C2005ACD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680D2EF1774BA82005ACD94 /* main.m in Sources */,
+				F680D31E1774BA82005ACD94 /* TSAppDelegate.m in Sources */,
+				F680D31F1774BA82005ACD94 /* TSTabViewTestViewController.m in Sources */,
+				F680D454177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */,
+				F6141F0117C6A64C003455EB /* TSUtils.m in Sources */,
+				F6141F0617C6A64C003455EB /* TSNavigationStripModel.m in Sources */,
+				F6141F0B17C6A64C003455EB /* TSNavigationStripView.m in Sources */,
+				F6141F1017C6A64C003455EB /* TSScrollView.m in Sources */,
+				F6141F1517C6A64C003455EB /* TSTableViewContentHolder.m in Sources */,
+				F6141F1A17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */,
+				F6141F1F17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */,
+				F6141F2417C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */,
+				F6141F2917C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */,
+				F6141F2E17C6A64C003455EB /* TSTableViewRow.m in Sources */,
+				F6141F3317C6A64C003455EB /* TSTableView.m in Sources */,
+				F6141F3817C6A64C003455EB /* TSTableViewCell.m in Sources */,
+				F6141F3D17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */,
+				F6141F4217C6A64C003455EB /* TSTableViewModel.m in Sources */,
+				F6141F4717C6A64C003455EB /* TSTabView.m in Sources */,
+				F6141F4C17C6A64C003455EB /* TSTabViewModel.m in Sources */,
+				F6141F5117C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */,
+				F6141F5617C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C88D1774A718005141A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6141E2D17C58462003455EB /* TSTableViewController.m in Sources */,
+				F67936021785A570009E2365 /* TSTabViewWithDropDownPanelTestViewController.m in Sources */,
+				F680D3251774BC74005ACD94 /* TSTabViewTestViewController.m in Sources */,
+				F680D2691774B551005ACD94 /* TSNavigationStripTestViewController.m in Sources */,
+				F680D452177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */,
+				F6F3CF181781ABB500C7274F /* main.m in Sources */,
+				F6F3CF191781ABB500C7274F /* TSAppDelegate.m in Sources */,
+				F6F3CF1A1781ABB500C7274F /* TSModelController.m in Sources */,
+				F6F3CF1B1781ABB500C7274F /* TSRootViewController.m in Sources */,
+				F6141EFF17C6A64C003455EB /* TSUtils.m in Sources */,
+				F6141F0417C6A64C003455EB /* TSNavigationStripModel.m in Sources */,
+				F6141F0917C6A64C003455EB /* TSNavigationStripView.m in Sources */,
+				F6141F0E17C6A64C003455EB /* TSScrollView.m in Sources */,
+				F6141F1317C6A64C003455EB /* TSTableViewContentHolder.m in Sources */,
+				F6141F1817C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */,
+				F6141F1D17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */,
+				F6141F2217C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */,
+				F6141F2717C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */,
+				F6141F2C17C6A64C003455EB /* TSTableViewRow.m in Sources */,
+				F6141F3117C6A64C003455EB /* TSTableView.m in Sources */,
+				F6141F3617C6A64C003455EB /* TSTableViewCell.m in Sources */,
+				F6141F3B17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */,
+				F6141F4017C6A64C003455EB /* TSTableViewModel.m in Sources */,
+				F6141F4517C6A64C003455EB /* TSTabView.m in Sources */,
+				F6141F4A17C6A64C003455EB /* TSTabViewModel.m in Sources */,
+				F6141F4F17C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */,
+				F6141F5417C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */,
+				F614220917CA02C3003455EB /* TSTableViewController+TestDataDefinition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F682C8DE1774B054005141A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F682C8ED1774B054005141A3 /* main.m in Sources */,
+				F682C8F11774B054005141A3 /* TSAppDelegate.m in Sources */,
+				F682C95D1774B095005141A3 /* TSNavigationStripTestViewController.m in Sources */,
+				F680D453177D0E0A005ACD94 /* TSTestSectionButton.m in Sources */,
+				F6141F0017C6A64C003455EB /* TSUtils.m in Sources */,
+				F6141F0517C6A64C003455EB /* TSNavigationStripModel.m in Sources */,
+				F6141F0A17C6A64C003455EB /* TSNavigationStripView.m in Sources */,
+				F6141F0F17C6A64C003455EB /* TSScrollView.m in Sources */,
+				F6141F1417C6A64C003455EB /* TSTableViewContentHolder.m in Sources */,
+				F6141F1917C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */,
+				F6141F1E17C6A64C003455EB /* TSTableViewExpandSection.m in Sources */,
+				F6141F2317C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */,
+				F6141F2817C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */,
+				F6141F2D17C6A64C003455EB /* TSTableViewRow.m in Sources */,
+				F6141F3217C6A64C003455EB /* TSTableView.m in Sources */,
+				F6141F3717C6A64C003455EB /* TSTableViewCell.m in Sources */,
+				F6141F3C17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */,
+				F6141F4117C6A64C003455EB /* TSTableViewModel.m in Sources */,
+				F6141F4617C6A64C003455EB /* TSTabView.m in Sources */,
+				F6141F4B17C6A64C003455EB /* TSTabViewModel.m in Sources */,
+				F6141F5017C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */,
+				F6141F5517C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A4C45E17BD1F5F00AA8195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A4C46D17BD1F6000AA8195 /* main.m in Sources */,
+				F6A4C47117BD1F6000AA8195 /* TSAppDelegate.m in Sources */,
+				F6A4C47A17BD1F6000AA8195 /* TSTableViewController.m in Sources */,
+				F6141F0317C6A64C003455EB /* TSUtils.m in Sources */,
+				F6141F0817C6A64C003455EB /* TSNavigationStripModel.m in Sources */,
+				F6141F0D17C6A64C003455EB /* TSNavigationStripView.m in Sources */,
+				F6141F1217C6A64C003455EB /* TSScrollView.m in Sources */,
+				F6141F1717C6A64C003455EB /* TSTableViewContentHolder.m in Sources */,
+				F6141F1C17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */,
+				F6141F2117C6A64C003455EB /* TSTableViewExpandSection.m in Sources */,
+				F6141F2617C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */,
+				F6141F2B17C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */,
+				F6141F3017C6A64C003455EB /* TSTableViewRow.m in Sources */,
+				F6141F3517C6A64C003455EB /* TSTableView.m in Sources */,
+				F6141F3A17C6A64C003455EB /* TSTableViewCell.m in Sources */,
+				F6141F3F17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */,
+				F6141F4417C6A64C003455EB /* TSTableViewModel.m in Sources */,
+				F6141F4917C6A64C003455EB /* TSTabView.m in Sources */,
+				F6141F4E17C6A64C003455EB /* TSTabViewModel.m in Sources */,
+				F6141F5317C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */,
+				F6141F5817C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */,
+				F614220A17CA02C3003455EB /* TSTableViewController+TestDataDefinition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE2A2B17835D9A00C0C4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EE2A3A17835D9A00C0C4A3 /* main.m in Sources */,
+				F6EE2A3E17835D9A00C0C4A3 /* TSAppDelegate.m in Sources */,
+				F6EE2A4717835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.m in Sources */,
+				F6141F0217C6A64C003455EB /* TSUtils.m in Sources */,
+				F6141F0717C6A64C003455EB /* TSNavigationStripModel.m in Sources */,
+				F6141F0C17C6A64C003455EB /* TSNavigationStripView.m in Sources */,
+				F6141F1117C6A64C003455EB /* TSScrollView.m in Sources */,
+				F6141F1617C6A64C003455EB /* TSTableViewContentHolder.m in Sources */,
+				F6141F1B17C6A64C003455EB /* TSTableViewExpandControlPanel.m in Sources */,
+				F6141F2017C6A64C003455EB /* TSTableViewExpandSection.m in Sources */,
+				F6141F2517C6A64C003455EB /* TSTableViewHeaderPanel.m in Sources */,
+				F6141F2A17C6A64C003455EB /* TSTableViewHeaderSection.m in Sources */,
+				F6141F2F17C6A64C003455EB /* TSTableViewRow.m in Sources */,
+				F6141F3417C6A64C003455EB /* TSTableView.m in Sources */,
+				F6141F3917C6A64C003455EB /* TSTableViewCell.m in Sources */,
+				F6141F3E17C6A64C003455EB /* TSTableViewHeaderSectionView.m in Sources */,
+				F6141F4317C6A64C003455EB /* TSTableViewModel.m in Sources */,
+				F6141F4817C6A64C003455EB /* TSTabView.m in Sources */,
+				F6141F4D17C6A64C003455EB /* TSTabViewModel.m in Sources */,
+				F6141F5217C6A64C003455EB /* TSTabViewWithDropDownPanel.m in Sources */,
+				F6141F5717C6A64C003455EB /* TSTabViewWithDropDownPanelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F680D2AA1774BA82005ACD94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F680D2AB1774BA82005ACD94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F680D2AC1774BA82005ACD94 /* TSTabViewTestViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F680D2AD1774BA82005ACD94 /* en */,
+			);
+			name = "TSTabViewTestViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F680D2AE1774BA82005ACD94 /* TSTabViewTestViewController~iphone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F680D2AF1774BA82005ACD94 /* en */,
+			);
+			name = "TSTabViewTestViewController~iphone.xib";
+			sourceTree = "<group>";
+		};
+		F682C95F1774B0CD005141A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F682C9601774B0CD005141A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F682C9611774B0CD005141A3 /* TSNavigationStripTestViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F682C9621774B0CD005141A3 /* en */,
+			);
+			name = "TSNavigationStripTestViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F682C9631774B0CD005141A3 /* TSNavigationStripTestViewController~iphone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F682C9641774B0CD005141A3 /* en */,
+			);
+			name = "TSNavigationStripTestViewController~iphone.xib";
+			sourceTree = "<group>";
+		};
+		F6A4C46917BD1F6000AA8195 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A4C46A17BD1F6000AA8195 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6A4C47B17BD1F6000AA8195 /* TSTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A4C47C17BD1F6000AA8195 /* en */,
+			);
+			name = TSTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		F6A4C47E17BD1F6000AA8195 /* TSTableViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A4C47F17BD1F6000AA8195 /* en */,
+			);
+			name = "TSTableViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F6EE2A3617835D9A00C0C4A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE2A3717835D9A00C0C4A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6EE2A4817835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE2A4917835D9A00C0C4A3 /* en */,
+			);
+			name = TSTabViewWithDropDownPanelTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		F6EE2A4B17835D9A00C0C4A3 /* TSTabViewWithDropDownPanelTestViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EE2A4C17835D9A00C0C4A3 /* en */,
+			);
+			name = "TSTabViewWithDropDownPanelTestViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+		F6F3CEFC1781ABB400C7274F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F3CEFD1781ABB400C7274F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6F3CEFE1781ABB400C7274F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F3CEFF1781ABB400C7274F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F6F3CF001781ABB400C7274F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F3CF011781ABB400C7274F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63D2F1617CE48F900515A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63D2F1717CE48F900515A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F680D29D1774B9C3005ACD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabViewTest/TabViewTest-Prefix.pch";
+				INFOPLIST_FILE = "TabViewTest/TabViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F680D29E1774B9C3005ACD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabViewTest/TabViewTest-Prefix.pch";
+				INFOPLIST_FILE = "TabViewTest/TabViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F682C8BB1774A718005141A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F682C8BC1774A718005141A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F682C8BE1774A718005141A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Radchencko (247T93RHM7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIKit/TSUIKit-Prefix.pch";
+				INFOPLIST_FILE = "TSUIKit/TSUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TSUIKit;
+				PROVISIONING_PROFILE = "27A69A17-DE43-45EC-8768-0DB6FA56D5A2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F682C8BF1774A718005141A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vyacheslav Radchencko (247T93RHM7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIKit/TSUIKit-Prefix.pch";
+				INFOPLIST_FILE = "TSUIKit/TSUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TSUIKit;
+				PROVISIONING_PROFILE = "27A69A17-DE43-45EC-8768-0DB6FA56D5A2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F682C8F31774B054005141A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationStripTest/NavigationStripTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationStripTest/NavigationStripTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F682C8F41774B054005141A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationStripTest/NavigationStripTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationStripTest/NavigationStripTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6A4C48217BD1F6000AA8195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
+				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6A4C48317BD1F6000AA8195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
+				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6EE2A4F17835D9A00C0C4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabViewWithDropDownPanel/TabViewWithDropDownPanel-Prefix.pch";
+				INFOPLIST_FILE = "TabViewWithDropDownPanel/TabViewWithDropDownPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6EE2A5017835D9A00C0C4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabViewWithDropDownPanel/TabViewWithDropDownPanel-Prefix.pch";
+				INFOPLIST_FILE = "TabViewWithDropDownPanel/TabViewWithDropDownPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63D2F1817CE48F900515A24 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63D2F1617CE48F900515A24 /* Debug */,
+				F63D2F1717CE48F900515A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F680D29C1774B9C3005ACD94 /* Build configuration list for PBXNativeTarget "TabViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F680D29D1774B9C3005ACD94 /* Debug */,
+				F680D29E1774B9C3005ACD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F682C88C1774A718005141A3 /* Build configuration list for PBXProject "TSUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F682C8BB1774A718005141A3 /* Debug */,
+				F682C8BC1774A718005141A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F682C8BD1774A718005141A3 /* Build configuration list for PBXNativeTarget "TSUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F682C8BE1774A718005141A3 /* Debug */,
+				F682C8BF1774A718005141A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F682C8F21774B054005141A3 /* Build configuration list for PBXNativeTarget "NavigationStripTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F682C8F31774B054005141A3 /* Debug */,
+				F682C8F41774B054005141A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A4C48117BD1F6000AA8195 /* Build configuration list for PBXNativeTarget "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A4C48217BD1F6000AA8195 /* Debug */,
+				F6A4C48317BD1F6000AA8195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE2A4E17835D9A00C0C4A3 /* Build configuration list for PBXNativeTarget "TabViewWithDropDownPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE2A4F17835D9A00C0C4A3 /* Debug */,
+				F6EE2A5017835D9A00C0C4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F682C8891774A718005141A3 /* Project object */;
+}

@@ -1,0 +1,7 @@
+After downloading iBrowser you must set up nuzip:
+
+(1) cd ibrowser
+(2) git submodule init
+(3) git submodule update
+
+(Thanks Ratty_)

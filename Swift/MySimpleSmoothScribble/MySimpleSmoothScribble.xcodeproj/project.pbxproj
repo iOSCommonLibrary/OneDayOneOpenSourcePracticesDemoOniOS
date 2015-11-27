@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6203F6A81BF8FFD90057CFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6A71BF8FFD90057CFD6 /* AppDelegate.swift */; };
+		6203F6AA1BF8FFD90057CFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6A91BF8FFD90057CFD6 /* ViewController.swift */; };
+		6203F6AD1BF8FFDA0057CFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6203F6AB1BF8FFDA0057CFD6 /* Main.storyboard */; };
+		6203F6AF1BF8FFDA0057CFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6203F6AE1BF8FFDA0057CFD6 /* Assets.xcassets */; };
+		6203F6B21BF8FFDA0057CFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6203F6B01BF8FFDA0057CFD6 /* LaunchScreen.storyboard */; };
+		6203F6BD1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6BC1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.swift */; };
+		6203F6C81BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6C71BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.swift */; };
+		6203F6D71BF900320057CFD6 /* MyScribblable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6D61BF900320057CFD6 /* MyScribblable.swift */; };
+		6203F6DE1BF99ABA0057CFD6 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203F6DD1BF99ABA0057CFD6 /* UIBezierPathExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6203F6B91BF8FFDA0057CFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6203F69C1BF8FFD90057CFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6203F6A31BF8FFD90057CFD6;
+			remoteInfo = MySimpleSmoothScribble;
+		};
+		6203F6C41BF8FFDA0057CFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6203F69C1BF8FFD90057CFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6203F6A31BF8FFD90057CFD6;
+			remoteInfo = MySimpleSmoothScribble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6203F6A41BF8FFD90057CFD6 /* MySimpleSmoothScribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleSmoothScribble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203F6A71BF8FFD90057CFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6203F6A91BF8FFD90057CFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6203F6AC1BF8FFDA0057CFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6203F6AE1BF8FFDA0057CFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6203F6B11BF8FFDA0057CFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6203F6B31BF8FFDA0057CFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203F6B81BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimpleSmoothScribbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203F6BC1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySimpleSmoothScribbleTests.swift; sourceTree = "<group>"; };
+		6203F6BE1BF8FFDA0057CFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203F6C31BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimpleSmoothScribbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203F6C71BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySimpleSmoothScribbleUITests.swift; sourceTree = "<group>"; };
+		6203F6C91BF8FFDA0057CFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203F6D61BF900320057CFD6 /* MyScribblable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScribblable.swift; sourceTree = "<group>"; };
+		6203F6DD1BF99ABA0057CFD6 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6203F6A11BF8FFD90057CFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6B51BF8FFDA0057CFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6C01BF8FFDA0057CFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6203F69B1BF8FFD90057CFD6 = {
+			isa = PBXGroup;
+			children = (
+				6203F6A61BF8FFD90057CFD6 /* MySimpleSmoothScribble */,
+				6203F6BB1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests */,
+				6203F6C61BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests */,
+				6203F6A51BF8FFD90057CFD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6203F6A51BF8FFD90057CFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6203F6A41BF8FFD90057CFD6 /* MySimpleSmoothScribble.app */,
+				6203F6B81BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.xctest */,
+				6203F6C31BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6203F6A61BF8FFD90057CFD6 /* MySimpleSmoothScribble */ = {
+			isa = PBXGroup;
+			children = (
+				6203F6D51BF900110057CFD6 /* Components */,
+				6203F6A71BF8FFD90057CFD6 /* AppDelegate.swift */,
+				6203F6A91BF8FFD90057CFD6 /* ViewController.swift */,
+				6203F6AB1BF8FFDA0057CFD6 /* Main.storyboard */,
+				6203F6AE1BF8FFDA0057CFD6 /* Assets.xcassets */,
+				6203F6B01BF8FFDA0057CFD6 /* LaunchScreen.storyboard */,
+				6203F6B31BF8FFDA0057CFD6 /* Info.plist */,
+			);
+			path = MySimpleSmoothScribble;
+			sourceTree = "<group>";
+		};
+		6203F6BB1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6203F6BC1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.swift */,
+				6203F6BE1BF8FFDA0057CFD6 /* Info.plist */,
+			);
+			path = MySimpleSmoothScribbleTests;
+			sourceTree = "<group>";
+		};
+		6203F6C61BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6203F6C71BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.swift */,
+				6203F6C91BF8FFDA0057CFD6 /* Info.plist */,
+			);
+			path = MySimpleSmoothScribbleUITests;
+			sourceTree = "<group>";
+		};
+		6203F6D51BF900110057CFD6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6203F6D61BF900320057CFD6 /* MyScribblable.swift */,
+				6203F6DD1BF99ABA0057CFD6 /* UIBezierPathExtension.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6203F6A31BF8FFD90057CFD6 /* MySimpleSmoothScribble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203F6CC1BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribble" */;
+			buildPhases = (
+				6203F6A01BF8FFD90057CFD6 /* Sources */,
+				6203F6A11BF8FFD90057CFD6 /* Frameworks */,
+				6203F6A21BF8FFD90057CFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySimpleSmoothScribble;
+			productName = MySimpleSmoothScribble;
+			productReference = 6203F6A41BF8FFD90057CFD6 /* MySimpleSmoothScribble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6203F6B71BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203F6CF1BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribbleTests" */;
+			buildPhases = (
+				6203F6B41BF8FFDA0057CFD6 /* Sources */,
+				6203F6B51BF8FFDA0057CFD6 /* Frameworks */,
+				6203F6B61BF8FFDA0057CFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6203F6BA1BF8FFDA0057CFD6 /* PBXTargetDependency */,
+			);
+			name = MySimpleSmoothScribbleTests;
+			productName = MySimpleSmoothScribbleTests;
+			productReference = 6203F6B81BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6203F6C21BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203F6D21BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribbleUITests" */;
+			buildPhases = (
+				6203F6BF1BF8FFDA0057CFD6 /* Sources */,
+				6203F6C01BF8FFDA0057CFD6 /* Frameworks */,
+				6203F6C11BF8FFDA0057CFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6203F6C51BF8FFDA0057CFD6 /* PBXTargetDependency */,
+			);
+			name = MySimpleSmoothScribbleUITests;
+			productName = MySimpleSmoothScribbleUITests;
+			productReference = 6203F6C31BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6203F69C1BF8FFD90057CFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.su;
+				TargetAttributes = {
+					6203F6A31BF8FFD90057CFD6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6203F6B71BF8FFDA0057CFD6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6203F6A31BF8FFD90057CFD6;
+					};
+					6203F6C21BF8FFDA0057CFD6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6203F6A31BF8FFD90057CFD6;
+					};
+				};
+			};
+			buildConfigurationList = 6203F69F1BF8FFD90057CFD6 /* Build configuration list for PBXProject "MySimpleSmoothScribble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6203F69B1BF8FFD90057CFD6;
+			productRefGroup = 6203F6A51BF8FFD90057CFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6203F6A31BF8FFD90057CFD6 /* MySimpleSmoothScribble */,
+				6203F6B71BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests */,
+				6203F6C21BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6203F6A21BF8FFD90057CFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203F6B21BF8FFDA0057CFD6 /* LaunchScreen.storyboard in Resources */,
+				6203F6AF1BF8FFDA0057CFD6 /* Assets.xcassets in Resources */,
+				6203F6AD1BF8FFDA0057CFD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6B61BF8FFDA0057CFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6C11BF8FFDA0057CFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6203F6A01BF8FFD90057CFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203F6D71BF900320057CFD6 /* MyScribblable.swift in Sources */,
+				6203F6AA1BF8FFD90057CFD6 /* ViewController.swift in Sources */,
+				6203F6A81BF8FFD90057CFD6 /* AppDelegate.swift in Sources */,
+				6203F6DE1BF99ABA0057CFD6 /* UIBezierPathExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6B41BF8FFDA0057CFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203F6BD1BF8FFDA0057CFD6 /* MySimpleSmoothScribbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203F6BF1BF8FFDA0057CFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203F6C81BF8FFDA0057CFD6 /* MySimpleSmoothScribbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6203F6BA1BF8FFDA0057CFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6203F6A31BF8FFD90057CFD6 /* MySimpleSmoothScribble */;
+			targetProxy = 6203F6B91BF8FFDA0057CFD6 /* PBXContainerItemProxy */;
+		};
+		6203F6C51BF8FFDA0057CFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6203F6A31BF8FFD90057CFD6 /* MySimpleSmoothScribble */;
+			targetProxy = 6203F6C41BF8FFDA0057CFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6203F6AB1BF8FFDA0057CFD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6203F6AC1BF8FFDA0057CFD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6203F6B01BF8FFDA0057CFD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6203F6B11BF8FFDA0057CFD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6203F6CA1BF8FFDA0057CFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6203F6CB1BF8FFDA0057CFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6203F6CD1BF8FFDA0057CFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySimpleSmoothScribble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6203F6CE1BF8FFDA0057CFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySimpleSmoothScribble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6203F6D01BF8FFDA0057CFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySimpleSmoothScribbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySimpleSmoothScribble.app/MySimpleSmoothScribble";
+			};
+			name = Debug;
+		};
+		6203F6D11BF8FFDA0057CFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MySimpleSmoothScribbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySimpleSmoothScribble.app/MySimpleSmoothScribble";
+			};
+			name = Release;
+		};
+		6203F6D31BF8FFDA0057CFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySimpleSmoothScribbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySimpleSmoothScribble;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6203F6D41BF8FFDA0057CFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MySimpleSmoothScribbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.MySimpleSmoothScribbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MySimpleSmoothScribble;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6203F69F1BF8FFD90057CFD6 /* Build configuration list for PBXProject "MySimpleSmoothScribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203F6CA1BF8FFDA0057CFD6 /* Debug */,
+				6203F6CB1BF8FFDA0057CFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203F6CC1BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203F6CD1BF8FFDA0057CFD6 /* Debug */,
+				6203F6CE1BF8FFDA0057CFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203F6CF1BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203F6D01BF8FFDA0057CFD6 /* Debug */,
+				6203F6D11BF8FFDA0057CFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203F6D21BF8FFDA0057CFD6 /* Build configuration list for PBXNativeTarget "MySimpleSmoothScribbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203F6D31BF8FFDA0057CFD6 /* Debug */,
+				6203F6D41BF8FFDA0057CFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6203F69C1BF8FFD90057CFD6 /* Project object */;
+}

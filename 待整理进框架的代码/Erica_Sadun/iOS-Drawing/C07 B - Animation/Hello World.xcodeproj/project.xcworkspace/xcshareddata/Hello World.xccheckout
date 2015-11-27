@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>906C6129-0007-49C7-B267-A5481201B908</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hello World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DFBC5D2307F03A1A71CF884CE13773A2484A1435</key>
+		<string>https://github.com/erica/iOS-Drawing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C07 B - Animation/Hello World.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DFBC5D2307F03A1A71CF884CE13773A2484A1435</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/erica/iOS-Drawing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DFBC5D2307F03A1A71CF884CE13773A2484A1435</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFBC5D2307F03A1A71CF884CE13773A2484A1435</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Drawing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
