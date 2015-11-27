@@ -1,0 +1,1695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B097E441871BE01006240D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F85AF1871A4DC004695DA /* XCTest.framework */; };
+		5B097E481871BE01006240D8 /* libObjectiveChain-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B097E321871BE01006240D8 /* libObjectiveChain-OSX.a */; };
+		5B097E5F1871BED0006240D8 /* OCAObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B097E5B1871BED0006240D8 /* OCAObjectTest.m */; };
+		5B097E601871BED0006240D8 /* OCAObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B097E5B1871BED0006240D8 /* OCAObjectTest.m */; };
+		5B1F4A4919264CD200158200 /* OCAFader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F4A4819264CD200158200 /* OCAFader.m */; };
+		5B217C96188442A100706ED9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B217C95188442A100706ED9 /* QuartzCore.framework */; };
+		5B217C98188442B300706ED9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B217C97188442B300706ED9 /* QuartzCore.framework */; };
+		5B2A3291192110F5008E5B36 /* OCATransformer+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A3290192110F5008E5B36 /* OCATransformer+UIImage.m */; };
+		5B2F2FD81881D9510028367B /* ObjectiveChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2F2F7E1881D9510028367B /* ObjectiveChain.h */; };
+		5B2F2FEF1883DF8B0028367B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2F2FEE1883DF8B0028367B /* CoreGraphics.framework */; };
+		5B2F2FF01883DF930028367B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F85A11871A4DC004695DA /* Foundation.framework */; };
+		5B2F2FF61883DFCB0028367B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2F2FF51883DFCB0028367B /* CoreGraphics.framework */; };
+		5B4148E11A3096DE005E77FB /* UIView+Gestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4148E01A3096DE005E77FB /* UIView+Gestures.m */; };
+		5B4F85A21871A4DC004695DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F85A11871A4DC004695DA /* Foundation.framework */; };
+		5B4F85B01871A4DC004695DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F85AF1871A4DC004695DA /* XCTest.framework */; };
+		5B4F85B11871A4DC004695DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F85A11871A4DC004695DA /* Foundation.framework */; };
+		5B4F85B61871A4DC004695DA /* libObjectiveChain-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4F859E1871A4DB004695DA /* libObjectiveChain-iOS.a */; };
+		5B52DA47191923210058A5EF /* UITextField+editedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52DA46191923210058A5EF /* UITextField+editedText.m */; };
+		5B52DA4A191924780058A5EF /* OCASwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B52DA48191924780058A5EF /* OCASwizzling.h */; };
+		5B52DA4B191924780058A5EF /* OCASwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52DA49191924780058A5EF /* OCASwizzling.m */; };
+		5B52DA4C191924780058A5EF /* OCASwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52DA49191924780058A5EF /* OCASwizzling.m */; };
+		5B538E3319F91A3E005E7773 /* OCALowPassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B538E3119F91A3E005E7773 /* OCALowPassFilter.h */; };
+		5B538E3419F91A3E005E7773 /* OCALowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B538E3219F91A3E005E7773 /* OCALowPassFilter.m */; };
+		5B538E3519F91A3E005E7773 /* OCALowPassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B538E3219F91A3E005E7773 /* OCALowPassFilter.m */; };
+		5B88200E189D099900D2DDEB /* OCAInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B88200C189D099900D2DDEB /* OCAInvoker.h */; };
+		5B88200F189D099900D2DDEB /* OCAInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88200D189D099900D2DDEB /* OCAInvoker.m */; };
+		5B882010189D099900D2DDEB /* OCAInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88200D189D099900D2DDEB /* OCAInvoker.m */; };
+		5B882013189D0EF600D2DDEB /* OCAVariadic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B882011189D0EF600D2DDEB /* OCAVariadic.h */; };
+		5B882014189D0EF600D2DDEB /* OCAVariadic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882012189D0EF600D2DDEB /* OCAVariadic.m */; };
+		5B882015189D0EF600D2DDEB /* OCAVariadic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882012189D0EF600D2DDEB /* OCAVariadic.m */; };
+		5B882017189D101D00D2DDEB /* OCAVariadicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882016189D101D00D2DDEB /* OCAVariadicTest.m */; };
+		5B882018189D101D00D2DDEB /* OCAVariadicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882016189D101D00D2DDEB /* OCAVariadicTest.m */; };
+		5B88201A189D219200D2DDEB /* OCAHubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882019189D219200D2DDEB /* OCAHubTest.m */; };
+		5B88201B189D219200D2DDEB /* OCAHubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882019189D219200D2DDEB /* OCAHubTest.m */; };
+		5B88201D189E813B00D2DDEB /* OCAFilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88201C189E813B00D2DDEB /* OCAFilterTest.m */; };
+		5B88201E189E813B00D2DDEB /* OCAFilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88201C189E813B00D2DDEB /* OCAFilterTest.m */; };
+		5B882026189E8B2700D2DDEB /* OCAThrottle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B882024189E8B2700D2DDEB /* OCAThrottle.h */; };
+		5B882027189E8B2700D2DDEB /* OCAThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882025189E8B2700D2DDEB /* OCAThrottle.m */; };
+		5B882028189E8B2700D2DDEB /* OCAThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882025189E8B2700D2DDEB /* OCAThrottle.m */; };
+		5B88202A189E8EC000D2DDEB /* OCAThrottleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882029189E8EC000D2DDEB /* OCAThrottleTest.m */; };
+		5B88202B189E8EC000D2DDEB /* OCAThrottleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882029189E8EC000D2DDEB /* OCAThrottleTest.m */; };
+		5B882033189FA8D800D2DDEB /* OCAPlaceholderObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B882031189FA8D800D2DDEB /* OCAPlaceholderObject.h */; };
+		5B882034189FA8D800D2DDEB /* OCAPlaceholderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882032189FA8D800D2DDEB /* OCAPlaceholderObject.m */; };
+		5B882035189FA8D800D2DDEB /* OCAPlaceholderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882032189FA8D800D2DDEB /* OCAPlaceholderObject.m */; };
+		5B882037189FB17500D2DDEB /* OCAInvokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882036189FB17500D2DDEB /* OCAInvokerTest.m */; };
+		5B882038189FB17500D2DDEB /* OCAInvokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B882036189FB17500D2DDEB /* OCAInvokerTest.m */; };
+		5B88205318A028DE00D2DDEB /* OCADebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B88205118A028DE00D2DDEB /* OCADebug.h */; };
+		5B88205418A028DE00D2DDEB /* OCADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205218A028DE00D2DDEB /* OCADebug.m */; };
+		5B88205518A028DE00D2DDEB /* OCADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205218A028DE00D2DDEB /* OCADebug.m */; };
+		5B88205918A0DFE000D2DDEB /* OCASwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B88205718A0DFE000D2DDEB /* OCASwitch.h */; };
+		5B88205A18A0DFE000D2DDEB /* OCASwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205818A0DFE000D2DDEB /* OCASwitch.m */; };
+		5B88205B18A0DFE000D2DDEB /* OCASwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205818A0DFE000D2DDEB /* OCASwitch.m */; };
+		5B88205D18A0E56100D2DDEB /* OCASwitchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205C18A0E56100D2DDEB /* OCASwitchTest.m */; };
+		5B88205E18A0E56100D2DDEB /* OCASwitchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88205C18A0E56100D2DDEB /* OCASwitchTest.m */; };
+		5B8F4DB1187EF60800D75EEE /* OCAPropertyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4DB0187EF60800D75EEE /* OCAPropertyTest.m */; };
+		5B8F4DB2187EF60800D75EEE /* OCAPropertyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8F4DB0187EF60800D75EEE /* OCAPropertyTest.m */; };
+		5BA549381896FBED0050288D /* OCAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548EE1896FBED0050288D /* OCAConsumer.h */; };
+		5BA5493C1896FBED0050288D /* OCASubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548F11896FBED0050288D /* OCASubscriber.h */; };
+		5BA5493D1896FBED0050288D /* OCASubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F21896FBED0050288D /* OCASubscriber.m */; };
+		5BA5493E1896FBED0050288D /* OCASubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F21896FBED0050288D /* OCASubscriber.m */; };
+		5BA5493F1896FBED0050288D /* OCABridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548F41896FBED0050288D /* OCABridge.h */; };
+		5BA549401896FBED0050288D /* OCABridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F51896FBED0050288D /* OCABridge.m */; };
+		5BA549411896FBED0050288D /* OCABridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F51896FBED0050288D /* OCABridge.m */; };
+		5BA549421896FBED0050288D /* OCAContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548F61896FBED0050288D /* OCAContext.h */; };
+		5BA549431896FBED0050288D /* OCAContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F71896FBED0050288D /* OCAContext.m */; };
+		5BA549441896FBED0050288D /* OCAContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F71896FBED0050288D /* OCAContext.m */; };
+		5BA549451896FBED0050288D /* OCAFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548F81896FBED0050288D /* OCAFilter.h */; };
+		5BA549461896FBED0050288D /* OCAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F91896FBED0050288D /* OCAFilter.m */; };
+		5BA549471896FBED0050288D /* OCAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548F91896FBED0050288D /* OCAFilter.m */; };
+		5BA549481896FBED0050288D /* OCAMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548FA1896FBED0050288D /* OCAMediator.h */; };
+		5BA549491896FBED0050288D /* OCAMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548FB1896FBED0050288D /* OCAMediator.m */; };
+		5BA5494A1896FBED0050288D /* OCAMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548FB1896FBED0050288D /* OCAMediator.m */; };
+		5BA5494B1896FBED0050288D /* OCAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548FC1896FBED0050288D /* OCAFoundation.h */; };
+		5BA5494C1896FBED0050288D /* OCAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA548FD1896FBED0050288D /* OCAObject.h */; };
+		5BA5494D1896FBED0050288D /* OCAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548FE1896FBED0050288D /* OCAObject.m */; };
+		5BA5494E1896FBED0050288D /* OCAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA548FE1896FBED0050288D /* OCAObject.m */; };
+		5BA5494F1896FBED0050288D /* OCAPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549001896FBED0050288D /* OCAPredicate.h */; };
+		5BA549501896FBED0050288D /* OCAPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549011896FBED0050288D /* OCAPredicate.m */; };
+		5BA549511896FBED0050288D /* OCAPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549011896FBED0050288D /* OCAPredicate.m */; };
+		5BA549521896FBED0050288D /* OCACommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549031896FBED0050288D /* OCACommand.h */; };
+		5BA549531896FBED0050288D /* OCACommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549041896FBED0050288D /* OCACommand.m */; };
+		5BA549541896FBED0050288D /* OCACommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549041896FBED0050288D /* OCACommand.m */; };
+		5BA549551896FBED0050288D /* OCAHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549051896FBED0050288D /* OCAHub.h */; };
+		5BA549561896FBED0050288D /* OCAHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549061896FBED0050288D /* OCAHub.m */; };
+		5BA549571896FBED0050288D /* OCAHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549061896FBED0050288D /* OCAHub.m */; };
+		5BA5495B1896FBED0050288D /* OCANotificator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549091896FBED0050288D /* OCANotificator.h */; };
+		5BA5495C1896FBED0050288D /* OCANotificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490A1896FBED0050288D /* OCANotificator.m */; };
+		5BA5495D1896FBED0050288D /* OCANotificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490A1896FBED0050288D /* OCANotificator.m */; };
+		5BA5495E1896FBED0050288D /* OCAProducer+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5490B1896FBED0050288D /* OCAProducer+Subclass.h */; };
+		5BA5495F1896FBED0050288D /* OCAProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5490C1896FBED0050288D /* OCAProducer.h */; };
+		5BA549601896FBED0050288D /* OCAProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490D1896FBED0050288D /* OCAProducer.m */; };
+		5BA549611896FBED0050288D /* OCAProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490D1896FBED0050288D /* OCAProducer.m */; };
+		5BA549621896FBED0050288D /* OCAProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5490E1896FBED0050288D /* OCAProperty.h */; };
+		5BA549631896FBED0050288D /* OCAProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490F1896FBED0050288D /* OCAProperty.m */; };
+		5BA549641896FBED0050288D /* OCAProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5490F1896FBED0050288D /* OCAProperty.m */; };
+		5BA549651896FBED0050288D /* OCATimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549101896FBED0050288D /* OCATimer.h */; };
+		5BA549661896FBED0050288D /* OCATimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549111896FBED0050288D /* OCATimer.m */; };
+		5BA549671896FBED0050288D /* OCATimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549111896FBED0050288D /* OCATimer.m */; };
+		5BA5496B1896FBED0050288D /* OCAMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549151896FBED0050288D /* OCAMath.h */; };
+		5BA5496C1896FBED0050288D /* OCAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549161896FBED0050288D /* OCAMath.m */; };
+		5BA5496D1896FBED0050288D /* OCAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549161896FBED0050288D /* OCAMath.m */; };
+		5BA5496E1896FBED0050288D /* OCATransformer+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549171896FBED0050288D /* OCATransformer+Base.h */; };
+		5BA5496F1896FBED0050288D /* OCATransformer+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549181896FBED0050288D /* OCATransformer+Base.m */; };
+		5BA549701896FBED0050288D /* OCATransformer+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549181896FBED0050288D /* OCATransformer+Base.m */; };
+		5BA549711896FBED0050288D /* OCATransformer+Collections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549191896FBED0050288D /* OCATransformer+Collections.h */; };
+		5BA549721896FBED0050288D /* OCATransformer+Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491A1896FBED0050288D /* OCATransformer+Collections.m */; };
+		5BA549731896FBED0050288D /* OCATransformer+Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491A1896FBED0050288D /* OCATransformer+Collections.m */; };
+		5BA549741896FBED0050288D /* OCATransformer+NSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5491B1896FBED0050288D /* OCATransformer+NSData.h */; };
+		5BA549751896FBED0050288D /* OCATransformer+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491C1896FBED0050288D /* OCATransformer+NSData.m */; };
+		5BA549761896FBED0050288D /* OCATransformer+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491C1896FBED0050288D /* OCATransformer+NSData.m */; };
+		5BA549771896FBED0050288D /* OCATransformer+NSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5491D1896FBED0050288D /* OCATransformer+NSDate.h */; };
+		5BA549781896FBED0050288D /* OCATransformer+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491E1896FBED0050288D /* OCATransformer+NSDate.m */; };
+		5BA549791896FBED0050288D /* OCATransformer+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5491E1896FBED0050288D /* OCATransformer+NSDate.m */; };
+		5BA5497A1896FBED0050288D /* OCATransformer+NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5491F1896FBED0050288D /* OCATransformer+NSString.h */; };
+		5BA5497B1896FBED0050288D /* OCATransformer+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549201896FBED0050288D /* OCATransformer+NSString.m */; };
+		5BA5497C1896FBED0050288D /* OCATransformer+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549201896FBED0050288D /* OCATransformer+NSString.m */; };
+		5BA5497D1896FBED0050288D /* OCATransformer+Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549211896FBED0050288D /* OCATransformer+Core.h */; };
+		5BA5497E1896FBED0050288D /* OCATransformer+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549221896FBED0050288D /* OCATransformer+Core.m */; };
+		5BA5497F1896FBED0050288D /* OCATransformer+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549221896FBED0050288D /* OCATransformer+Core.m */; };
+		5BA549801896FBED0050288D /* OCATransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549231896FBED0050288D /* OCATransformer.h */; };
+		5BA549811896FBED0050288D /* OCAAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549261896FBED0050288D /* OCAAccessor.h */; };
+		5BA549821896FBED0050288D /* OCAAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549271896FBED0050288D /* OCAAccessor.m */; };
+		5BA549831896FBED0050288D /* OCAAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549271896FBED0050288D /* OCAAccessor.m */; };
+		5BA549841896FBED0050288D /* OCAKeyPathAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549281896FBED0050288D /* OCAKeyPathAccessor.h */; };
+		5BA549851896FBED0050288D /* OCAKeyPathAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549291896FBED0050288D /* OCAKeyPathAccessor.m */; };
+		5BA549861896FBED0050288D /* OCAKeyPathAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549291896FBED0050288D /* OCAKeyPathAccessor.m */; };
+		5BA549871896FBED0050288D /* OCAStructureAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5492A1896FBED0050288D /* OCAStructureAccessor.h */; };
+		5BA549881896FBED0050288D /* OCAStructureAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492B1896FBED0050288D /* OCAStructureAccessor.m */; };
+		5BA549891896FBED0050288D /* OCAStructureAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492B1896FBED0050288D /* OCAStructureAccessor.m */; };
+		5BA5498A1896FBED0050288D /* NSArray+Ordinals.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5492C1896FBED0050288D /* NSArray+Ordinals.h */; };
+		5BA5498B1896FBED0050288D /* NSArray+Ordinals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492D1896FBED0050288D /* NSArray+Ordinals.m */; };
+		5BA5498C1896FBED0050288D /* NSArray+Ordinals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492D1896FBED0050288D /* NSArray+Ordinals.m */; };
+		5BA5498D1896FBED0050288D /* NSValue+Boxing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5492E1896FBED0050288D /* NSValue+Boxing.h */; };
+		5BA5498E1896FBED0050288D /* NSValue+Boxing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492F1896FBED0050288D /* NSValue+Boxing.m */; };
+		5BA5498F1896FBED0050288D /* NSValue+Boxing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5492F1896FBED0050288D /* NSValue+Boxing.m */; };
+		5BA549901896FBED0050288D /* OCADecomposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549301896FBED0050288D /* OCADecomposer.h */; };
+		5BA549911896FBED0050288D /* OCADecomposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549311896FBED0050288D /* OCADecomposer.m */; };
+		5BA549921896FBED0050288D /* OCADecomposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549311896FBED0050288D /* OCADecomposer.m */; };
+		5BA549931896FBED0050288D /* OCAInvocationCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549321896FBED0050288D /* OCAInvocationCatcher.h */; };
+		5BA549941896FBED0050288D /* OCAInvocationCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549331896FBED0050288D /* OCAInvocationCatcher.m */; };
+		5BA549951896FBED0050288D /* OCAInvocationCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549331896FBED0050288D /* OCAInvocationCatcher.m */; };
+		5BA549961896FBED0050288D /* OCAQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549341896FBED0050288D /* OCAQueue.h */; };
+		5BA549971896FBED0050288D /* OCAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549351896FBED0050288D /* OCAQueue.m */; };
+		5BA549981896FBED0050288D /* OCAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549351896FBED0050288D /* OCAQueue.m */; };
+		5BA549991896FBED0050288D /* OCASemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549361896FBED0050288D /* OCASemaphore.h */; };
+		5BA5499A1896FBED0050288D /* OCASemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549371896FBED0050288D /* OCASemaphore.m */; };
+		5BA5499B1896FBED0050288D /* OCASemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549371896FBED0050288D /* OCASemaphore.m */; };
+		5BA549AE18970D6F0050288D /* OCAGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5499D18970D6F0050288D /* OCAGeometry.h */; };
+		5BA549B218970D6F0050288D /* OCATransformer+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549A218970D6F0050288D /* OCATransformer+CATransform3D.h */; };
+		5BA549B318970D6F0050288D /* OCATransformer+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A318970D6F0050288D /* OCATransformer+CATransform3D.m */; };
+		5BA549B418970D6F0050288D /* OCATransformer+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A318970D6F0050288D /* OCATransformer+CATransform3D.m */; };
+		5BA549B518970D6F0050288D /* OCATransformer+CGAffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549A418970D6F0050288D /* OCATransformer+CGAffineTransform.h */; };
+		5BA549B618970D6F0050288D /* OCATransformer+CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A518970D6F0050288D /* OCATransformer+CGAffineTransform.m */; };
+		5BA549B718970D6F0050288D /* OCATransformer+CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A518970D6F0050288D /* OCATransformer+CGAffineTransform.m */; };
+		5BA549B818970D6F0050288D /* OCATransformer+CGPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549A618970D6F0050288D /* OCATransformer+CGPoint.h */; };
+		5BA549B918970D6F0050288D /* OCATransformer+CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A718970D6F0050288D /* OCATransformer+CGPoint.m */; };
+		5BA549BA18970D6F0050288D /* OCATransformer+CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A718970D6F0050288D /* OCATransformer+CGPoint.m */; };
+		5BA549BB18970D6F0050288D /* OCATransformer+CGRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549A818970D6F0050288D /* OCATransformer+CGRect.h */; };
+		5BA549BC18970D6F0050288D /* OCATransformer+CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A918970D6F0050288D /* OCATransformer+CGRect.m */; };
+		5BA549BD18970D6F0050288D /* OCATransformer+CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549A918970D6F0050288D /* OCATransformer+CGRect.m */; };
+		5BA549BE18970D6F0050288D /* OCATransformer+CGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549AA18970D6F0050288D /* OCATransformer+CGSize.h */; };
+		5BA549BF18970D6F0050288D /* OCATransformer+CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549AB18970D6F0050288D /* OCATransformer+CGSize.m */; };
+		5BA549C018970D6F0050288D /* OCATransformer+CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549AB18970D6F0050288D /* OCATransformer+CGSize.m */; };
+		5BA549C118970D6F0050288D /* OCATransformer+UIEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549AC18970D6F0050288D /* OCATransformer+UIEdgeInsets.h */; };
+		5BA549C218970D6F0050288D /* OCATransformer+UIEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549AD18970D6F0050288D /* OCATransformer+UIEdgeInsets.m */; };
+		5BA549C318970D6F0050288D /* OCATransformer+UIEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549AD18970D6F0050288D /* OCATransformer+UIEdgeInsets.m */; };
+		5BA549C818979F500050288D /* OCAPredicate+CGPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549C618979F500050288D /* OCAPredicate+CGPoint.h */; };
+		5BA549C918979F500050288D /* OCAPredicate+CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549C718979F500050288D /* OCAPredicate+CGPoint.m */; };
+		5BA549CA18979F500050288D /* OCAPredicate+CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549C718979F500050288D /* OCAPredicate+CGPoint.m */; };
+		5BA549CD1897A1B40050288D /* OCAPredicate+CGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549CB1897A1B40050288D /* OCAPredicate+CGSize.h */; };
+		5BA549CE1897A1B40050288D /* OCAPredicate+CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549CC1897A1B40050288D /* OCAPredicate+CGSize.m */; };
+		5BA549CF1897A1B40050288D /* OCAPredicate+CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549CC1897A1B40050288D /* OCAPredicate+CGSize.m */; };
+		5BA549D21897A21D0050288D /* OCAPredicate+CGRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549D01897A21D0050288D /* OCAPredicate+CGRect.h */; };
+		5BA549D31897A21D0050288D /* OCAPredicate+CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549D11897A21D0050288D /* OCAPredicate+CGRect.m */; };
+		5BA549D41897A21D0050288D /* OCAPredicate+CGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549D11897A21D0050288D /* OCAPredicate+CGRect.m */; };
+		5BA549D71897A3080050288D /* OCAPredicate+CGAffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549D51897A3080050288D /* OCAPredicate+CGAffineTransform.h */; };
+		5BA549D81897A3080050288D /* OCAPredicate+CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549D61897A3080050288D /* OCAPredicate+CGAffineTransform.m */; };
+		5BA549D91897A3080050288D /* OCAPredicate+CGAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549D61897A3080050288D /* OCAPredicate+CGAffineTransform.m */; };
+		5BA549DC1897A4800050288D /* OCAPredicate+UIEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549DA1897A4800050288D /* OCAPredicate+UIEdgeInsets.h */; };
+		5BA549DD1897A4800050288D /* OCAPredicate+UIEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549DB1897A4800050288D /* OCAPredicate+UIEdgeInsets.m */; };
+		5BA549DE1897A4800050288D /* OCAPredicate+UIEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549DB1897A4800050288D /* OCAPredicate+UIEdgeInsets.m */; };
+		5BA549E11897A5820050288D /* OCAPredicate+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549DF1897A5820050288D /* OCAPredicate+CATransform3D.h */; };
+		5BA549E21897A5820050288D /* OCAPredicate+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549E01897A5820050288D /* OCAPredicate+CATransform3D.m */; };
+		5BA549E31897A5820050288D /* OCAPredicate+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549E01897A5820050288D /* OCAPredicate+CATransform3D.m */; };
+		5BA549E61897A6ED0050288D /* OCAGeometry+Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA549E41897A6ED0050288D /* OCAGeometry+Functions.h */; };
+		5BA549E71897A6ED0050288D /* OCAGeometry+Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549E51897A6ED0050288D /* OCAGeometry+Functions.m */; };
+		5BA549E81897A6ED0050288D /* OCAGeometry+Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549E51897A6ED0050288D /* OCAGeometry+Functions.m */; };
+		5BA549F71897A8060050288D /* OCAUIKit+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549EC1897A8060050288D /* OCAUIKit+UIButton.m */; };
+		5BA549F81897A8060050288D /* OCAContext+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549EF1897A8060050288D /* OCAContext+UIKit.m */; };
+		5BA549F91897A8060050288D /* OCATargetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549F31897A8060050288D /* OCATargetter.m */; };
+		5BA549FA1897A8060050288D /* OCATransformer+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA549F61897A8060050288D /* OCATransformer+UIColor.m */; };
+		5BA8A6451875BD950012BA5D /* OCAMathTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A6441875BD950012BA5D /* OCAMathTest.m */; };
+		5BA8A6461875BD950012BA5D /* OCAMathTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A6441875BD950012BA5D /* OCAMathTest.m */; };
+		5BAB21B51884199500459B56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAB21B41884199500459B56 /* UIKit.framework */; };
+		5BB4FC7219093B19005A46CE /* OCAErrorRecoveryAttempter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4FC7119093B19005A46CE /* OCAErrorRecoveryAttempter.m */; };
+		5BB7CD331879BE51006916AB /* OCAFoundationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7CD321879BE51006916AB /* OCAFoundationTest.m */; };
+		5BB7CD341879BE51006916AB /* OCAFoundationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7CD321879BE51006916AB /* OCAFoundationTest.m */; };
+		5BB7CD5A187B397E006916AB /* OCAQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7CD59187B397E006916AB /* OCAQueueTest.m */; };
+		5BB7CD5B187B397E006916AB /* OCAQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7CD59187B397E006916AB /* OCAQueueTest.m */; };
+		5BD8AEA21876B41200EE2029 /* OCAAccessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8AEA11876B41200EE2029 /* OCAAccessorTest.m */; };
+		5BD8AEA31876B41200EE2029 /* OCAAccessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8AEA11876B41200EE2029 /* OCAAccessorTest.m */; };
+		5BD9ECED1871E1370069044C /* OCAConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9ECEC1871E1370069044C /* OCAConnectionTest.m */; };
+		5BD9ECEE1871E1370069044C /* OCAConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9ECEC1871E1370069044C /* OCAConnectionTest.m */; };
+		5BD9ED0D1873351C0069044C /* OCATransformerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9ED0C1873351C0069044C /* OCATransformerTest.m */; };
+		5BD9ED0E1873351C0069044C /* OCATransformerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9ED0C1873351C0069044C /* OCATransformerTest.m */; };
+		5BEA02AF189999640065DD89 /* OCAKeyValueChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEA02AD189999640065DD89 /* OCAKeyValueChange.h */; };
+		5BEA02B0189999640065DD89 /* OCAKeyValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA02AE189999640065DD89 /* OCAKeyValueChange.m */; };
+		5BEA02B1189999640065DD89 /* OCAKeyValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA02AE189999640065DD89 /* OCAKeyValueChange.m */; };
+		5BEFA5101AE10F16000AA6A4 /* OCAMutableArrayProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEFA50E1AE10F16000AA6A4 /* OCAMutableArrayProxy.h */; };
+		5BEFA5111AE10F16000AA6A4 /* OCAMutableArrayProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFA50F1AE10F16000AA6A4 /* OCAMutableArrayProxy.m */; };
+		5BEFA5121AE10F16000AA6A4 /* OCAMutableArrayProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEFA50F1AE10F16000AA6A4 /* OCAMutableArrayProxy.m */; };
+		5BFB66D819000FC1005D0920 /* OCAIndexAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFB66D619000FC1005D0920 /* OCAIndexAccessor.h */; };
+		5BFB66D919000FC1005D0920 /* OCAIndexAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB66D719000FC1005D0920 /* OCAIndexAccessor.m */; };
+		5BFB66DA19000FC1005D0920 /* OCAIndexAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB66D719000FC1005D0920 /* OCAIndexAccessor.m */; };
+		5BFB66DD19002585005D0920 /* UIView+tintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB66DC19002585005D0920 /* UIView+tintColor.m */; };
+		5F84F18E18BBA2680074D308 /* OCAInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F84F18D18BBA2680074D308 /* OCAInterpolator.m */; };
+		5FBC533E18BE237B002F2B79 /* OCAInterpolatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC533D18BE237B002F2B79 /* OCAInterpolatorTest.m */; };
+		5FBC533F18BE237B002F2B79 /* OCAInterpolatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC533D18BE237B002F2B79 /* OCAInterpolatorTest.m */; };
+		5FBC534018BE2390002F2B79 /* OCAInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F84F18D18BBA2680074D308 /* OCAInterpolator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B097E461871BE01006240D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E8BC51871A23B008AC4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B097E311871BE01006240D8;
+			remoteInfo = "ObjectiveChain-OSX";
+		};
+		5B4F85B41871A4DC004695DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E8BC51871A23B008AC4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4F859D1871A4DB004695DA;
+			remoteInfo = "ObjectiveChain-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B4F859C1871A4DB004695DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B097E321871BE01006240D8 /* libObjectiveChain-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjectiveChain-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B097E431871BE01006240D8 /* ObjectiveChain-OSX-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveChain-OSX-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B097E5A1871BED0006240D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B097E5B1871BED0006240D8 /* OCAObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAObjectTest.m; sourceTree = "<group>"; };
+		5B097E5C1871BED0006240D8 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		5B1F4A4719264CD200158200 /* OCAFader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAFader.h; sourceTree = "<group>"; };
+		5B1F4A4819264CD200158200 /* OCAFader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAFader.m; sourceTree = "<group>"; };
+		5B217C95188442A100706ED9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5B217C97188442B300706ED9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5B2A328F192110F5008E5B36 /* OCATransformer+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+UIImage.h"; sourceTree = "<group>"; };
+		5B2A3290192110F5008E5B36 /* OCATransformer+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+UIImage.m"; sourceTree = "<group>"; };
+		5B2F2F7E1881D9510028367B /* ObjectiveChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChain.h; sourceTree = "<group>"; };
+		5B2F2FEE1883DF8B0028367B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5B2F2FF51883DFCB0028367B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B4148DF1A3096DE005E77FB /* UIView+Gestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gestures.h"; sourceTree = "<group>"; };
+		5B4148E01A3096DE005E77FB /* UIView+Gestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gestures.m"; sourceTree = "<group>"; };
+		5B4F859E1871A4DB004695DA /* libObjectiveChain-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjectiveChain-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4F85A11871A4DC004695DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B4F85AE1871A4DC004695DA /* ObjectiveChain-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveChain-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4F85AF1871A4DC004695DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B52DA45191923210058A5EF /* UITextField+editedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+editedText.h"; sourceTree = "<group>"; };
+		5B52DA46191923210058A5EF /* UITextField+editedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+editedText.m"; sourceTree = "<group>"; };
+		5B52DA48191924780058A5EF /* OCASwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCASwizzling.h; sourceTree = "<group>"; };
+		5B52DA49191924780058A5EF /* OCASwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCASwizzling.m; sourceTree = "<group>"; };
+		5B538E3119F91A3E005E7773 /* OCALowPassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCALowPassFilter.h; sourceTree = "<group>"; };
+		5B538E3219F91A3E005E7773 /* OCALowPassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCALowPassFilter.m; sourceTree = "<group>"; };
+		5B88200C189D099900D2DDEB /* OCAInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAInvoker.h; sourceTree = "<group>"; };
+		5B88200D189D099900D2DDEB /* OCAInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAInvoker.m; sourceTree = "<group>"; };
+		5B882011189D0EF600D2DDEB /* OCAVariadic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAVariadic.h; sourceTree = "<group>"; };
+		5B882012189D0EF600D2DDEB /* OCAVariadic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAVariadic.m; sourceTree = "<group>"; };
+		5B882016189D101D00D2DDEB /* OCAVariadicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAVariadicTest.m; sourceTree = "<group>"; };
+		5B882019189D219200D2DDEB /* OCAHubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAHubTest.m; sourceTree = "<group>"; };
+		5B88201C189E813B00D2DDEB /* OCAFilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAFilterTest.m; sourceTree = "<group>"; };
+		5B882024189E8B2700D2DDEB /* OCAThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAThrottle.h; sourceTree = "<group>"; };
+		5B882025189E8B2700D2DDEB /* OCAThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAThrottle.m; sourceTree = "<group>"; };
+		5B882029189E8EC000D2DDEB /* OCAThrottleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAThrottleTest.m; sourceTree = "<group>"; };
+		5B882031189FA8D800D2DDEB /* OCAPlaceholderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAPlaceholderObject.h; sourceTree = "<group>"; };
+		5B882032189FA8D800D2DDEB /* OCAPlaceholderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAPlaceholderObject.m; sourceTree = "<group>"; };
+		5B882036189FB17500D2DDEB /* OCAInvokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAInvokerTest.m; sourceTree = "<group>"; };
+		5B88205118A028DE00D2DDEB /* OCADebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCADebug.h; sourceTree = "<group>"; };
+		5B88205218A028DE00D2DDEB /* OCADebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCADebug.m; sourceTree = "<group>"; };
+		5B88205718A0DFE000D2DDEB /* OCASwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCASwitch.h; sourceTree = "<group>"; };
+		5B88205818A0DFE000D2DDEB /* OCASwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCASwitch.m; sourceTree = "<group>"; };
+		5B88205C18A0E56100D2DDEB /* OCASwitchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCASwitchTest.m; sourceTree = "<group>"; };
+		5B8F4DB0187EF60800D75EEE /* OCAPropertyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAPropertyTest.m; sourceTree = "<group>"; };
+		5BA548EE1896FBED0050288D /* OCAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAConsumer.h; sourceTree = "<group>"; };
+		5BA548F11896FBED0050288D /* OCASubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCASubscriber.h; sourceTree = "<group>"; };
+		5BA548F21896FBED0050288D /* OCASubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCASubscriber.m; sourceTree = "<group>"; };
+		5BA548F41896FBED0050288D /* OCABridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCABridge.h; sourceTree = "<group>"; };
+		5BA548F51896FBED0050288D /* OCABridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCABridge.m; sourceTree = "<group>"; };
+		5BA548F61896FBED0050288D /* OCAContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAContext.h; sourceTree = "<group>"; };
+		5BA548F71896FBED0050288D /* OCAContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAContext.m; sourceTree = "<group>"; };
+		5BA548F81896FBED0050288D /* OCAFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAFilter.h; sourceTree = "<group>"; };
+		5BA548F91896FBED0050288D /* OCAFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAFilter.m; sourceTree = "<group>"; };
+		5BA548FA1896FBED0050288D /* OCAMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAMediator.h; sourceTree = "<group>"; };
+		5BA548FB1896FBED0050288D /* OCAMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAMediator.m; sourceTree = "<group>"; };
+		5BA548FC1896FBED0050288D /* OCAFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAFoundation.h; sourceTree = "<group>"; };
+		5BA548FD1896FBED0050288D /* OCAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAObject.h; sourceTree = "<group>"; };
+		5BA548FE1896FBED0050288D /* OCAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAObject.m; sourceTree = "<group>"; };
+		5BA549001896FBED0050288D /* OCAPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAPredicate.h; sourceTree = "<group>"; };
+		5BA549011896FBED0050288D /* OCAPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAPredicate.m; sourceTree = "<group>"; };
+		5BA549031896FBED0050288D /* OCACommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCACommand.h; sourceTree = "<group>"; };
+		5BA549041896FBED0050288D /* OCACommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCACommand.m; sourceTree = "<group>"; };
+		5BA549051896FBED0050288D /* OCAHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAHub.h; sourceTree = "<group>"; };
+		5BA549061896FBED0050288D /* OCAHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAHub.m; sourceTree = "<group>"; };
+		5BA549091896FBED0050288D /* OCANotificator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCANotificator.h; sourceTree = "<group>"; };
+		5BA5490A1896FBED0050288D /* OCANotificator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCANotificator.m; sourceTree = "<group>"; };
+		5BA5490B1896FBED0050288D /* OCAProducer+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAProducer+Subclass.h"; sourceTree = "<group>"; };
+		5BA5490C1896FBED0050288D /* OCAProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAProducer.h; sourceTree = "<group>"; };
+		5BA5490D1896FBED0050288D /* OCAProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAProducer.m; sourceTree = "<group>"; };
+		5BA5490E1896FBED0050288D /* OCAProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAProperty.h; sourceTree = "<group>"; };
+		5BA5490F1896FBED0050288D /* OCAProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAProperty.m; sourceTree = "<group>"; };
+		5BA549101896FBED0050288D /* OCATimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCATimer.h; sourceTree = "<group>"; };
+		5BA549111896FBED0050288D /* OCATimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCATimer.m; sourceTree = "<group>"; };
+		5BA549151896FBED0050288D /* OCAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAMath.h; sourceTree = "<group>"; };
+		5BA549161896FBED0050288D /* OCAMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAMath.m; sourceTree = "<group>"; };
+		5BA549171896FBED0050288D /* OCATransformer+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+Base.h"; sourceTree = "<group>"; };
+		5BA549181896FBED0050288D /* OCATransformer+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+Base.m"; sourceTree = "<group>"; };
+		5BA549191896FBED0050288D /* OCATransformer+Collections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+Collections.h"; sourceTree = "<group>"; };
+		5BA5491A1896FBED0050288D /* OCATransformer+Collections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+Collections.m"; sourceTree = "<group>"; };
+		5BA5491B1896FBED0050288D /* OCATransformer+NSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+NSData.h"; sourceTree = "<group>"; };
+		5BA5491C1896FBED0050288D /* OCATransformer+NSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+NSData.m"; sourceTree = "<group>"; };
+		5BA5491D1896FBED0050288D /* OCATransformer+NSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+NSDate.h"; sourceTree = "<group>"; };
+		5BA5491E1896FBED0050288D /* OCATransformer+NSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+NSDate.m"; sourceTree = "<group>"; };
+		5BA5491F1896FBED0050288D /* OCATransformer+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+NSString.h"; sourceTree = "<group>"; };
+		5BA549201896FBED0050288D /* OCATransformer+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+NSString.m"; sourceTree = "<group>"; };
+		5BA549211896FBED0050288D /* OCATransformer+Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+Core.h"; sourceTree = "<group>"; };
+		5BA549221896FBED0050288D /* OCATransformer+Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+Core.m"; sourceTree = "<group>"; };
+		5BA549231896FBED0050288D /* OCATransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCATransformer.h; sourceTree = "<group>"; };
+		5BA549261896FBED0050288D /* OCAAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAccessor.h; sourceTree = "<group>"; };
+		5BA549271896FBED0050288D /* OCAAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAAccessor.m; sourceTree = "<group>"; };
+		5BA549281896FBED0050288D /* OCAKeyPathAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAKeyPathAccessor.h; sourceTree = "<group>"; };
+		5BA549291896FBED0050288D /* OCAKeyPathAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAKeyPathAccessor.m; sourceTree = "<group>"; };
+		5BA5492A1896FBED0050288D /* OCAStructureAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAStructureAccessor.h; sourceTree = "<group>"; };
+		5BA5492B1896FBED0050288D /* OCAStructureAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAStructureAccessor.m; sourceTree = "<group>"; };
+		5BA5492C1896FBED0050288D /* NSArray+Ordinals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ordinals.h"; sourceTree = "<group>"; };
+		5BA5492D1896FBED0050288D /* NSArray+Ordinals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ordinals.m"; sourceTree = "<group>"; };
+		5BA5492E1896FBED0050288D /* NSValue+Boxing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Boxing.h"; sourceTree = "<group>"; };
+		5BA5492F1896FBED0050288D /* NSValue+Boxing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Boxing.m"; sourceTree = "<group>"; };
+		5BA549301896FBED0050288D /* OCADecomposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCADecomposer.h; sourceTree = "<group>"; };
+		5BA549311896FBED0050288D /* OCADecomposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCADecomposer.m; sourceTree = "<group>"; };
+		5BA549321896FBED0050288D /* OCAInvocationCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAInvocationCatcher.h; sourceTree = "<group>"; };
+		5BA549331896FBED0050288D /* OCAInvocationCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAInvocationCatcher.m; sourceTree = "<group>"; };
+		5BA549341896FBED0050288D /* OCAQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAQueue.h; sourceTree = "<group>"; };
+		5BA549351896FBED0050288D /* OCAQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAQueue.m; sourceTree = "<group>"; };
+		5BA549361896FBED0050288D /* OCASemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCASemaphore.h; sourceTree = "<group>"; };
+		5BA549371896FBED0050288D /* OCASemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCASemaphore.m; sourceTree = "<group>"; };
+		5BA5499D18970D6F0050288D /* OCAGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAGeometry.h; sourceTree = "<group>"; };
+		5BA549A218970D6F0050288D /* OCATransformer+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+CATransform3D.h"; sourceTree = "<group>"; };
+		5BA549A318970D6F0050288D /* OCATransformer+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+CATransform3D.m"; sourceTree = "<group>"; };
+		5BA549A418970D6F0050288D /* OCATransformer+CGAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+CGAffineTransform.h"; sourceTree = "<group>"; };
+		5BA549A518970D6F0050288D /* OCATransformer+CGAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+CGAffineTransform.m"; sourceTree = "<group>"; };
+		5BA549A618970D6F0050288D /* OCATransformer+CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+CGPoint.h"; sourceTree = "<group>"; };
+		5BA549A718970D6F0050288D /* OCATransformer+CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+CGPoint.m"; sourceTree = "<group>"; };
+		5BA549A818970D6F0050288D /* OCATransformer+CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+CGRect.h"; sourceTree = "<group>"; };
+		5BA549A918970D6F0050288D /* OCATransformer+CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+CGRect.m"; sourceTree = "<group>"; };
+		5BA549AA18970D6F0050288D /* OCATransformer+CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+CGSize.h"; sourceTree = "<group>"; };
+		5BA549AB18970D6F0050288D /* OCATransformer+CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+CGSize.m"; sourceTree = "<group>"; };
+		5BA549AC18970D6F0050288D /* OCATransformer+UIEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+UIEdgeInsets.h"; sourceTree = "<group>"; };
+		5BA549AD18970D6F0050288D /* OCATransformer+UIEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+UIEdgeInsets.m"; sourceTree = "<group>"; };
+		5BA549C618979F500050288D /* OCAPredicate+CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+CGPoint.h"; sourceTree = "<group>"; };
+		5BA549C718979F500050288D /* OCAPredicate+CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+CGPoint.m"; sourceTree = "<group>"; };
+		5BA549CB1897A1B40050288D /* OCAPredicate+CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+CGSize.h"; sourceTree = "<group>"; };
+		5BA549CC1897A1B40050288D /* OCAPredicate+CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+CGSize.m"; sourceTree = "<group>"; };
+		5BA549D01897A21D0050288D /* OCAPredicate+CGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+CGRect.h"; sourceTree = "<group>"; };
+		5BA549D11897A21D0050288D /* OCAPredicate+CGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+CGRect.m"; sourceTree = "<group>"; };
+		5BA549D51897A3080050288D /* OCAPredicate+CGAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+CGAffineTransform.h"; sourceTree = "<group>"; };
+		5BA549D61897A3080050288D /* OCAPredicate+CGAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+CGAffineTransform.m"; sourceTree = "<group>"; };
+		5BA549DA1897A4800050288D /* OCAPredicate+UIEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+UIEdgeInsets.h"; sourceTree = "<group>"; };
+		5BA549DB1897A4800050288D /* OCAPredicate+UIEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+UIEdgeInsets.m"; sourceTree = "<group>"; };
+		5BA549DF1897A5820050288D /* OCAPredicate+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAPredicate+CATransform3D.h"; sourceTree = "<group>"; };
+		5BA549E01897A5820050288D /* OCAPredicate+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAPredicate+CATransform3D.m"; sourceTree = "<group>"; };
+		5BA549E41897A6ED0050288D /* OCAGeometry+Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAGeometry+Functions.h"; sourceTree = "<group>"; };
+		5BA549E51897A6ED0050288D /* OCAGeometry+Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAGeometry+Functions.m"; sourceTree = "<group>"; };
+		5BA549EB1897A8060050288D /* OCAUIKit+UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAUIKit+UIButton.h"; sourceTree = "<group>"; };
+		5BA549EC1897A8060050288D /* OCAUIKit+UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAUIKit+UIButton.m"; sourceTree = "<group>"; };
+		5BA549EE1897A8060050288D /* OCAContext+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCAContext+UIKit.h"; sourceTree = "<group>"; };
+		5BA549EF1897A8060050288D /* OCAContext+UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCAContext+UIKit.m"; sourceTree = "<group>"; };
+		5BA549F01897A8060050288D /* OCAUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAUIKit.h; sourceTree = "<group>"; };
+		5BA549F21897A8060050288D /* OCATargetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCATargetter.h; sourceTree = "<group>"; };
+		5BA549F31897A8060050288D /* OCATargetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCATargetter.m; sourceTree = "<group>"; };
+		5BA549F51897A8060050288D /* OCATransformer+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCATransformer+UIColor.h"; sourceTree = "<group>"; };
+		5BA549F61897A8060050288D /* OCATransformer+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCATransformer+UIColor.m"; sourceTree = "<group>"; };
+		5BA8A6441875BD950012BA5D /* OCAMathTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAMathTest.m; sourceTree = "<group>"; };
+		5BAB21B41884199500459B56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BB4FC7019093B19005A46CE /* OCAErrorRecoveryAttempter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAErrorRecoveryAttempter.h; sourceTree = "<group>"; };
+		5BB4FC7119093B19005A46CE /* OCAErrorRecoveryAttempter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAErrorRecoveryAttempter.m; sourceTree = "<group>"; };
+		5BB7CD321879BE51006916AB /* OCAFoundationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAFoundationTest.m; sourceTree = "<group>"; };
+		5BB7CD59187B397E006916AB /* OCAQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAQueueTest.m; sourceTree = "<group>"; };
+		5BD8AEA11876B41200EE2029 /* OCAAccessorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAAccessorTest.m; sourceTree = "<group>"; };
+		5BD9ECEC1871E1370069044C /* OCAConnectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAConnectionTest.m; sourceTree = "<group>"; };
+		5BD9ED0C1873351C0069044C /* OCATransformerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCATransformerTest.m; sourceTree = "<group>"; };
+		5BEA02AD189999640065DD89 /* OCAKeyValueChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAKeyValueChange.h; sourceTree = "<group>"; };
+		5BEA02AE189999640065DD89 /* OCAKeyValueChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAKeyValueChange.m; sourceTree = "<group>"; };
+		5BEFA50E1AE10F16000AA6A4 /* OCAMutableArrayProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAMutableArrayProxy.h; sourceTree = "<group>"; };
+		5BEFA50F1AE10F16000AA6A4 /* OCAMutableArrayProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAMutableArrayProxy.m; sourceTree = "<group>"; };
+		5BFB66D619000FC1005D0920 /* OCAIndexAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIndexAccessor.h; sourceTree = "<group>"; };
+		5BFB66D719000FC1005D0920 /* OCAIndexAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIndexAccessor.m; sourceTree = "<group>"; };
+		5BFB66DB19002585005D0920 /* UIView+tintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+tintColor.h"; sourceTree = "<group>"; };
+		5BFB66DC19002585005D0920 /* UIView+tintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+tintColor.m"; sourceTree = "<group>"; };
+		5F84F18C18BBA2680074D308 /* OCAInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAInterpolator.h; sourceTree = "<group>"; };
+		5F84F18D18BBA2680074D308 /* OCAInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAInterpolator.m; sourceTree = "<group>"; };
+		5FBC533D18BE237B002F2B79 /* OCAInterpolatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAInterpolatorTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B097E2F1871BE01006240D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B217C98188442B300706ED9 /* QuartzCore.framework in Frameworks */,
+				5B2F2FF61883DFCB0028367B /* CoreGraphics.framework in Frameworks */,
+				5B2F2FF01883DF930028367B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B097E401871BE01006240D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B097E481871BE01006240D8 /* libObjectiveChain-OSX.a in Frameworks */,
+				5B097E441871BE01006240D8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4F859B1871A4DB004695DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B217C96188442A100706ED9 /* QuartzCore.framework in Frameworks */,
+				5BAB21B51884199500459B56 /* UIKit.framework in Frameworks */,
+				5B2F2FEF1883DF8B0028367B /* CoreGraphics.framework in Frameworks */,
+				5B4F85A21871A4DC004695DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4F85AB1871A4DC004695DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4F85B01871A4DC004695DA /* XCTest.framework in Frameworks */,
+				5B4F85B11871A4DC004695DA /* Foundation.framework in Frameworks */,
+				5B4F85B61871A4DC004695DA /* libObjectiveChain-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2E8BC41871A23B008AC4B1 = {
+			isa = PBXGroup;
+			children = (
+				5B2F2F331881D9500028367B /* Sources */,
+				5B4F85C71871A874004695DA /* Tests */,
+				5B4F85A01871A4DB004695DA /* Frameworks */,
+				5B4F859F1871A4DB004695DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2F2F331881D9500028367B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B2F2F7E1881D9510028367B /* ObjectiveChain.h */,
+				5BA548EC1896FBED0050288D /* Foundation */,
+				5BA5499C18970D6F0050288D /* Geometry */,
+				5BA549E91897A8060050288D /* UIKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5B2F2FF31883DFAB0028367B /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5B2F2FF51883DFCB0028367B /* CoreGraphics.framework */,
+				5B217C97188442B300706ED9 /* QuartzCore.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5B2F2FF41883DFBD0028367B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B2F2FEE1883DF8B0028367B /* CoreGraphics.framework */,
+				5B217C95188442A100706ED9 /* QuartzCore.framework */,
+				5BAB21B41884199500459B56 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B4F859F1871A4DB004695DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F859E1871A4DB004695DA /* libObjectiveChain-iOS.a */,
+				5B4F85AE1871A4DC004695DA /* ObjectiveChain-iOS-Tests.xctest */,
+				5B097E321871BE01006240D8 /* libObjectiveChain-OSX.a */,
+				5B097E431871BE01006240D8 /* ObjectiveChain-OSX-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4F85A01871A4DB004695DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F85A11871A4DC004695DA /* Foundation.framework */,
+				5B2F2FF41883DFBD0028367B /* iOS */,
+				5B2F2FF31883DFAB0028367B /* OS X */,
+				5B4F85AF1871A4DC004695DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B4F85C71871A874004695DA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B097E5A1871BED0006240D8 /* Info.plist */,
+				5B097E5C1871BED0006240D8 /* Prefix.pch */,
+				5B097E5B1871BED0006240D8 /* OCAObjectTest.m */,
+				5B882016189D101D00D2DDEB /* OCAVariadicTest.m */,
+				5BD9ECEC1871E1370069044C /* OCAConnectionTest.m */,
+				5BD9ED0C1873351C0069044C /* OCATransformerTest.m */,
+				5BB7CD321879BE51006916AB /* OCAFoundationTest.m */,
+				5BA8A6441875BD950012BA5D /* OCAMathTest.m */,
+				5BD8AEA11876B41200EE2029 /* OCAAccessorTest.m */,
+				5BB7CD59187B397E006916AB /* OCAQueueTest.m */,
+				5B8F4DB0187EF60800D75EEE /* OCAPropertyTest.m */,
+				5B882019189D219200D2DDEB /* OCAHubTest.m */,
+				5B88201C189E813B00D2DDEB /* OCAFilterTest.m */,
+				5FBC533D18BE237B002F2B79 /* OCAInterpolatorTest.m */,
+				5B882029189E8EC000D2DDEB /* OCAThrottleTest.m */,
+				5B882036189FB17500D2DDEB /* OCAInvokerTest.m */,
+				5B88205C18A0E56100D2DDEB /* OCASwitchTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5BA548EC1896FBED0050288D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5BA548FC1896FBED0050288D /* OCAFoundation.h */,
+				5BA548FD1896FBED0050288D /* OCAObject.h */,
+				5BA548FE1896FBED0050288D /* OCAObject.m */,
+				5BA549021896FBED0050288D /* Producers */,
+				5BA548F31896FBED0050288D /* Mediators */,
+				5BA548ED1896FBED0050288D /* Consumers */,
+				5BA549121896FBED0050288D /* Transformers */,
+				5BA548FF1896FBED0050288D /* Predicates */,
+				5BA549241896FBED0050288D /* Utilities */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		5BA548ED1896FBED0050288D /* Consumers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA548EE1896FBED0050288D /* OCAConsumer.h */,
+				5BA548F11896FBED0050288D /* OCASubscriber.h */,
+				5BA548F21896FBED0050288D /* OCASubscriber.m */,
+				5B88200C189D099900D2DDEB /* OCAInvoker.h */,
+				5B88200D189D099900D2DDEB /* OCAInvoker.m */,
+				5B88205718A0DFE000D2DDEB /* OCASwitch.h */,
+				5B88205818A0DFE000D2DDEB /* OCASwitch.m */,
+			);
+			path = Consumers;
+			sourceTree = "<group>";
+		};
+		5BA548F31896FBED0050288D /* Mediators */ = {
+			isa = PBXGroup;
+			children = (
+				5BA548FA1896FBED0050288D /* OCAMediator.h */,
+				5BA548FB1896FBED0050288D /* OCAMediator.m */,
+				5BA548F41896FBED0050288D /* OCABridge.h */,
+				5BA548F51896FBED0050288D /* OCABridge.m */,
+				5BA548F61896FBED0050288D /* OCAContext.h */,
+				5BA548F71896FBED0050288D /* OCAContext.m */,
+				5BA548F81896FBED0050288D /* OCAFilter.h */,
+				5BA548F91896FBED0050288D /* OCAFilter.m */,
+				5B882024189E8B2700D2DDEB /* OCAThrottle.h */,
+				5B882025189E8B2700D2DDEB /* OCAThrottle.m */,
+				5B538E3119F91A3E005E7773 /* OCALowPassFilter.h */,
+				5B538E3219F91A3E005E7773 /* OCALowPassFilter.m */,
+			);
+			path = Mediators;
+			sourceTree = "<group>";
+		};
+		5BA548FF1896FBED0050288D /* Predicates */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549001896FBED0050288D /* OCAPredicate.h */,
+				5BA549011896FBED0050288D /* OCAPredicate.m */,
+			);
+			path = Predicates;
+			sourceTree = "<group>";
+		};
+		5BA549021896FBED0050288D /* Producers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5490C1896FBED0050288D /* OCAProducer.h */,
+				5BA5490B1896FBED0050288D /* OCAProducer+Subclass.h */,
+				5BA5490D1896FBED0050288D /* OCAProducer.m */,
+				5BA549031896FBED0050288D /* OCACommand.h */,
+				5BA549041896FBED0050288D /* OCACommand.m */,
+				5BA549051896FBED0050288D /* OCAHub.h */,
+				5BA549061896FBED0050288D /* OCAHub.m */,
+				5BA5490E1896FBED0050288D /* OCAProperty.h */,
+				5BA5490F1896FBED0050288D /* OCAProperty.m */,
+				5BA549101896FBED0050288D /* OCATimer.h */,
+				5BA549111896FBED0050288D /* OCATimer.m */,
+				5BA549091896FBED0050288D /* OCANotificator.h */,
+				5BA5490A1896FBED0050288D /* OCANotificator.m */,
+				5F84F18C18BBA2680074D308 /* OCAInterpolator.h */,
+				5F84F18D18BBA2680074D308 /* OCAInterpolator.m */,
+			);
+			path = Producers;
+			sourceTree = "<group>";
+		};
+		5BA549121896FBED0050288D /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549231896FBED0050288D /* OCATransformer.h */,
+				5BA549171896FBED0050288D /* OCATransformer+Base.h */,
+				5BA549181896FBED0050288D /* OCATransformer+Base.m */,
+				5BA549211896FBED0050288D /* OCATransformer+Core.h */,
+				5BA549221896FBED0050288D /* OCATransformer+Core.m */,
+				5BA549151896FBED0050288D /* OCAMath.h */,
+				5BA549161896FBED0050288D /* OCAMath.m */,
+				5BA549191896FBED0050288D /* OCATransformer+Collections.h */,
+				5BA5491A1896FBED0050288D /* OCATransformer+Collections.m */,
+				5BA5491B1896FBED0050288D /* OCATransformer+NSData.h */,
+				5BA5491C1896FBED0050288D /* OCATransformer+NSData.m */,
+				5BA5491D1896FBED0050288D /* OCATransformer+NSDate.h */,
+				5BA5491E1896FBED0050288D /* OCATransformer+NSDate.m */,
+				5BA5491F1896FBED0050288D /* OCATransformer+NSString.h */,
+				5BA549201896FBED0050288D /* OCATransformer+NSString.m */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		5BA549241896FBED0050288D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549251896FBED0050288D /* Accessors */,
+				5BA5492C1896FBED0050288D /* NSArray+Ordinals.h */,
+				5BA5492D1896FBED0050288D /* NSArray+Ordinals.m */,
+				5BA5492E1896FBED0050288D /* NSValue+Boxing.h */,
+				5BA5492F1896FBED0050288D /* NSValue+Boxing.m */,
+				5BA549301896FBED0050288D /* OCADecomposer.h */,
+				5BA549311896FBED0050288D /* OCADecomposer.m */,
+				5BA549321896FBED0050288D /* OCAInvocationCatcher.h */,
+				5BA549331896FBED0050288D /* OCAInvocationCatcher.m */,
+				5BA549341896FBED0050288D /* OCAQueue.h */,
+				5BA549351896FBED0050288D /* OCAQueue.m */,
+				5BA549361896FBED0050288D /* OCASemaphore.h */,
+				5BA549371896FBED0050288D /* OCASemaphore.m */,
+				5BEA02AD189999640065DD89 /* OCAKeyValueChange.h */,
+				5BEA02AE189999640065DD89 /* OCAKeyValueChange.m */,
+				5B882011189D0EF600D2DDEB /* OCAVariadic.h */,
+				5B882012189D0EF600D2DDEB /* OCAVariadic.m */,
+				5B882031189FA8D800D2DDEB /* OCAPlaceholderObject.h */,
+				5B882032189FA8D800D2DDEB /* OCAPlaceholderObject.m */,
+				5B88205118A028DE00D2DDEB /* OCADebug.h */,
+				5B88205218A028DE00D2DDEB /* OCADebug.m */,
+				5B52DA48191924780058A5EF /* OCASwizzling.h */,
+				5B52DA49191924780058A5EF /* OCASwizzling.m */,
+				5BEFA50E1AE10F16000AA6A4 /* OCAMutableArrayProxy.h */,
+				5BEFA50F1AE10F16000AA6A4 /* OCAMutableArrayProxy.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5BA549251896FBED0050288D /* Accessors */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549261896FBED0050288D /* OCAAccessor.h */,
+				5BA549271896FBED0050288D /* OCAAccessor.m */,
+				5BA549281896FBED0050288D /* OCAKeyPathAccessor.h */,
+				5BA549291896FBED0050288D /* OCAKeyPathAccessor.m */,
+				5BA5492A1896FBED0050288D /* OCAStructureAccessor.h */,
+				5BA5492B1896FBED0050288D /* OCAStructureAccessor.m */,
+				5BFB66D619000FC1005D0920 /* OCAIndexAccessor.h */,
+				5BFB66D719000FC1005D0920 /* OCAIndexAccessor.m */,
+			);
+			path = Accessors;
+			sourceTree = "<group>";
+		};
+		5BA5499C18970D6F0050288D /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5499D18970D6F0050288D /* OCAGeometry.h */,
+				5BA549E41897A6ED0050288D /* OCAGeometry+Functions.h */,
+				5BA549E51897A6ED0050288D /* OCAGeometry+Functions.m */,
+				5BA5499F18970D6F0050288D /* Transformers */,
+				5BA5499E18970D6F0050288D /* Predicates */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		5BA5499E18970D6F0050288D /* Predicates */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549C618979F500050288D /* OCAPredicate+CGPoint.h */,
+				5BA549C718979F500050288D /* OCAPredicate+CGPoint.m */,
+				5BA549CB1897A1B40050288D /* OCAPredicate+CGSize.h */,
+				5BA549CC1897A1B40050288D /* OCAPredicate+CGSize.m */,
+				5BA549D01897A21D0050288D /* OCAPredicate+CGRect.h */,
+				5BA549D11897A21D0050288D /* OCAPredicate+CGRect.m */,
+				5BA549D51897A3080050288D /* OCAPredicate+CGAffineTransform.h */,
+				5BA549D61897A3080050288D /* OCAPredicate+CGAffineTransform.m */,
+				5BA549DA1897A4800050288D /* OCAPredicate+UIEdgeInsets.h */,
+				5BA549DB1897A4800050288D /* OCAPredicate+UIEdgeInsets.m */,
+				5BA549DF1897A5820050288D /* OCAPredicate+CATransform3D.h */,
+				5BA549E01897A5820050288D /* OCAPredicate+CATransform3D.m */,
+			);
+			path = Predicates;
+			sourceTree = "<group>";
+		};
+		5BA5499F18970D6F0050288D /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549A618970D6F0050288D /* OCATransformer+CGPoint.h */,
+				5BA549A718970D6F0050288D /* OCATransformer+CGPoint.m */,
+				5BA549AA18970D6F0050288D /* OCATransformer+CGSize.h */,
+				5BA549AB18970D6F0050288D /* OCATransformer+CGSize.m */,
+				5BA549A818970D6F0050288D /* OCATransformer+CGRect.h */,
+				5BA549A918970D6F0050288D /* OCATransformer+CGRect.m */,
+				5BA549A418970D6F0050288D /* OCATransformer+CGAffineTransform.h */,
+				5BA549A518970D6F0050288D /* OCATransformer+CGAffineTransform.m */,
+				5BA549AC18970D6F0050288D /* OCATransformer+UIEdgeInsets.h */,
+				5BA549AD18970D6F0050288D /* OCATransformer+UIEdgeInsets.m */,
+				5BA549A218970D6F0050288D /* OCATransformer+CATransform3D.h */,
+				5BA549A318970D6F0050288D /* OCATransformer+CATransform3D.m */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		5BA549E91897A8060050288D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549F01897A8060050288D /* OCAUIKit.h */,
+				5BA549F11897A8060050288D /* Producers */,
+				5BA549EA1897A8060050288D /* Consumers */,
+				5BA549ED1897A8060050288D /* Mediators */,
+				5BA549F41897A8060050288D /* Transformers */,
+				5BB4FC6F19093ADA005A46CE /* Utilities */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5BA549EA1897A8060050288D /* Consumers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549EB1897A8060050288D /* OCAUIKit+UIButton.h */,
+				5BA549EC1897A8060050288D /* OCAUIKit+UIButton.m */,
+			);
+			path = Consumers;
+			sourceTree = "<group>";
+		};
+		5BA549ED1897A8060050288D /* Mediators */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549EE1897A8060050288D /* OCAContext+UIKit.h */,
+				5BA549EF1897A8060050288D /* OCAContext+UIKit.m */,
+				5B1F4A4719264CD200158200 /* OCAFader.h */,
+				5B1F4A4819264CD200158200 /* OCAFader.m */,
+			);
+			path = Mediators;
+			sourceTree = "<group>";
+		};
+		5BA549F11897A8060050288D /* Producers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549F21897A8060050288D /* OCATargetter.h */,
+				5BA549F31897A8060050288D /* OCATargetter.m */,
+				5BFB66DB19002585005D0920 /* UIView+tintColor.h */,
+				5BFB66DC19002585005D0920 /* UIView+tintColor.m */,
+				5B52DA45191923210058A5EF /* UITextField+editedText.h */,
+				5B52DA46191923210058A5EF /* UITextField+editedText.m */,
+				5B4148DF1A3096DE005E77FB /* UIView+Gestures.h */,
+				5B4148E01A3096DE005E77FB /* UIView+Gestures.m */,
+			);
+			path = Producers;
+			sourceTree = "<group>";
+		};
+		5BA549F41897A8060050288D /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA549F51897A8060050288D /* OCATransformer+UIColor.h */,
+				5BA549F61897A8060050288D /* OCATransformer+UIColor.m */,
+				5B2A328F192110F5008E5B36 /* OCATransformer+UIImage.h */,
+				5B2A3290192110F5008E5B36 /* OCATransformer+UIImage.m */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		5BB4FC6F19093ADA005A46CE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4FC7019093B19005A46CE /* OCAErrorRecoveryAttempter.h */,
+				5BB4FC7119093B19005A46CE /* OCAErrorRecoveryAttempter.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B097E301871BE01006240D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA549801896FBED0050288D /* OCATransformer.h in Headers */,
+				5BA549521896FBED0050288D /* OCACommand.h in Headers */,
+				5BA549741896FBED0050288D /* OCATransformer+NSData.h in Headers */,
+				5BA5496E1896FBED0050288D /* OCATransformer+Base.h in Headers */,
+				5BA549421896FBED0050288D /* OCAContext.h in Headers */,
+				5BA5494B1896FBED0050288D /* OCAFoundation.h in Headers */,
+				5BA5493C1896FBED0050288D /* OCASubscriber.h in Headers */,
+				5BA549BE18970D6F0050288D /* OCATransformer+CGSize.h in Headers */,
+				5BA549B518970D6F0050288D /* OCATransformer+CGAffineTransform.h in Headers */,
+				5B882013189D0EF600D2DDEB /* OCAVariadic.h in Headers */,
+				5B538E3319F91A3E005E7773 /* OCALowPassFilter.h in Headers */,
+				5BA549DC1897A4800050288D /* OCAPredicate+UIEdgeInsets.h in Headers */,
+				5B88200E189D099900D2DDEB /* OCAInvoker.h in Headers */,
+				5BA549841896FBED0050288D /* OCAKeyPathAccessor.h in Headers */,
+				5BA549E61897A6ED0050288D /* OCAGeometry+Functions.h in Headers */,
+				5BA549CD1897A1B40050288D /* OCAPredicate+CGSize.h in Headers */,
+				5BA549B818970D6F0050288D /* OCATransformer+CGPoint.h in Headers */,
+				5BA549481896FBED0050288D /* OCAMediator.h in Headers */,
+				5BA549D71897A3080050288D /* OCAPredicate+CGAffineTransform.h in Headers */,
+				5BA5494C1896FBED0050288D /* OCAObject.h in Headers */,
+				5BA549871896FBED0050288D /* OCAStructureAccessor.h in Headers */,
+				5BA5495B1896FBED0050288D /* OCANotificator.h in Headers */,
+				5BA5496B1896FBED0050288D /* OCAMath.h in Headers */,
+				5BA5498A1896FBED0050288D /* NSArray+Ordinals.h in Headers */,
+				5BEA02AF189999640065DD89 /* OCAKeyValueChange.h in Headers */,
+				5BA549C818979F500050288D /* OCAPredicate+CGPoint.h in Headers */,
+				5BA549621896FBED0050288D /* OCAProperty.h in Headers */,
+				5BA549C118970D6F0050288D /* OCATransformer+UIEdgeInsets.h in Headers */,
+				5BA5498D1896FBED0050288D /* NSValue+Boxing.h in Headers */,
+				5B52DA4A191924780058A5EF /* OCASwizzling.h in Headers */,
+				5BA5494F1896FBED0050288D /* OCAPredicate.h in Headers */,
+				5BA549711896FBED0050288D /* OCATransformer+Collections.h in Headers */,
+				5B88205918A0DFE000D2DDEB /* OCASwitch.h in Headers */,
+				5BEFA5101AE10F16000AA6A4 /* OCAMutableArrayProxy.h in Headers */,
+				5BA5495F1896FBED0050288D /* OCAProducer.h in Headers */,
+				5BA549451896FBED0050288D /* OCAFilter.h in Headers */,
+				5BA549651896FBED0050288D /* OCATimer.h in Headers */,
+				5BA549901896FBED0050288D /* OCADecomposer.h in Headers */,
+				5BA5497A1896FBED0050288D /* OCATransformer+NSString.h in Headers */,
+				5BA549811896FBED0050288D /* OCAAccessor.h in Headers */,
+				5BA549381896FBED0050288D /* OCAConsumer.h in Headers */,
+				5BFB66D819000FC1005D0920 /* OCAIndexAccessor.h in Headers */,
+				5B882026189E8B2700D2DDEB /* OCAThrottle.h in Headers */,
+				5BA549B218970D6F0050288D /* OCATransformer+CATransform3D.h in Headers */,
+				5BA549771896FBED0050288D /* OCATransformer+NSDate.h in Headers */,
+				5BA549961896FBED0050288D /* OCAQueue.h in Headers */,
+				5BA549931896FBED0050288D /* OCAInvocationCatcher.h in Headers */,
+				5BA549AE18970D6F0050288D /* OCAGeometry.h in Headers */,
+				5BA5493F1896FBED0050288D /* OCABridge.h in Headers */,
+				5BA549551896FBED0050288D /* OCAHub.h in Headers */,
+				5BA5497D1896FBED0050288D /* OCATransformer+Core.h in Headers */,
+				5BA549E11897A5820050288D /* OCAPredicate+CATransform3D.h in Headers */,
+				5BA549BB18970D6F0050288D /* OCATransformer+CGRect.h in Headers */,
+				5B88205318A028DE00D2DDEB /* OCADebug.h in Headers */,
+				5BA549D21897A21D0050288D /* OCAPredicate+CGRect.h in Headers */,
+				5BA5495E1896FBED0050288D /* OCAProducer+Subclass.h in Headers */,
+				5B882033189FA8D800D2DDEB /* OCAPlaceholderObject.h in Headers */,
+				5BA549991896FBED0050288D /* OCASemaphore.h in Headers */,
+				5B2F2FD81881D9510028367B /* ObjectiveChain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B097E311871BE01006240D8 /* OS X Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B097E511871BE01006240D8 /* Build configuration list for PBXNativeTarget "OS X Library" */;
+			buildPhases = (
+				5B097E2E1871BE01006240D8 /* Sources */,
+				5B097E2F1871BE01006240D8 /* Frameworks */,
+				5B097E301871BE01006240D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OS X Library";
+			productName = "ObjectiveChain-OSX";
+			productReference = 5B097E321871BE01006240D8 /* libObjectiveChain-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B097E421871BE01006240D8 /* OS X Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B097E541871BE01006240D8 /* Build configuration list for PBXNativeTarget "OS X Tests" */;
+			buildPhases = (
+				5B097E3F1871BE01006240D8 /* Sources */,
+				5B097E401871BE01006240D8 /* Frameworks */,
+				5B097E411871BE01006240D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B097E471871BE01006240D8 /* PBXTargetDependency */,
+			);
+			name = "OS X Tests";
+			productName = "ObjectiveChain-OSXTests";
+			productReference = 5B097E431871BE01006240D8 /* ObjectiveChain-OSX-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B4F859D1871A4DB004695DA /* iOS Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4F85C31871A4DC004695DA /* Build configuration list for PBXNativeTarget "iOS Library" */;
+			buildPhases = (
+				5B4F859A1871A4DB004695DA /* Sources */,
+				5B4F859B1871A4DB004695DA /* Frameworks */,
+				5B4F859C1871A4DB004695DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Library";
+			productName = "ObjectiveChain-iOS";
+			productReference = 5B4F859E1871A4DB004695DA /* libObjectiveChain-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B4F85AD1871A4DC004695DA /* iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4F85C41871A4DC004695DA /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildPhases = (
+				5B4F85AA1871A4DC004695DA /* Sources */,
+				5B4F85AB1871A4DC004695DA /* Frameworks */,
+				5B4F85AC1871A4DC004695DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4F85B51871A4DC004695DA /* PBXTargetDependency */,
+			);
+			name = "iOS Tests";
+			productName = "ObjectiveChain-iOSTests";
+			productReference = 5B4F85AE1871A4DC004695DA /* ObjectiveChain-iOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2E8BC51871A23B008AC4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OCA;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Martin Kiss";
+				TargetAttributes = {
+					5B097E421871BE01006240D8 = {
+						TestTargetID = 5B097E311871BE01006240D8;
+					};
+					5B4F85AD1871A4DC004695DA = {
+						TestTargetID = 5B4F859D1871A4DB004695DA;
+					};
+				};
+			};
+			buildConfigurationList = 5B2E8BC81871A23B008AC4B1 /* Build configuration list for PBXProject "Objective-Chain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B2E8BC41871A23B008AC4B1;
+			productRefGroup = 5B4F859F1871A4DB004695DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4F859D1871A4DB004695DA /* iOS Library */,
+				5B4F85AD1871A4DC004695DA /* iOS Tests */,
+				5B097E311871BE01006240D8 /* OS X Library */,
+				5B097E421871BE01006240D8 /* OS X Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B097E411871BE01006240D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4F85AC1871A4DC004695DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B097E2E1871BE01006240D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5499B1896FBED0050288D /* OCASemaphore.m in Sources */,
+				5BA5495D1896FBED0050288D /* OCANotificator.m in Sources */,
+				5BA5497F1896FBED0050288D /* OCATransformer+Core.m in Sources */,
+				5BA549BA18970D6F0050288D /* OCATransformer+CGPoint.m in Sources */,
+				5BA5494E1896FBED0050288D /* OCAObject.m in Sources */,
+				5B52DA4C191924780058A5EF /* OCASwizzling.m in Sources */,
+				5BA549861896FBED0050288D /* OCAKeyPathAccessor.m in Sources */,
+				5BA549DE1897A4800050288D /* OCAPredicate+UIEdgeInsets.m in Sources */,
+				5B538E3519F91A3E005E7773 /* OCALowPassFilter.m in Sources */,
+				5B882010189D099900D2DDEB /* OCAInvoker.m in Sources */,
+				5BA549471896FBED0050288D /* OCAFilter.m in Sources */,
+				5BFB66DA19000FC1005D0920 /* OCAIndexAccessor.m in Sources */,
+				5BA549701896FBED0050288D /* OCATransformer+Base.m in Sources */,
+				5B88205B18A0DFE000D2DDEB /* OCASwitch.m in Sources */,
+				5BA549641896FBED0050288D /* OCAProperty.m in Sources */,
+				5BA5494A1896FBED0050288D /* OCAMediator.m in Sources */,
+				5BA5493E1896FBED0050288D /* OCASubscriber.m in Sources */,
+				5BA5496D1896FBED0050288D /* OCAMath.m in Sources */,
+				5BA5498F1896FBED0050288D /* NSValue+Boxing.m in Sources */,
+				5B882015189D0EF600D2DDEB /* OCAVariadic.m in Sources */,
+				5B882028189E8B2700D2DDEB /* OCAThrottle.m in Sources */,
+				5BA549511896FBED0050288D /* OCAPredicate.m in Sources */,
+				5BA549761896FBED0050288D /* OCATransformer+NSData.m in Sources */,
+				5BA549411896FBED0050288D /* OCABridge.m in Sources */,
+				5BA549571896FBED0050288D /* OCAHub.m in Sources */,
+				5B88205518A028DE00D2DDEB /* OCADebug.m in Sources */,
+				5BA5498C1896FBED0050288D /* NSArray+Ordinals.m in Sources */,
+				5BA5497C1896FBED0050288D /* OCATransformer+NSString.m in Sources */,
+				5BA549B418970D6F0050288D /* OCATransformer+CATransform3D.m in Sources */,
+				5FBC534018BE2390002F2B79 /* OCAInterpolator.m in Sources */,
+				5BA549C318970D6F0050288D /* OCATransformer+UIEdgeInsets.m in Sources */,
+				5BA549951896FBED0050288D /* OCAInvocationCatcher.m in Sources */,
+				5BA549BD18970D6F0050288D /* OCATransformer+CGRect.m in Sources */,
+				5BA549891896FBED0050288D /* OCAStructureAccessor.m in Sources */,
+				5BA549541896FBED0050288D /* OCACommand.m in Sources */,
+				5BEFA5121AE10F16000AA6A4 /* OCAMutableArrayProxy.m in Sources */,
+				5BA549441896FBED0050288D /* OCAContext.m in Sources */,
+				5BA549981896FBED0050288D /* OCAQueue.m in Sources */,
+				5BA549611896FBED0050288D /* OCAProducer.m in Sources */,
+				5BA549C018970D6F0050288D /* OCATransformer+CGSize.m in Sources */,
+				5BA549D41897A21D0050288D /* OCAPredicate+CGRect.m in Sources */,
+				5BA549B718970D6F0050288D /* OCATransformer+CGAffineTransform.m in Sources */,
+				5BA549671896FBED0050288D /* OCATimer.m in Sources */,
+				5BEA02B1189999640065DD89 /* OCAKeyValueChange.m in Sources */,
+				5BA549921896FBED0050288D /* OCADecomposer.m in Sources */,
+				5BA549E31897A5820050288D /* OCAPredicate+CATransform3D.m in Sources */,
+				5BA549E81897A6ED0050288D /* OCAGeometry+Functions.m in Sources */,
+				5BA549731896FBED0050288D /* OCATransformer+Collections.m in Sources */,
+				5BA549CF1897A1B40050288D /* OCAPredicate+CGSize.m in Sources */,
+				5BA549D91897A3080050288D /* OCAPredicate+CGAffineTransform.m in Sources */,
+				5BA549CA18979F500050288D /* OCAPredicate+CGPoint.m in Sources */,
+				5BA549791896FBED0050288D /* OCATransformer+NSDate.m in Sources */,
+				5B882035189FA8D800D2DDEB /* OCAPlaceholderObject.m in Sources */,
+				5BA549831896FBED0050288D /* OCAAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B097E3F1871BE01006240D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB7CD341879BE51006916AB /* OCAFoundationTest.m in Sources */,
+				5B88205E18A0E56100D2DDEB /* OCASwitchTest.m in Sources */,
+				5BD8AEA31876B41200EE2029 /* OCAAccessorTest.m in Sources */,
+				5BB7CD5B187B397E006916AB /* OCAQueueTest.m in Sources */,
+				5BD9ED0E1873351C0069044C /* OCATransformerTest.m in Sources */,
+				5B8F4DB2187EF60800D75EEE /* OCAPropertyTest.m in Sources */,
+				5B88202B189E8EC000D2DDEB /* OCAThrottleTest.m in Sources */,
+				5B88201E189E813B00D2DDEB /* OCAFilterTest.m in Sources */,
+				5BA8A6461875BD950012BA5D /* OCAMathTest.m in Sources */,
+				5FBC533F18BE237B002F2B79 /* OCAInterpolatorTest.m in Sources */,
+				5B097E601871BED0006240D8 /* OCAObjectTest.m in Sources */,
+				5B882038189FB17500D2DDEB /* OCAInvokerTest.m in Sources */,
+				5B88201B189D219200D2DDEB /* OCAHubTest.m in Sources */,
+				5B882018189D101D00D2DDEB /* OCAVariadicTest.m in Sources */,
+				5BD9ECEE1871E1370069044C /* OCAConnectionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4F859A1871A4DB004695DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5499A1896FBED0050288D /* OCASemaphore.m in Sources */,
+				5BA5495C1896FBED0050288D /* OCANotificator.m in Sources */,
+				5BA5497E1896FBED0050288D /* OCATransformer+Core.m in Sources */,
+				5BA549B918970D6F0050288D /* OCATransformer+CGPoint.m in Sources */,
+				5BEA02B0189999640065DD89 /* OCAKeyValueChange.m in Sources */,
+				5BA549F81897A8060050288D /* OCAContext+UIKit.m in Sources */,
+				5BA5494D1896FBED0050288D /* OCAObject.m in Sources */,
+				5BFB66DD19002585005D0920 /* UIView+tintColor.m in Sources */,
+				5BA549851896FBED0050288D /* OCAKeyPathAccessor.m in Sources */,
+				5BA549DD1897A4800050288D /* OCAPredicate+UIEdgeInsets.m in Sources */,
+				5BA549461896FBED0050288D /* OCAFilter.m in Sources */,
+				5BA5496F1896FBED0050288D /* OCATransformer+Base.m in Sources */,
+				5BA549631896FBED0050288D /* OCAProperty.m in Sources */,
+				5BA549491896FBED0050288D /* OCAMediator.m in Sources */,
+				5BA5493D1896FBED0050288D /* OCASubscriber.m in Sources */,
+				5BA5496C1896FBED0050288D /* OCAMath.m in Sources */,
+				5BA5498E1896FBED0050288D /* NSValue+Boxing.m in Sources */,
+				5BA549F91897A8060050288D /* OCATargetter.m in Sources */,
+				5BA549501896FBED0050288D /* OCAPredicate.m in Sources */,
+				5B88205A18A0DFE000D2DDEB /* OCASwitch.m in Sources */,
+				5BA549FA1897A8060050288D /* OCATransformer+UIColor.m in Sources */,
+				5B538E3419F91A3E005E7773 /* OCALowPassFilter.m in Sources */,
+				5BA549751896FBED0050288D /* OCATransformer+NSData.m in Sources */,
+				5BA549401896FBED0050288D /* OCABridge.m in Sources */,
+				5B52DA47191923210058A5EF /* UITextField+editedText.m in Sources */,
+				5BB4FC7219093B19005A46CE /* OCAErrorRecoveryAttempter.m in Sources */,
+				5BA549561896FBED0050288D /* OCAHub.m in Sources */,
+				5BA5498B1896FBED0050288D /* NSArray+Ordinals.m in Sources */,
+				5BA5497B1896FBED0050288D /* OCATransformer+NSString.m in Sources */,
+				5BA549B318970D6F0050288D /* OCATransformer+CATransform3D.m in Sources */,
+				5B882027189E8B2700D2DDEB /* OCAThrottle.m in Sources */,
+				5B882014189D0EF600D2DDEB /* OCAVariadic.m in Sources */,
+				5F84F18E18BBA2680074D308 /* OCAInterpolator.m in Sources */,
+				5BA549C218970D6F0050288D /* OCATransformer+UIEdgeInsets.m in Sources */,
+				5BA549941896FBED0050288D /* OCAInvocationCatcher.m in Sources */,
+				5BA549BC18970D6F0050288D /* OCATransformer+CGRect.m in Sources */,
+				5BA549881896FBED0050288D /* OCAStructureAccessor.m in Sources */,
+				5BA549531896FBED0050288D /* OCACommand.m in Sources */,
+				5BA549431896FBED0050288D /* OCAContext.m in Sources */,
+				5BFB66D919000FC1005D0920 /* OCAIndexAccessor.m in Sources */,
+				5B88205418A028DE00D2DDEB /* OCADebug.m in Sources */,
+				5B1F4A4919264CD200158200 /* OCAFader.m in Sources */,
+				5BA549F71897A8060050288D /* OCAUIKit+UIButton.m in Sources */,
+				5BA549971896FBED0050288D /* OCAQueue.m in Sources */,
+				5BA549601896FBED0050288D /* OCAProducer.m in Sources */,
+				5BA549BF18970D6F0050288D /* OCATransformer+CGSize.m in Sources */,
+				5B52DA4B191924780058A5EF /* OCASwizzling.m in Sources */,
+				5BEFA5111AE10F16000AA6A4 /* OCAMutableArrayProxy.m in Sources */,
+				5B88200F189D099900D2DDEB /* OCAInvoker.m in Sources */,
+				5BA549D31897A21D0050288D /* OCAPredicate+CGRect.m in Sources */,
+				5BA549B618970D6F0050288D /* OCATransformer+CGAffineTransform.m in Sources */,
+				5BA549661896FBED0050288D /* OCATimer.m in Sources */,
+				5BA549911896FBED0050288D /* OCADecomposer.m in Sources */,
+				5BA549E21897A5820050288D /* OCAPredicate+CATransform3D.m in Sources */,
+				5BA549E71897A6ED0050288D /* OCAGeometry+Functions.m in Sources */,
+				5BA549721896FBED0050288D /* OCATransformer+Collections.m in Sources */,
+				5B2A3291192110F5008E5B36 /* OCATransformer+UIImage.m in Sources */,
+				5B882034189FA8D800D2DDEB /* OCAPlaceholderObject.m in Sources */,
+				5BA549CE1897A1B40050288D /* OCAPredicate+CGSize.m in Sources */,
+				5B4148E11A3096DE005E77FB /* UIView+Gestures.m in Sources */,
+				5BA549D81897A3080050288D /* OCAPredicate+CGAffineTransform.m in Sources */,
+				5BA549C918979F500050288D /* OCAPredicate+CGPoint.m in Sources */,
+				5BA549781896FBED0050288D /* OCATransformer+NSDate.m in Sources */,
+				5BA549821896FBED0050288D /* OCAAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4F85AA1871A4DC004695DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB7CD331879BE51006916AB /* OCAFoundationTest.m in Sources */,
+				5B88205D18A0E56100D2DDEB /* OCASwitchTest.m in Sources */,
+				5BD8AEA21876B41200EE2029 /* OCAAccessorTest.m in Sources */,
+				5BB7CD5A187B397E006916AB /* OCAQueueTest.m in Sources */,
+				5BD9ED0D1873351C0069044C /* OCATransformerTest.m in Sources */,
+				5B8F4DB1187EF60800D75EEE /* OCAPropertyTest.m in Sources */,
+				5B88202A189E8EC000D2DDEB /* OCAThrottleTest.m in Sources */,
+				5B88201D189E813B00D2DDEB /* OCAFilterTest.m in Sources */,
+				5BA8A6451875BD950012BA5D /* OCAMathTest.m in Sources */,
+				5FBC533E18BE237B002F2B79 /* OCAInterpolatorTest.m in Sources */,
+				5B097E5F1871BED0006240D8 /* OCAObjectTest.m in Sources */,
+				5B882037189FB17500D2DDEB /* OCAInvokerTest.m in Sources */,
+				5B88201A189D219200D2DDEB /* OCAHubTest.m in Sources */,
+				5B882017189D101D00D2DDEB /* OCAVariadicTest.m in Sources */,
+				5BD9ECED1871E1370069044C /* OCAConnectionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B097E471871BE01006240D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B097E311871BE01006240D8 /* OS X Library */;
+			targetProxy = 5B097E461871BE01006240D8 /* PBXContainerItemProxy */;
+		};
+		5B4F85B51871A4DC004695DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4F859D1871A4DB004695DA /* iOS Library */;
+			targetProxy = 5B4F85B41871A4DC004695DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B097E521871BE01006240D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "ObjectiveChain-OSX";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B097E531871BE01006240D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				PRODUCT_NAME = "ObjectiveChain-OSX";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B097E551871BE01006240D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Tests/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-OSX-Tests";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B097E561871BE01006240D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-OSX-Tests";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5B2E8BC91871A23B008AC4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		5B2E8BCA1871A23B008AC4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Release;
+		};
+		5B4F85BF1871A4DC004695DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ObjectiveChain_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ObjectiveChain-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B4F85C01871A4DC004695DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/ObjectiveChain_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ObjectiveChain-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4F85C11871A4DC004695DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Tests/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-iOS-Tests";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B4F85C21871A4DC004695DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				INFOPLIST_FILE = Tests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-iOS-Tests";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5BA8A63A18748E980012BA5D /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Testing;
+		};
+		5BA8A63B18748E980012BA5D /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ObjectiveChain_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ObjectiveChain-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Testing;
+		};
+		5BA8A63C18748E980012BA5D /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Tests/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-iOS-Tests";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Testing;
+		};
+		5BA8A63D18748E980012BA5D /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "ObjectiveChain-OSX";
+				SDKROOT = macosx;
+			};
+			name = Testing;
+		};
+		5BA8A63E18748E980012BA5D /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tests/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Tests/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMartinKiss.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ObjectiveChain-OSX-Tests";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Testing;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B097E511871BE01006240D8 /* Build configuration list for PBXNativeTarget "OS X Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B097E521871BE01006240D8 /* Debug */,
+				5BA8A63D18748E980012BA5D /* Testing */,
+				5B097E531871BE01006240D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B097E541871BE01006240D8 /* Build configuration list for PBXNativeTarget "OS X Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B097E551871BE01006240D8 /* Debug */,
+				5BA8A63E18748E980012BA5D /* Testing */,
+				5B097E561871BE01006240D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E8BC81871A23B008AC4B1 /* Build configuration list for PBXProject "Objective-Chain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E8BC91871A23B008AC4B1 /* Debug */,
+				5BA8A63A18748E980012BA5D /* Testing */,
+				5B2E8BCA1871A23B008AC4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4F85C31871A4DC004695DA /* Build configuration list for PBXNativeTarget "iOS Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4F85BF1871A4DC004695DA /* Debug */,
+				5BA8A63B18748E980012BA5D /* Testing */,
+				5B4F85C01871A4DC004695DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4F85C41871A4DC004695DA /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4F85C11871A4DC004695DA /* Debug */,
+				5BA8A63C18748E980012BA5D /* Testing */,
+				5B4F85C21871A4DC004695DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2E8BC51871A23B008AC4B1 /* Project object */;
+}
