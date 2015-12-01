@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSNavigationStripModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSNavigationStripModel</TokenIdentifier>
+			<Abstract type="html">TSNavigationStripModel is a prototype for TSNavigationStripDataSource.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setLeftItems:</TokenIdentifier>
+			<Abstract type="html">Menu items located on the left side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *leftItems</Declaration>
+			
+			
+			<Anchor>//api/name/leftItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/leftItems</TokenIdentifier>
+			<Abstract type="html">Menu items located on the left side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *leftItems</Declaration>
+			
+			
+			<Anchor>//api/name/leftItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/leftItems</TokenIdentifier>
+			<Abstract type="html">Menu items located on the left side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *leftItems</Declaration>
+			
+			
+			<Anchor>//api/name/leftItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setRightItems:</TokenIdentifier>
+			<Abstract type="html">Menu items located on the right side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *rightItems</Declaration>
+			
+			
+			<Anchor>//api/name/rightItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/rightItems</TokenIdentifier>
+			<Abstract type="html">Menu items located on the right side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *rightItems</Declaration>
+			
+			
+			<Anchor>//api/name/rightItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/rightItems</TokenIdentifier>
+			<Abstract type="html">Menu items located on the right side of TSNavigationStripView.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *rightItems</Declaration>
+			
+			
+			<Anchor>//api/name/rightItems</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setSections:</TokenIdentifier>
+			<Abstract type="html">Navigation sections.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *sections</Declaration>
+			
+			
+			<Anchor>//api/name/sections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/sections</TokenIdentifier>
+			<Abstract type="html">Navigation sections.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *sections</Declaration>
+			
+			
+			<Anchor>//api/name/sections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/sections</TokenIdentifier>
+			<Abstract type="html">Navigation sections.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *sections</Declaration>
+			
+			
+			<Anchor>//api/name/sections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setNavigationStrip:</TokenIdentifier>
+			<Abstract type="html">Instance of TSNavigationStripView which is managed by this data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSNavigationStripView *navigationStrip</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStrip</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/navigationStrip</TokenIdentifier>
+			<Abstract type="html">Instance of TSNavigationStripView which is managed by this data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSNavigationStripView *navigationStrip</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStrip</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/navigationStrip</TokenIdentifier>
+			<Abstract type="html">Instance of TSNavigationStripView which is managed by this data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSNavigationStripView *navigationStrip</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStrip</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setUseEdgeInsetsForSections:</TokenIdentifier>
+			<Abstract type="html">If YES edge insets are used for section&apos;s content. Need for some UI layouts where graphics from one section should overlap sibling sections.
+    @def        NO</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useEdgeInsetsForSections</Declaration>
+			
+			
+			<Anchor>//api/name/useEdgeInsetsForSections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/useEdgeInsetsForSections</TokenIdentifier>
+			<Abstract type="html">If YES edge insets are used for section&apos;s content. Need for some UI layouts where graphics from one section should overlap sibling sections.
+    @def        NO</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useEdgeInsetsForSections</Declaration>
+			
+			
+			<Anchor>//api/name/useEdgeInsetsForSections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/useEdgeInsetsForSections</TokenIdentifier>
+			<Abstract type="html">If YES edge insets are used for section&apos;s content. Need for some UI layouts where graphics from one section should overlap sibling sections.
+    @def        NO</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useEdgeInsetsForSections</Declaration>
+			
+			
+			<Anchor>//api/name/useEdgeInsetsForSections</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setCustomClassForSection:</TokenIdentifier>
+			<Abstract type="html">If not set then UIButton class is used. Specify if you want to provide specific draw implementation or additional functionalit for section view.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *customClassForSection</Declaration>
+			
+			
+			<Anchor>//api/name/customClassForSection</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/customClassForSection</TokenIdentifier>
+			<Abstract type="html">If not set then UIButton class is used. Specify if you want to provide specific draw implementation or additional functionalit for section view.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *customClassForSection</Declaration>
+			
+			
+			<Anchor>//api/name/customClassForSection</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSNavigationStripModel/customClassForSection</TokenIdentifier>
+			<Abstract type="html">If not set then UIButton class is used. Specify if you want to provide specific draw implementation or additional functionalit for section view.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *customClassForSection</Declaration>
+			
+			
+			<Anchor>//api/name/customClassForSection</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/initWithNavigationStrip:</TokenIdentifier>
+			<Abstract type="html">Initialize TSNavigationStripModel and provide instance of TSNavigationStripView which would display content of the data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithNavigationStrip:(TSNavigationStripView *)navigationStrip</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>navigationStrip</Name>
+					<Abstract type="html">Instance of TSNavigationStripView.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithNavigationStrip:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setSections:</TokenIdentifier>
+			<Abstract type="html">Set sections information. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)setSections:(NSArray *)sections</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sections</Name>
+					<Abstract type="html">Array of TSNavigationStripSection objects.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSections:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/setItems:fromLeft:</TokenIdentifier>
+			<Abstract type="html">Set menu items information. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)setItems:(NSArray *)items fromLeft:(BOOL)fromLeft</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">Array of TSNavigationStripItem objects.</Abstract>
+				</Parameter><Parameter>
+					<Name>fromLeft</Name>
+					<Abstract type="html">Specify on which side menu items should be updated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setItems:fromLeft:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/insertNewSection:atIndex:animated:</TokenIdentifier>
+			<Abstract type="html">Insert new section at specified position. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)insertNewSection:(TSNavigationStripSection *)sectionInfo atIndex:(NSInteger)index animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sectionInfo</Name>
+					<Abstract type="html">Information about new section.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Insert position.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES section will be appear with animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertNewSection:atIndex:animated:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/insertNewItem:atIndex:fromLeft:animated:</TokenIdentifier>
+			<Abstract type="html">Insert new menu item at specified position. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)insertNewItem:(TSNavigationStripItem *)itemInfo atIndex:(NSInteger)index fromLeft:(BOOL)fromLeft animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>itemInfo</Name>
+					<Abstract type="html">Information about new menu item.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Insert position.</Abstract>
+				</Parameter><Parameter>
+					<Name>fromLeft</Name>
+					<Abstract type="html">Specify on which side menu item should be inserted.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES item will be appear with animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertNewItem:atIndex:fromLeft:animated:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/removeSectionAtIndex:animated:</TokenIdentifier>
+			<Abstract type="html">Remove section at specified position. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSectionAtIndex:(NSInteger)index animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Remove position.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES section will be removed with animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSectionAtIndex:animated:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSNavigationStripModel/removeItemAtIndex:fromLeft:animated:</TokenIdentifier>
+			<Abstract type="html">Remove menu item at specified position. TSNavigationStripView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSNavigationStripModel.h</DeclaredIn>
+			
+			<Declaration>- (void)removeItemAtIndex:(NSInteger)index fromLeft:(BOOL)fromLeft animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Remove position.</Abstract>
+				</Parameter><Parameter>
+					<Name>fromLeft</Name>
+					<Abstract type="html">Specify on which side menu item should be removed.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES item will be removed with animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeItemAtIndex:fromLeft:animated:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

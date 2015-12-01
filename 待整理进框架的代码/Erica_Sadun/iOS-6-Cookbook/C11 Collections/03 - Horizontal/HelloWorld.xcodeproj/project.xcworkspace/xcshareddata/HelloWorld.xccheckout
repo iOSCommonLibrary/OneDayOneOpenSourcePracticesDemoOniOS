@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CEFC231-94EC-41F1-98D4-D0667DF8C9BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AFF6264CC8609C39AFFDAC9DF758371F834DA770</key>
+		<string>https://github.com/erica/iOS-6-Cookbook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C11 Collections/03 - Horizontal/HelloWorld.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AFF6264CC8609C39AFFDAC9DF758371F834DA770</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/erica/iOS-6-Cookbook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AFF6264CC8609C39AFFDAC9DF758371F834DA770</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AFF6264CC8609C39AFFDAC9DF758371F834DA770</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-6-Cookbook</string>
+		</dict>
+	</array>
+</dict>
+</plist>

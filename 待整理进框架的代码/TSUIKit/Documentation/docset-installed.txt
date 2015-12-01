@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/viacheslavradchenko/Library/Developer/Shared/Documentation/DocSets/com.viacheslav.radchenko.TSUIKit.docset
+Time: 2013-08-31 13:50:29 +0000

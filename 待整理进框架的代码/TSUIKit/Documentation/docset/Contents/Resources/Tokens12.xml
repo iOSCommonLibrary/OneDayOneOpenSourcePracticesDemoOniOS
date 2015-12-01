@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TSTabViewModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TSTabViewModel</TokenIdentifier>
+			<Abstract type="html">    TSNavigationStripComponent is base class, which provides appearance information for TSNavigationStripView&apos;s section or item.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/setTabView:</TokenIdentifier>
+			<Abstract type="html">Readonly reference to TSTabView instance managed by this model.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSTabView *tabView</Declaration>
+			
+			
+			<Anchor>//api/name/tabView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/tabView</TokenIdentifier>
+			<Abstract type="html">Readonly reference to TSTabView instance managed by this model.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSTabView *tabView</Declaration>
+			
+			
+			<Anchor>//api/name/tabView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TSTabViewModel/tabView</TokenIdentifier>
+			<Abstract type="html">Readonly reference to TSTabView instance managed by this model.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TSTabView *tabView</Declaration>
+			
+			
+			<Anchor>//api/name/tabView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/initWithTabView:</TokenIdentifier>
+			<Abstract type="html">  Initialize instance of TSTabViewModel with corresponding TSTabView object.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTabView:(TSTabView *)tabView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tabView</Name>
+					<Abstract type="html">Instance of TSTabView which would be managed by this data model.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTabView:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/insertNewTab:atIndex:animated:</TokenIdentifier>
+			<Abstract type="html">Insert new tab/page into TSTabViewModel. TSTabView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>- (void)insertNewTab:(TSTabViewSection *)tabInfo atIndex:(NSInteger)index animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tabInfo</Name>
+					<Abstract type="html">Provide appearance and content infomation about new tab.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Insert position.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES insertion would be done aniamted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertNewTab:atIndex:animated:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/removeTabAtIndex:animated:</TokenIdentifier>
+			<Abstract type="html">  Insert new tab/page into TSTabViewModel. TSTabView would be notified about changes in data model.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>- (void)removeTabAtIndex:(NSInteger)index animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Remove position.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If YES removing would be done aniamted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeTabAtIndex:animated:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TSTabViewModel/setTabs:</TokenIdentifier>
+			<Abstract type="html">  Provide content description for TSTabViewModel.</Abstract>
+			<DeclaredIn>TSTabViewModel.h</DeclaredIn>
+			
+			<Declaration>- (void)setTabs:(NSArray *)tabs</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tabs</Name>
+					<Abstract type="html">Array of TSTabViewSection or NSDictionary  objects. TSTabViewSection instance would be constructed if needed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTabs:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

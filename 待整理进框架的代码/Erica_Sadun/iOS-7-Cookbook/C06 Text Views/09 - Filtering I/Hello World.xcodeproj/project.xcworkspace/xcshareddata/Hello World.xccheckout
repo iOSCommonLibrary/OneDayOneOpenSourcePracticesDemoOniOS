@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>608D4EFA-2CB1-4E0B-AF04-62DF26AA8210</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hello World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87D3FD343B72F1B49981C5224F23ED3512CA3C7A</key>
+		<string>https://github.com/erica/iOS-7-Cookbook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C06 Text Views/09 - Filtering I/Hello World.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87D3FD343B72F1B49981C5224F23ED3512CA3C7A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/erica/iOS-7-Cookbook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87D3FD343B72F1B49981C5224F23ED3512CA3C7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87D3FD343B72F1B49981C5224F23ED3512CA3C7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-7-Cookbook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
